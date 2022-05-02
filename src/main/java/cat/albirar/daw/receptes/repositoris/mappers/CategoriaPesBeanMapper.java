@@ -16,21 +16,34 @@
  *
  * Copyright (C) 2022 Octavi Fornés
  */
-package cat.albirar.daw.receptes;
+package cat.albirar.daw.receptes.repositoris.mappers;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import org.springframework.jdbc.core.RowMapper;
+import org.springframework.stereotype.Component;
+
+import cat.albirar.daw.receptes.models.CategoriaPesBean;
 
 /**
- * Prova de càrrega del context de l'aplicació.
+ * Mapador de {@link CategoriaPesBean}.
  * @author Octavi Forn&eacute;s <mailto:ofornes@albirar.cat[]>
  * @since 0.0.1
  */
-@SpringBootTest
-class ReceptesSaludablesApplicationTests {
-
-	@Test
-	void contextLoads() {
+@Component
+public class CategoriaPesBeanMapper implements RowMapper<CategoriaPesBean> {
+	/**
+	 * {@inheritDoc}
+	 */
+	@Override
+	public CategoriaPesBean mapRow(ResultSet rs, int rowNum) throws SQLException {
+		return CategoriaPesBean.builder()
+				.id(rs.getLong(ConstantsSql.COL_ID))
+				.nom(rs.getString(ConstantsSql.COL_NOM))
+				.pes(rs.getInt(ConstantsSql.COL_PES))
+				.build()
+				;
 	}
 
 }

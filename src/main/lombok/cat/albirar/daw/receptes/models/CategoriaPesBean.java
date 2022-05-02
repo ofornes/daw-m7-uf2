@@ -16,21 +16,24 @@
  *
  * Copyright (C) 2022 Octavi Fornés
  */
-package cat.albirar.daw.receptes;
+package cat.albirar.daw.receptes.models;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+import java.io.Serializable;
+
+import lombok.Getter;
+import lombok.experimental.SuperBuilder;
 
 /**
- * Prova de càrrega del context de l'aplicació.
+ * Categoria i pes.
  * @author Octavi Forn&eacute;s <mailto:ofornes@albirar.cat[]>
  * @since 0.0.1
  */
-@SpringBootTest
-class ReceptesSaludablesApplicationTests {
-
-	@Test
-	void contextLoads() {
-	}
-
+@Getter
+@SuperBuilder(toBuilder = true)
+public class CategoriaPesBean implements Serializable {
+	private static final long serialVersionUID = -1510517559532416788L;
+	
+	private long id;
+	private String nom;
+	private int pes;
 }

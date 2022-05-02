@@ -1,0 +1,697 @@
+{
+  "receptari": [
+    {
+      "@context": "http://schema.org/", 
+      "@type": "Recipe", 
+      "aggregateRating": {
+        "@type": "AggregateRating", 
+        "ratingValue": "4.28571", 
+        "reviewCount": "7"
+      }, 
+      "author": {
+        "@type": "Person", 
+        "name": "Liliana Fuchs"
+      }, 
+      "datePublished": "2022-03-29T10:01:13+00:00", 
+      "description": "En plena temporada de fresas y fresones resulta dif\u00edcil resistise a incluir esta fruta en casi todas las comidas del d\u00eda, pues se adaptan con una facilidad...", 
+      "image": "https://i.blogs.es/6dc506/ensalada-espinacas-fresas/650_1200.jpg", 
+      "keywords": "espinaca, Mozzarella, fresas, amapola, Cenas ligeras, Primavera, Ensaladas ligeras, Recetas de Ensaladas", 
+      "name": "Ensalada de brotes de espinaca, fresas y ali\u00f1o de amapola con mozzarella: receta saludable de primavera", 
+      "nutrition": [], 
+      "prepTime": "P0DT0H20M", 
+      "recipeCategory": "Recetas de Ensaladas", 
+      "recipeCuisine": "espa\u00f1ola", 
+      "recipeIngredient": [
+        "130ml Vinagre", 
+        "60g Az\u00facar", 
+        "0.5count Cebolla morada", 
+        "450g Fresa", 
+        "150g Brotes de espinacas", 
+        "100g Mezclum (mezcla de lechugas)", 
+        "10g Semillas de amapola", 
+        "60g Almendra laminada", 
+        "5ml Mostaza de Dijon", 
+        "30ml Aceite de oliva virgen extra", 
+        "12count Mini mozzarella fresca", 
+        "Pimienta negra molida", 
+        "Sal"
+      ], 
+      "recipeInstructions": "Mezclar el vinagre con el az\u00facar y un poco de sal batiendo bien con unas varillas peque\u00f1as. **Retirar unos 60 ml** de la mezcla, calentar un minuto en el microondas y echar sobre la cebolla cortada. Dejar reposar al menos 30 minutos.\n\nTostar las semillas de amapola en una sart\u00e9n sin aceite a fuego medio, hasta que emitan un **aroma intenso pero sin quemarse**. Retirar y tostar en la misma sart\u00e9n la almendra, removiendo hasta que coja buen color y procurando que no se queme. Retirar.\n\n\n\n\nBatir con las varillas el aceite con la mostaza, la amapola y un poco de sal y pimienta con el **resto del vinagre** reservado. Disponer en una ensaladera las espinacas con la lechuga, repartir por encima las fresas preparadas, la cebolla escurrida del vinagre y el queso.\n\nFinalizar repartiendo las almendras tostadas y aderezar con una **cantidad generosa del ali\u00f1o**, llevando el sobrante a una jarrita o recipiente para que los comensales se sirvan m\u00e1s al gusto.", 
+      "recipeYield": 4, 
+      "totalTime": "P0DT0H20M", 
+      "video": []
+    }, 
+    {
+      "@context": "http://schema.org/", 
+      "@type": "Recipe", 
+      "aggregateRating": {
+        "@type": "AggregateRating", 
+        "ratingValue": "4.44444", 
+        "reviewCount": "9"
+      }, 
+      "author": {
+        "@type": "Person", 
+        "name": "Liliana Fuchs"
+      }, 
+      "cookTime": "P0DT0H20M", 
+      "datePublished": "2022-02-01T11:01:27+00:00", 
+      "description": "La escarola es la reina de las ensaladas de invierno, m\u00e1s emparentada con la endivia que con la lechuga, lo que explica su caracter\u00edstico sabor con toques...", 
+      "image": "https://i.blogs.es/4a9f62/ensalada-escarola-hurdes/650_1200.jpg", 
+      "keywords": "Patatas, escarola, extremadura, Recetas vegetarianas, Ensaladas, Recetas veganas, Recetas con patatas, Recetas Vegetarianas, Recetas de Ensaladas, Recetas de Legumbres y verduras ", 
+      "name": "Ensalada de escarola y patata de las Hurdes: receta tradicional de pocos ingredientes pero que sorprende por su rico sabor", 
+      "nutrition": [], 
+      "prepTime": "P0DT0H30M", 
+      "recipeCategory": "Recetas de Ensaladas", 
+      "recipeCuisine": "espa\u00f1ola", 
+      "recipeIngredient": [
+        "4count Escarola", 
+        "0.25count Cebolla", 
+        "2count Patata", 
+        "Aceite de oliva virgen extra", 
+        "Vinagre", 
+        "Sal"
+      ], 
+      "recipeInstructions": "Lavar las patatas y ponerlas a cocer con piel o peladas en una olla cubiertas con agua fr\u00eda y un poco de sal. Cocinar hasta que est\u00e9n **blandas**, escurrir y mantener calientes.\n\nMientras, cortar la escarola en piezas muy **finitas**, como una juliana fina. Hacer lo mismo con la cebolla, pic\u00e1ndola fin\u00edsima, y mezclar ambos ingredientes en una ensaladera. A\u00f1adir agua fr\u00eda y remover con las manos **machacando todo suavemente** para lavarlas y extraer el amargor. Escurrir bien.\n\n\n\n\nDevolver a la ensaladera y ali\u00f1ar con aceite, vinagre y sal al gusto. Incorporar las patatas peladas troceadas, a\u00fan calientes, y **machacar con una maza** de mortero o similar, para ligar el conjunto homog\u00e9neamente.\n\n**A\u00f1adir agua** fr\u00eda si se desea para darle una consistencia m\u00e1s cremosa, o agua caliente o templada si se prefiere as\u00ed la ensalada. Probar y ajustar de ali\u00f1o o sal al gusto.", 
+      "recipeYield": 2, 
+      "totalTime": "P0DT0H50M", 
+      "video": []
+    }, 
+    {
+      "@context": "http://schema.org/", 
+      "@type": "Recipe", 
+      "aggregateRating": {
+        "@type": "AggregateRating", 
+        "ratingValue": "3.84615", 
+        "reviewCount": "26"
+      }, 
+      "author": {
+        "@type": "Person", 
+        "name": "Liliana Fuchs"
+      }, 
+      "cookTime": "P0DT0H50M", 
+      "datePublished": "2022-01-31T11:01:16+00:00", 
+      "description": "La caponata es una especie de pisto de origen siciliano muy popular en los aperitivos y cenas de verano, en el que la berenjena es la gran protagonista. Para...", 
+      "image": "https://i.blogs.es/76cb94/caponata-calabaza/650_1200.jpg", 
+      "keywords": "Vinagre, Calabaza, pisto, Recetas veganas, Recetas de Oto\u00f1o, Gastronom\u00eda italiana, Aceitunas Negras, Recetas Vegetarianas, Recetas de Ensaladas, Recetas de Legumbres y verduras ", 
+      "name": "Caponata de calabaza: la receta para disfrutar del sabros\u00edsimo plato italiano en los meses fr\u00edos (que casi nos gusta m\u00e1s)", 
+      "nutrition": [], 
+      "prepTime": "P0DT0H10M", 
+      "recipeCategory": "Recetas Vegetarianas", 
+      "recipeCuisine": "espa\u00f1ola", 
+      "recipeIngredient": [
+        "1kg Calabaza", 
+        "4count Apio", 
+        "1count Cebolla dulce", 
+        "300g Tomate triturado", 
+        "20g Alcaparras", 
+        "80g Aceitunas negras", 
+        "30g Pi\u00f1ones", 
+        "30g Uvas pasas de corinto", 
+        "40g Az\u00facar", 
+        "50g Vinagre de Jerez", 
+        "Aceite de oliva virgen extra", 
+        "Sal"
+      ], 
+      "recipeInstructions": "Pelar la calabaza y trocear en cubos o piezas medianas gruesas -perder\u00e1 volumen- como [se explica aqu\u00ed](https://www.directoalpaladar.com/ingredientes-y-alimentos/como-asar-calabaza-nueve-formas-cocinar-esta-hortaliza-al-horno-que-recetas-usar-cada). Fre\u00edr en una sart\u00e9n con aceite o **asar en el horno a 180\u00baC** hasta que est\u00e9 tierna pero sin deshacerse. Dejar enfriar. \n\nLavar las pencas de apio, cortar los extremos que est\u00e9n feos, retirar los filamentos y cortar por la mitad para tener ocho piezas. Poner agua a hervir y **cocer el apio 4-5 minutos**, sin dejar que se reblandezca demasiado. Escurrir y enfriar r\u00e1pidamente; cortar en piezas de un bocado y reservar. \n\nCortar la cebolla en plumas o juliana y pochar en una cazuela con dos o tres cucharadas de aceite y un poco de sal, **hasta que est\u00e9 tierna**. Agregar el tomate, remover bien y cocinar hasta que se reduzca un poco y pierda agua, unos 10-15 minutos. Si se usa passata bastar\u00e1n 3-4 minutos y menor cantidad.\n\n\n\nAgregar las alcaparras escurridas, las aceitunas y los pi\u00f1ones, removiendo bien. Incorporar el az\u00facar y el vinagre, remover y cocinar a fuego suave unos pocos minutos. **Probar la salsa** y ajustar el sabor al gusto, corrigiendo de az\u00facar, sal o vinagre si hiciera falta.\n\n**Apagar el fuego** y echar el apio y la calabaza, removiendo suavemente para incorporar todo bien. Trasladar a una fuente o recipiente adecuado y dejar enfriar antes de tapar y guardar en la nevera para que repose varias horas.", 
+      "recipeYield": 4, 
+      "totalTime": "P0DT1H0M", 
+      "video": []
+    }, 
+    {
+      "@context": "http://schema.org/", 
+      "@type": "Recipe", 
+      "aggregateRating": {
+        "@type": "AggregateRating", 
+        "ratingValue": "3.40000", 
+        "reviewCount": "10"
+      }, 
+      "author": {
+        "@type": "Person", 
+        "name": "Liliana Fuchs"
+      }, 
+      "datePublished": "2022-01-13T18:01:16+00:00", 
+      "description": "Las endivias est\u00e1n en invierno en su mejor momento, y qu\u00e9 mejor \u00e9poca para recuperarlas en la cocina que despu\u00e9s de los banquetes festivos. No toda la vuelta...", 
+      "image": "https://i.blogs.es/655aa1/endivias-pera-nueces/650_1200.jpg", 
+      "keywords": "Aperitivo, Nueces, Endivias, Recetas Saludables, Recetas ligeras, Cenas ligeras, Recetas de Aperitivos, Recetas de Ensaladas", 
+      "name": "Barquitas de endivias con ensalada de pera, nueces y queso: receta ligera de aperitivo fresco y saludable", 
+      "nutrition": [], 
+      "prepTime": "P0DT0H25M", 
+      "recipeCategory": "Recetas de Ensaladas", 
+      "recipeCuisine": "espa\u00f1ola", 
+      "recipeIngredient": [
+        "2count Endivia", 
+        "1count Pera", 
+        "4count Nueces", 
+        "55g Queso de rulo de cabra", 
+        "Huevas", 
+        "Cebollino", 
+        "10ml Miel", 
+        "20ml Aceite de oliva virgen extra", 
+        "5ml Vinagre de Jerez", 
+        "Pimienta negra molida", 
+        "Sal", 
+        "Semillas de amapola"
+      ], 
+      "recipeInstructions": "Seleccionar **unas 16 hojas de endivia**, que est\u00e9n completas, frescas y crujientes, sin roturas, cortando un poco el extremo de la base antes de desapararlas de la pieza. Hay que tener en cuenta que las m\u00e1s externas suelen estar m\u00e1s blandas, y las interiores son algo m\u00e1s amargas.\n\nLavarlas y secarlas con suavidad; disponerlas en una o dos fuentes de servir. Lavar y secar bien la pera y el cebollino. **Cortar la fruta en cubitos peque\u00f1os** y picar la hierba finamente, reserv\u00e1ndola aparte.\n\n\n\nAbrir las nueces y picarlas. Desmenuzar el queso. **Repartir todos los ingredientes en las barquitas** de endivida, a\u00f1adiendo porciones de huevas y cebollino al gusto. Batir el aceite con la miel y el vinagre, y ali\u00f1ar. Salpimentar ligeramente (cuidado con la sal, que las huevas suelen ser muy saladas) y terminar con unas semillas.", 
+      "recipeYield": 4, 
+      "totalTime": "P0DT0H25M", 
+      "video": []
+    }, 
+    {
+      "@context": "http://schema.org/", 
+      "@type": "Recipe", 
+      "aggregateRating": {
+        "@type": "AggregateRating", 
+        "ratingValue": "4.55556", 
+        "reviewCount": "9"
+      }, 
+      "author": {
+        "@type": "Person", 
+        "name": "Liliana Fuchs"
+      }, 
+      "cookTime": "P0DT0H25M", 
+      "datePublished": "2022-01-10T11:00:28+00:00", 
+      "description": "Para comer ensaladas todo el a\u00f1o sin aburrirnos hay que salirse un poco de la rutina habitual y aprovechar productos de cada temporada, que adem\u00e1s apetecen...", 
+      "image": "https://i.blogs.es/1130e0/ensalada-calabaza-remolacha-granada/650_1200.jpg", 
+      "keywords": "Granada, Calabaza, remolacha, Recetas veganas, Recetas ligeras, Ensaladas ligeras, Recetas de invierno, Recetas Vegetarianas, Recetas de Ensaladas", 
+      "name": "Ensalada de calabaza, remolacha y granada: receta vegana ligera y saludable llena de vitaminas", 
+      "nutrition": [], 
+      "prepTime": "P0DT0H15M", 
+      "recipeCategory": "Recetas de Ensaladas", 
+      "recipeCuisine": "espa\u00f1ola", 
+      "recipeIngredient": [
+        "0.5count Calabaza", 
+        "2count Remolacha cocida", 
+        "0.5count Granada", 
+        "200g Mezclum (mezcla de lechugas)", 
+        "Cacahuetes", 
+        "Cilantro molido", 
+        "1count Lim\u00f3n", 
+        "30ml Aceite de oliva virgen extra", 
+        "15ml Vinagre de manzana", 
+        "5ml Miel", 
+        "Perejil fresco"
+      ], 
+      "recipeInstructions": "Precalentar el horno a 180\u00baC con ventilador si lo tiene, o a 200\u00baC con calor arriba y abajo. Preparar una bandeja grande forr\u00e1ndola con papel de horno o aluminio (para manchar menos) y **pintar con aceite**. Pelar la calabaza y cortar en piezas de tama\u00f1o medio, algo m\u00e1s grandes de un bocado, pues perder\u00e1 volumen.\n\nSi se usan remolachas crudas, lavar bien, pelar ligeramente y cortar en piezas de un tama\u00f1o similar, con cuidado pues mancha mucho. Salpimentar las verduras siendo **muy generosos con la pimienta**, a\u00f1adir cilantro o comino (o ambos) molido al gusto y extender en la bandeja preparada. A\u00f1adir un poco de aceite por encima y hornear unos 20-25 minutos.\n\nVigilar bien para que no se quemen; la calabaza debe quedar tierna pero a\u00fan firme, que no se deshaga, y con los bordes ligeramente caramelizados. Se pueden girar las piezas a media cocci\u00f3n, pero podemos ahorrarnos ese paso. Retirar y reservar.\n\n\n\nPreparar la ensalada con una cama de mezclum en una ensaladera o fuente, repartir la calabaza y la remolacha (si es cocida, escurrir bien y trocear), los [granos de la granada](https://www.directoalpaladar.com/curso-de-cocina/como-pelar-preparar-granada-para-su-uso-forma-sencilla) y unos **frutos secos tostados picados** groseramete.\n\nHacer una **vinagreta** con el aceite, el zumo de medio lim\u00f3n, el vinagre y la miel, ali\u00f1ar y terminar agregando perejil o cilantro picado y ralladura de la otra mitad de lim\u00f3n.", 
+      "recipeYield": 4, 
+      "totalTime": "P0DT0H40M", 
+      "video": []
+    }, 
+    {
+      "@context": "http://schema.org/", 
+      "@type": "Recipe", 
+      "aggregateRating": {
+        "@type": "AggregateRating", 
+        "ratingValue": "3.55556", 
+        "reviewCount": "9"
+      }, 
+      "author": {
+        "@type": "Person", 
+        "name": "Liliana Fuchs"
+      }, 
+      "datePublished": "2021-12-23T17:00:31+00:00", 
+      "description": "Si buscas un aperitivo o entrante result\u00f3n, ligero y sin tener que encender ni un fuego, estos limones rellenos con ensalada de sardinas pueden ser la opci\u00f3n...", 
+      "image": "https://i.blogs.es/24d2f7/ensalada-limones-sardinas/650_1200.jpg", 
+      "keywords": "Tapas, Alcaparras, limones, Sardinas, Sardina, Recetas de Navidad, Recetas de Aperitivos, Recetas de Ensaladas", 
+      "name": "Limones rellenos de ensalada de sardinas: receta de aperitivo marinero refrescante para aligerar un men\u00fa de fiesta", 
+      "nutrition": [], 
+      "prepTime": "P0DT0H30M", 
+      "recipeCategory": "Recetas de Aperitivos", 
+      "recipeCuisine": "espa\u00f1ola", 
+      "recipeIngredient": [
+        "4count Lim\u00f3n", 
+        "150g Sardinas en conserva", 
+        "1count Cebolleta", 
+        "Alcaparras", 
+        "Eneldo fresco", 
+        "Cebollino", 
+        "Cebolla frita crujiente", 
+        "Guindilla", 
+        "Aceite de oliva virgen extra", 
+        "Pimienta negra molida", 
+        "Sal"
+      ], 
+      "recipeInstructions": "Lavar y secar muy bien los limones y las hierbas. Cortar los primeros en dos mitades, pero dejando el **cuerpo inferior m\u00e1s grande**, practicando el corte como a 2/3 del cuerpo situado en vertical. Dibujar l\u00edneas si se tiene ma\u00f1a y tiempo con un cuchillo afilado tipo puntilla.\n\nExtraer la mayor parte de la pulpa del cuerpo inferior de los limones, reservando un poco aparte, procurando **no romperlos**. Si no se sujetan en pie, cortar un poco la corteza inferior para nivelarlos. Reservar.\n\nEscurrir las sardinillas y las alcaparras. Picar finamente la cebolleta y un pu\u00f1ado de cada hierba. Picar m\u00e1s **groseramente** las sardinas con un pu\u00f1ado de alcaparras y un poco de pulpa de lim\u00f3n. Mezclar todo con la guindilla tambi\u00e9n picada (si se desea un punto picante) y agregar los dem\u00e1s ingredientes hasta obtener una mezcla homog\u00e9nea.\n\n\n\nAderezar con un chorrito de aceite y salpimentar al gusto. Ir probrando para **ajustar y corregir** los sabores al gusto. Rellenar los limones y coronar con un poco de cebolla frita crujiente, m\u00e1s hierbas y ralladura fina de lim\u00f3n. Conservar refrigerados hasta servir.", 
+      "recipeYield": 4, 
+      "totalTime": "P0DT0H30M", 
+      "video": []
+    }, 
+    {
+      "@context": "http://schema.org/", 
+      "@type": "Recipe", 
+      "aggregateRating": {
+        "@type": "AggregateRating", 
+        "ratingValue": "4.25000", 
+        "reviewCount": "24"
+      }, 
+      "author": {
+        "@type": "Person", 
+        "name": "Carmen T\u00eda Alia"
+      }, 
+      "datePublished": "2021-12-03T11:00:32+00:00", 
+      "description": "Te explicamos paso a paso, de manera sencilla, c\u00f3mo hacer la receta de ensalada de salm\u00f3n, mango y aguacate. Tiempo de elaboraci\u00f3n, ingredientes,", 
+      "image": "https://i.blogs.es/843cea/ensalada-de-salmon-aguacate-y-mango/650_1200.jpg", 
+      "keywords": "Aguacate, Mango, Salm\u00f3n, Berros, Recetas ligeras, Recetas en menos de 30 minutos, Recetas f\u00e1ciles y r\u00e1pidas, Recetas de Ensaladas", 
+      "name": "Ensalada de salm\u00f3n, mango y aguacate, receta ligera para arrancar un men\u00fa de celebraci\u00f3n", 
+      "nutrition": [], 
+      "prepTime": "P0DT0H15M", 
+      "recipeCategory": "Recetas de Ensaladas", 
+      "recipeCuisine": "espa\u00f1ola", 
+      "recipeIngredient": [
+        "200g Salm\u00f3n", 
+        "1count Cebolla morada", 
+        "1count Mango", 
+        "1count Aguacate", 
+        "150g Berros", 
+        "100 Aceite de oliva virgen extra", 
+        "25ml Vinagre de manzana", 
+        "5ml Mostaza de Dijon", 
+        "5ml Miel", 
+        "Sal"
+      ], 
+      "recipeInstructions": "Preparamos la **vinagreta de mostaza** introduciendo todos los ingredientes en un cuenco y batiendo con unas varillas hasta emulsionar. Tambi\u00e9n los pod\u00e9is meter [en un tarro de cristal](https://www.directoalpaladar.com/recetas-de-salsas-y-guarniciones/como-hacer-la-vinagreta-perfecta-y-cinco-ensaladas-ligeras-en-las-que-usarla), cerrarlo con su tapa de rosca y agitar con fuerza. Cualquiera de los dos m\u00e9todos funciona igual de bien. Reservamos.\n\nRetiramos la piel del lomo de salm\u00f3n y lo **repasamos por si quedaran espinas y escamas**. Cortamos en dados de aproximadamente un cent\u00edmetro de lado. Pelamos la cebolla y la cortamos en juliana fina. Cortamos el mango en dados, tarea que resula sencil\u00edsima si segu\u00eds nuestros consejos y recomendaciones para [pelar y cortar un mango sin ensuciarse](https://www.directoalpaladar.com/curso-de-cocina/como-pelar-cortar-mango-ensuciarse). Cortamos el aguacate por la mitad, retiramos el hueso y lo pelamos. Lo laminamos o cortamos en dados, como m\u00e1s os guste. \n\n\n\nUna vez listos todos los componentes de esta ensalada **solo queda montar los platos**. Para ello colocamos una base de berros, limpios y secos, sobre cada plato y repartir el salm\u00f3n, el mango y el aguacate por la superficie. Terminamos espolvoreado con semillas de s\u00e9samo negro y regando con un poco de vinagreta. Servimos inmediatamente.\n", 
+      "recipeYield": 4, 
+      "totalTime": "P0DT0H15M", 
+      "video": []
+    }, 
+    {
+      "@context": "http://schema.org/", 
+      "@type": "Recipe", 
+      "aggregateRating": {
+        "@type": "AggregateRating", 
+        "ratingValue": "4.00000", 
+        "reviewCount": "11"
+      }, 
+      "author": {
+        "@type": "Person", 
+        "name": "Liliana Fuchs"
+      }, 
+      "cookTime": "P0DT0H10M", 
+      "datePublished": "2021-12-01T10:01:40+00:00", 
+      "description": "Te explicamos paso a paso, de manera sencilla, la elaboraci\u00f3n de la receta de ensalada de coliflor y anchoas navide\u00f1a. Ingredientes, tiempo de elaboraci\u00f3n", 
+      "image": "https://i.blogs.es/4b42ec/ensalada-coliflor-napolitana/650_1200.jpg", 
+      "keywords": "Anchoa, Aceitunas, Coliflor, Recetas de Navidad, Recetas italianas, Guarniciones, Recetas de Ensaladas, Recetas de Legumbres y verduras ", 
+      "name": "Insalata di rinforzo: la ensalada napolitana de coliflor y anchoas t\u00edpica de Navidad", 
+      "nutrition": [], 
+      "prepTime": "P0DT0H15M", 
+      "recipeCategory": "Recetas de Ensaladas", 
+      "recipeCuisine": "espa\u00f1ola", 
+      "recipeIngredient": [
+        "1count Coliflor", 
+        "50g Pimiento rojo", 
+        "50g Pimiento amarillo", 
+        "90g Aceitunas negras", 
+        "90g Aceitunas", 
+        "80g Pepinillo", 
+        "50g Alcaparras", 
+        "100g Anchoas", 
+        "30ml Aceite de oliva virgen extra", 
+        "15ml Vinagre de Jerez", 
+        "Sal"
+      ], 
+      "recipeInstructions": "Separar la coliflor en floretes de tama\u00f1os similares, [como se explica aqu\u00ed](https://www.directoalpaladar.com/ingredientes-y-alimentos/como-cortar-coliflor-floretes-facilmente-crear-desastre-cocina), lavar y enjuagar. Blanquear en abundante agua salada durante unos pocos minutos para **dejarla a\u00fan crujiente**, enfri\u00e1ndola r\u00e1pidamente en un recipiente sobre hielo, o asarla en el horno a unos 200\u00baC; se puede aprovechar tambi\u00e9n para asar los pimientos si los tenemos crudos.\n\nPreparar **el resto de ingredientes por separado**: extraer el hueso de las aceitunas si no estuvieran deshuesadas, cortar los pepinillos en bastones y los pimientos pelados en tiras. Disponer la coliflor en una ensaladadera o fuente, ali\u00f1ar ligeramente con vinagre y aceite de oliva y agregar todos los dem\u00e1s ingredientes.\n\n\n\nMezclar al gusto y ali\u00f1ar con un poco m\u00e1s de **vinagre y aceite de oliva** si se desea; no deber\u00eda ser necesario a\u00f1adir m\u00e1s sal por la que ya llevan las anchoas y los encurtidos. Llevar a la mesa o tapar y guardar en la nevera, sac\u00e1ndola un rato antes de servir para que pierda un poco el fr\u00edo.\n", 
+      "recipeYield": 4, 
+      "totalTime": "P0DT0H25M", 
+      "video": []
+    }, 
+    {
+      "@context": "http://schema.org/", 
+      "@type": "Recipe", 
+      "aggregateRating": {
+        "@type": "AggregateRating", 
+        "ratingValue": "4.07692", 
+        "reviewCount": "13"
+      }, 
+      "author": {
+        "@type": "Person", 
+        "name": "Liliana Fuchs"
+      }, 
+      "cookTime": "P0DT0H15M", 
+      "datePublished": "2021-11-22T17:00:57+00:00", 
+      "description": "Esta receta de coliflor en forma de ensalada templada es una adaptaci\u00f3n vegetariana del ic\u00f3nico plato brit\u00e1nico llamado coronation chicken, o pollo de la...", 
+      "image": "https://i.blogs.es/e81e2e/coliflor-cuscus-yogur-mango/650_1200.jpg", 
+      "keywords": "Mango, Curry, Granada, Yogur, Coliflor, Recetas vegetarianas, Recetas Vegetarianas, Recetas de Ensaladas", 
+      "name": "Ensalada templada de coliflor al curry y cusc\u00fas con salsa de yogur, mango y granada: receta vegetariana llena de sabor", 
+      "nutrition": [], 
+      "prepTime": "P0DT0H20M", 
+      "recipeCategory": "Recetas Vegetarianas", 
+      "recipeCuisine": "espa\u00f1ola", 
+      "recipeIngredient": [
+        "1count Coliflor", 
+        "100g Cusc\u00fas", 
+        "5g Semillas de cilantro", 
+        "10g Curry molido", 
+        "45ml Aceite de oliva virgen extra", 
+        "180ml Yogur griego", 
+        "1count Diente de ajo", 
+        "30ml Mango", 
+        "1count Lim\u00f3n", 
+        "Perejil fresco", 
+        "Cilantro fresco", 
+        "Almendra laminada", 
+        "0.5count Granada", 
+        "Pimienta negra molida", 
+        "Sal"
+      ], 
+      "recipeInstructions": "Llevar a ebullici\u00f3n 200 ml de agua con la mitad de las semillas de cilantro machadas (o usar molidas en su lugar), pimienta y sal. Echar sobre el cusc\u00fas dispuesto en un cuenco, remover ligeramente y tapar. Precalentar el grill (el\u00e9ctrico o el gratinador del horno) a m\u00e1xima temperatura.\n\nSeparar los floretes de la coliflor [como se indica aqu\u00ed](https://www.directoalpaladar.com/ingredientes-y-alimentos/como-cortar-coliflor-floretes-facilmente-crear-desastre-cocina), reservando las hojas interiores m\u00e1s tiernas; lavar y escurrir. Mezclar en un cuenco 80 ml de yogur griego con 30 ml de aceite, el resto del cilantro y el curry, salpimentar y **embadurnar bien la coliflor** con ello. Si se va a hacer al horno, extender sobre una bandeja cubierta con papel de aluminio o antiadherente.\n\n\n\nCocinar la coliflor unos 8-10 minutos, girando las piezas si es necesario, hasta que est\u00e9 tierna en el centro pero no muy blanda, con los bordes caramelizados y algo tostados. Dejar templar mientras se mezcla en otro cuenco **el resto del yogur con el mango**, el ajo machacado o aplastado y el zumo de medio lim\u00f3n.\n\nComprobar que el cusc\u00fas est\u00e9 en su punto **aire\u00e1ndolo con un tenedor**; agregar el resto del aceite y zumo de la otra mitad del lim\u00f3n, y un buen pu\u00f1ado de hierbas picadas. Extender en una fuente y repartir la coliflor mezclada con la salsa de yogur, m\u00e1s hierbas, los granos de granada y almendras tostadas. Salpimentar al gusto.\n", 
+      "recipeYield": 4, 
+      "totalTime": "P0DT0H35M", 
+      "video": []
+    }, 
+    {
+      "@context": "http://schema.org/", 
+      "@type": "Recipe", 
+      "aggregateRating": {
+        "@type": "AggregateRating", 
+        "ratingValue": "4.25000", 
+        "reviewCount": "8"
+      }, 
+      "author": {
+        "@type": "Person", 
+        "name": "Liliana Fuchs"
+      }, 
+      "cookTime": "P0DT0H30M", 
+      "datePublished": "2021-11-08T17:01:54+00:00", 
+      "description": "El aspecto no ser\u00e1 el m\u00e1s apetitoso del mundo, pero es lo que tiene la textura del pollo deshebrado bien embadurnado con una deliciosa salsa a base de pesto y...", 
+      "image": "https://i.blogs.es/371aa0/ensalada-pollo-pesto2/650_1200.jpg", 
+      "keywords": "Pollo, pechuga, Pesto, pechuga pollo, mayonesa, salsas, Recetas de Ensaladas, Recetas de Carnes y aves", 
+      "name": "Ensalada de pollo al pesto: receta para unas pechugas de pollo jugos\u00edsimas para solucinar muchas comidas y cenas", 
+      "nutrition": [], 
+      "prepTime": "P0DT0H5M", 
+      "recipeCategory": "Recetas de Ensaladas", 
+      "recipeCuisine": "espa\u00f1ola", 
+      "recipeIngredient": [
+        "2count Pechuga de pollo", 
+        "2l Agua", 
+        "15g Sal", 
+        "60g Pesto de albahaca", 
+        "60g Mayonesa", 
+        "5ml Zumo de lim\u00f3n", 
+        "50g Tomate seco"
+      ], 
+      "recipeInstructions": "Combinar el agua con la sal en una cazuela amplia hasta disolverla. A\u00f1adir las pechugas de pollo enteras, limpias, y calentar con un term\u00f3metro digital para controlar la temperatura. Dejar que el agua supere los 65\u00baC, bajar la temperatura y **mantener por debajo de los 76\u00baC**. Mantener la cocci\u00f3n hasta que al pinchar el centro de la parte m\u00e1s gruesa de cada pechuga alcance los 65,5\u00baC, unos 25-30 minutos. \n\n\n\nSacar las pechugas del agua y dejar que se enfr\u00eden sobre una tabla con papel de cocina o sobre una rejilla, unos 5 minutos, hasta que no quemen demasiado. A continuaci\u00f3n, **deshebrar con uno o dos tenedores**, separando las fibras en tiras del tama\u00f1o que se prefiera.\n\nMezclar en un cuenco todos los dem\u00e1s ingredientes de la salsa con una varillas o cuchara. A\u00f1adir los tomates secos en aceite picados al gusto, si se usan, con el pollo deshebrado y **remover hasta integrar** homog\u00e9neamente.", 
+      "recipeYield": 4, 
+      "totalTime": "P0DT0H35M", 
+      "video": []
+    }, 
+    {
+      "@context": "http://schema.org/", 
+      "@type": "Recipe", 
+      "aggregateRating": {
+        "@type": "AggregateRating", 
+        "ratingValue": "3.56250", 
+        "reviewCount": "16"
+      }, 
+      "author": {
+        "@type": "Person", 
+        "name": "Pakus"
+      }, 
+      "datePublished": "2021-11-02T11:00:50+00:00", 
+      "description": "Te ense\u00f1amos a preparar de manera sencilla la receta de cogollos de lechuga con vinagreta de frutos secos, soja y miel, con ingredientes, tiempo de...", 
+      "image": "https://i.blogs.es/13cc13/cogollos-guarnicion-entrante-pakus-futurobloguero-dap/650_1200.jpg", 
+      "keywords": "vinagreta, frutos secos, Plancha, Lechuga, Cogollos de lechuga, Recetas en menos de 30 minutos, Recetas f\u00e1ciles y r\u00e1pidas, Recetas de Ensaladas, Recetas de Salsas y guarniciones", 
+      "name": "Cogollos de lechuga a la plancha con vinagreta de frutos secos, soja y miel, una receta perfecta de entrante, guarnici\u00f3n o cena", 
+      "nutrition": [], 
+      "prepTime": "P0DT0H5M", 
+      "recipeCategory": "Recetas de Ensaladas", 
+      "recipeCuisine": "espa\u00f1ola", 
+      "recipeIngredient": [
+        "4 Cogollo de lechuga", 
+        "Frutos secos", 
+        "Miel", 
+        "Salsa de soja", 
+        "Aceite de oliva virgen extra", 
+        "12 Ar\u00e1ndanos"
+      ], 
+      "recipeInstructions": "**Para hacer la vinagreta**, mezclamos en un cuenco la miel con la salsa de soja. Por otro lado, machacamos en el mortero los frutos secos, dej\u00e1ndolos en trocitos, es decir sin reducirlos a polvo. Esos trocitos dar\u00e1n un aporte crujiente o *crunchie* a la vinagreta. \n\nUna vez tenemos esas dos preparaciones, las reservamos para poder servirlas sobre la lechuga cuando la tengamos lista tras pasar por la plancha. **Opcionalmente pod\u00e9is a\u00f1adir unas pasas de ar\u00e1ndanos o de uvas moscatel** sin pipo.\n\nPara hacer los cogollos de lechuga a la plancha, ponemos una sart\u00e9n o parrilla al fuego y dejamos que se caliente bien. Untamos con una **brocha humedecida en aceite de oliva**. Mientras se calienta, cortamos los corazones de cogollo por la mitad. \n\n\n\nDoramos los cogollos de lechuga en la plancha durante 5 minutos, **sin apretar ni excedernos en la cocci\u00f3n** para que aunque est\u00e9 dorada y tome temperatura, la lechuga no pierda su toque crujiente. Servimos los cogollos templados, cubri\u00e9ndolos con unos pocos frutos secos por encima, decorando con dos o tres ar\u00e1ndanos.\n\nTerminamos salpicando con un tenedor la mezcla de soja y miel por encima, **haciendo un dibujo caprichoso e irregular**. Llevamos el resto de la vinagreta en un cuenco a la mesa por si alguien quisiera a\u00f1adir m\u00e1s. ", 
+      "recipeYield": 4, 
+      "totalTime": "P0DT0H5M", 
+      "video": []
+    }, 
+    {
+      "@context": "http://schema.org/", 
+      "@type": "Recipe", 
+      "aggregateRating": {
+        "@type": "AggregateRating", 
+        "ratingValue": "3.24074", 
+        "reviewCount": "54"
+      }, 
+      "author": {
+        "@type": "Person", 
+        "name": "Carmen T\u00eda Alia"
+      }, 
+      "datePublished": "2021-09-12T16:01:00+00:00", 
+      "description": "Te explicamos paso a paso, de manera sencilla y con v\u00eddeo incluido, c\u00f3mo hacer la receta de garbanzos, aguacate y queso feta. Tiempo de elaboraci\u00f3n,...", 
+      "image": "https://i.blogs.es/7c5fc6/ensalada-de-garbanzos-aguacate-y-queso-feta/650_1200.jpg", 
+      "keywords": "Aguacate, Garbanzos, legumbres, v\u00eddeo receta, Queso Feta, Ensaladas, Recetas en menos de 30 minutos, V\u00eddeos de Recetas, Recetas de Ensaladas", 
+      "name": "Ensalada de garbanzos, aguacate y queso feta, receta f\u00e1cil y nutritiva en menos de 15 minutos (con v\u00eddeo incluido)", 
+      "nutrition": [], 
+      "prepTime": "P0DT0H15M", 
+      "recipeCategory": "V\u00eddeos de Recetas", 
+      "recipeCuisine": "espa\u00f1ola", 
+      "recipeIngredient": [
+        "500g Garbanzos", 
+        "2count Aguacate", 
+        "150g Queso feta", 
+        "2count Cebolleta", 
+        "Cebollino", 
+        "1count Zumo de lima", 
+        "45ml Aceite de oliva virgen extra", 
+        "Sal", 
+        "Pimienta negra molida"
+      ], 
+      "recipeInstructions": "Pelamos (si fuera necesario) y **picamos finamente** las cebolletas. Hacemos lo mismo con los aguacates, retirando los huesos y cort\u00e1ndolos en dados. Picamos finamente unos tallos de cebollino fresco bien lavado y seco. Si hemos comprado queso feta en bloque, lo cortamos en dados.\n\nExprimimos la lima (o lim\u00f3n) y mezclamos su zumo con el aceite de oliva y el cebollino picado. Salpimentamos al gusto (opcional). Colocamos los garbanzos, los dados de aguacate y de queso feta en una ensaladera y **regamos con el ali\u00f1o**. Removemos bien y servimos inmediatamente.", 
+      "recipeYield": 4, 
+      "totalTime": "P0DT0H15M", 
+      "video": []
+    }, 
+    {
+      "@context": "http://schema.org/", 
+      "@type": "Recipe", 
+      "aggregateRating": {
+        "@type": "AggregateRating", 
+        "ratingValue": "3.60870", 
+        "reviewCount": "23"
+      }, 
+      "author": {
+        "@type": "Person", 
+        "name": "Liliana Fuchs"
+      }, 
+      "datePublished": "2021-09-11T09:00:47+00:00", 
+      "description": "Recopilamos nuestras mejores recetas de ensaladas de espinacas para que puedas cocinarlas f\u00e1cilmente y disfrutarlas", 
+      "image": "https://i.blogs.es/2b37fe/ensaladas-espinacas/650_1200.jpg", 
+      "keywords": "Espinacas, Recetas Saludables, Ensaladas, Recetas ligeras, Cenas ligeras, Recetas de Ensaladas", 
+      "name": "15 recetas de ensalada de espinacas para una comida f\u00e1cil pero muy completa", 
+      "nutrition": [], 
+      "prepTime": "P0DT0H10M", 
+      "recipeCategory": "Recetas de Ensaladas", 
+      "recipeCuisine": "espa\u00f1ola", 
+      "recipeIngredient": [
+        "100g Espinaca fresca", 
+        "6count D\u00e1tiles", 
+        "20g Queso parmesano", 
+        "Aceite de oliva virgen extra", 
+        "Sal"
+      ], 
+      "recipeInstructions": "Colocamos las espinacas en un plato, luego cortamos los d\u00e1tiles en rodajas desechando los **huesos** y los a\u00f1adimos. \n\nDespu\u00e9s rallamos el queso parmesano en lascas sobre la ensalada y, por \u00faltimo, **ali\u00f1amos** con un poco de sal y un buen aceite de oliva.", 
+      "recipeYield": 2, 
+      "totalTime": "P0DT0H10M", 
+      "video": []
+    }, 
+    {
+      "@context": "http://schema.org/", 
+      "@type": "Recipe", 
+      "aggregateRating": {
+        "@type": "AggregateRating", 
+        "ratingValue": "3.90000", 
+        "reviewCount": "10"
+      }, 
+      "author": {
+        "@type": "Person", 
+        "name": "Carmen T\u00eda Alia"
+      }, 
+      "cookTime": "P0DT0H25M", 
+      "datePublished": "2021-09-10T10:00:31+00:00", 
+      "description": "Te explicamos paso a paso, de manera sencilla, c\u00f3mo hacer la receta de ensalada de arroz salvaje. Tiempo de elaboraci\u00f3n, ingredientes,", 
+      "image": "https://i.blogs.es/33fb5e/ensalada-de-arroz-salvaje/650_1200.jpg", 
+      "keywords": "arroz salvaje, receta, Ensaladas, Recetas veganas, salsa soja, Recetas de Ensaladas, Recetas de Arroces", 
+      "name": "Ensalada de arroz salvaje, receta f\u00e1cil para el t\u00e1per del trabajo y mucho m\u00e1s", 
+      "nutrition": [], 
+      "prepTime": "P0DT0H15M", 
+      "recipeCategory": "Recetas de Arroces", 
+      "recipeCuisine": "espa\u00f1ola", 
+      "recipeIngredient": [
+        "350g Mezcla de arroz salvaje", 
+        "80g Ma\u00edz en grano", 
+        "1count Zanahoria", 
+        "80g Edamame", 
+        "0.5count Cebolla morada", 
+        "30ml Aceite de oliva virgen extra", 
+        "5ml Mostaza de Dijon", 
+        "75ml Salsa de soja", 
+        "Sal", 
+        "Pimienta negra molida", 
+        "5g Jengibre molido"
+      ], 
+      "recipeInstructions": "Hervimos el arroz siguiendo las indicaciones del paquete. En nuestro caso la cocci\u00f3n fue de 25 minutos. Dejamos que **enfr\u00ede completamente** antes de montar la ensalada. Lo podemos preparar con antelaci\u00f3n y no tener que esperar ex profeso.\n\n\n\nCuando el arroz est\u00e9 fr\u00edo **preparamos un ali\u00f1o** batiendo bien el aceite con la mostaza, la salsa de soja, el jengibre molida, sal y pimienta al gusto. Lo mezclamos bien con el arroz, para que se impregne hasta el \u00faltimo grano y quede sabroso.\n\nEscurrimos el ma\u00edz y el edamame y los lavamos con agua fr\u00eda. Pelamos la zanahoria y la troceamos en dados muy peque\u00f1os. Pelamos la cebolla y la picamos finamente. A\u00f1adimos las verduras al arroz, removemos y **guardamos en la nevera** hasta el momento de servir.", 
+      "recipeYield": 4, 
+      "totalTime": "P0DT0H40M", 
+      "video": []
+    }, 
+    {
+      "@context": "http://schema.org/", 
+      "@type": "Recipe", 
+      "aggregateRating": {
+        "@type": "AggregateRating", 
+        "ratingValue": "4.29167", 
+        "reviewCount": "24"
+      }, 
+      "author": {
+        "@type": "Person", 
+        "name": "Liliana Fuchs"
+      }, 
+      "cookTime": "P0DT0H15M", 
+      "datePublished": "2021-09-09T16:00:33+00:00", 
+      "description": "Muy popular como guarnici\u00f3n en las barbacoas de verano en media Europa, las jud\u00edas verdes tambi\u00e9n protagonizan platos la mar de completos que nos pueden...", 
+      "image": "https://i.blogs.es/52444c/ensalada-judias1/650_1200.jpg", 
+      "keywords": "Jud\u00edas verdes, Ensaladas, Recetas de verano, Recetas ligeras, Recetas r\u00e1pidas y f\u00e1ciles, Recetas f\u00e1ciles y r\u00e1pidas, Recetas de Ensaladas, Recetas de Legumbres y verduras ", 
+      "name": "Ensalada de jud\u00edas verdes, r\u00facula, anchoas, queso y almendras crujientes: una rica receta saludable perfecta para el t\u00e1per", 
+      "nutrition": [], 
+      "prepTime": "P0DT0H20M", 
+      "recipeCategory": "Recetas de Ensaladas", 
+      "recipeCuisine": "espa\u00f1ola", 
+      "recipeIngredient": [
+        "500g Jud\u00edas verdes redondas bobby", 
+        "300g Tomate cherry", 
+        "5count Rabanitos", 
+        "1count Pimiento rojo asado", 
+        "50g R\u00facula", 
+        "80g Queso de cabra", 
+        "1count Anchoas", 
+        "20g Almendras laminadas", 
+        "30g Aceitunas negras", 
+        "Ralladura de lim\u00f3n", 
+        "60ml Aceite de oliva virgen extra", 
+        "30ml Vinagre de Jerez", 
+        "Pimienta negra molida", 
+        "Sal", 
+        "Hierbas provenzales"
+      ], 
+      "recipeInstructions": "Preparar las jud\u00edas verdes lav\u00e1ndolas suavemente con agua, cortando las puntas feas -o ambas, al gusto- y **cortar en dos o tres piezas**, seg\u00fan su longitud, para que se puedan comer f\u00e1cilmente de un bocado.\n\nCocerlas en agua hirviendo con un poco de sal o al vapor entre **10-15 minutos**, hasta que est\u00e9n *al dente*, preferiblemente no muy blandas. Escurrir y enfriar r\u00e1pidamente, mejor en agua helada. Escurrir de nuevo y reservar.\n\n\n\nLavar los rabanitos y tomates cherry si fuera necesario; laminar los primeros y cortar por la mitad o en cuartos los segundos. Cortar en tiras el pimiento asado y escurrir las aceitunas y las anchoas, que se pueden trocear o picar. **Tostar las almendras ligeramente** en una sart\u00e9n sin engrasar. Cortar en cubitos el queso sin corteza.\n\nMontar la ensalada mezlando todos los ingredientes suavemente; ali\u00f1ar con aceite de oliva virgen extra, **ralladura y zumo de lim\u00f3n**, un poco de vinagre -opcional-, sal y pimienta negra. Aderezar con hierbas provenzales frescas o secas al gusto.", 
+      "recipeYield": 4, 
+      "totalTime": "P0DT0H35M", 
+      "video": []
+    }, 
+    {
+      "@context": "http://schema.org/", 
+      "@type": "Recipe", 
+      "aggregateRating": {
+        "@type": "AggregateRating", 
+        "ratingValue": "4.09302", 
+        "reviewCount": "43"
+      }, 
+      "author": {
+        "@type": "Person", 
+        "name": "Liliana Fuchs"
+      }, 
+      "datePublished": "2021-09-06T10:00:59+00:00", 
+      "description": "El concepto \"ensalada de jam\u00f3n\" se nos puede escapar uno poco a los ajenos a la cocina estadounidense, una gastronom\u00eda a la que nunca est\u00e1 de m\u00e1s acercarse...", 
+      "image": "https://i.blogs.es/cb7e16/ensalada-jamon-usa1/650_1200.jpg", 
+      "keywords": "s\u00e1ndwich, mayonesa, rellenos, Cocina Americana, sandwiches, Recetas r\u00e1pidas y f\u00e1ciles, Recetas f\u00e1ciles y r\u00e1pidas, Recetas de Aperitivos, Recetas de Ensaladas", 
+      "name": "Ensalada de jam\u00f3n americana: receta viejuna de los hogares estadounidenses para s\u00e1ndwiches o picotear (que se hace en 10 minutos)", 
+      "nutrition": [], 
+      "prepTime": "P0DT0H10M", 
+      "recipeCategory": "Recetas de Ensaladas", 
+      "recipeCuisine": "espa\u00f1ola", 
+      "recipeIngredient": [
+        "250g Jam\u00f3n cocido", 
+        "30g Apio", 
+        "110g Mayonesa", 
+        "2count Pepinillos en vinagre", 
+        "5ml Mostaza de Dijon", 
+        "Pimienta negra molida"
+      ], 
+      "recipeInstructions": "Cortar el jam\u00f3n en cubos, trocear el apio lavado y los pepinillos, y disponer en un **procesador de alimentos, picadora o robot de cocina**. A\u00f1adir la mayonesa, la mostaza opcional y pimienta molida al gusto. Se puede hacer tambi\u00e9n picando primero finamente a cuchillo los ingredientes s\u00f3lidos.\n\n\n\nTriturar unos segundos, remover y triturar un poco m\u00e1s. Probar y a\u00f1adir m\u00e1s pepinillos o **condimentos al gusto**, procurando dejar una textura mordible, con tropezones que se noten pero sin ser tan grandes que molesten. La textura general debe ser cremosa y untable, sin desmoronarse.", 
+      "recipeYield": 4, 
+      "totalTime": "P0DT0H10M", 
+      "video": []
+    }, 
+    {
+      "@context": "http://schema.org/", 
+      "@type": "Recipe", 
+      "aggregateRating": {
+        "@type": "AggregateRating", 
+        "ratingValue": "3.87500", 
+        "reviewCount": "8"
+      }, 
+      "author": {
+        "@type": "Person", 
+        "name": "Pakus"
+      }, 
+      "datePublished": "2021-08-19T10:00:42+00:00", 
+      "description": "Te ense\u00f1amos a preparar de manera sencilla la receta de ensalada de mel\u00f3n con gambas y r\u00facula con vinagreta de curry, con ingredientes, tiempos y fotos del...", 
+      "image": "https://i.blogs.es/e8fb32/ensalada-de-melon-con-gambas-rucula-pakus/650_1200.jpg", 
+      "keywords": "Mel\u00f3n, Gambas, Recetas de verano, Recetas en menos de 30 minutos, Recetas f\u00e1ciles y r\u00e1pidas, Recetas frescas, Recetas de Ensaladas", 
+      "name": "Ensalada de mel\u00f3n, gambas y r\u00facula con vinagreta de curry, nuestra refrescante receta veraniega para combatir el calor", 
+      "nutrition": [], 
+      "prepTime": "P0DT0H10M", 
+      "recipeCategory": "Recetas de Ensaladas", 
+      "recipeCuisine": "espa\u00f1ola", 
+      "recipeIngredient": [
+        "1 Cogollo de lechuga", 
+        "4 Tomate cherry", 
+        "R\u00facula", 
+        "Mel\u00f3n cantalupo", 
+        "12 Gamba", 
+        "Curry molido", 
+        "Aceite de oliva virgen extra", 
+        "Vinagre de Jerez", 
+        "Sal al gusto"
+      ], 
+      "recipeInstructions": "Separamos las hojas del cogollo de lechuga para poder ponerlas en el borde de la ensaladera donde serviremos nuestra combinaci\u00f3n. Partimos los cherry por la mitad y picamos el **mel\u00f3n cantalupo en taquitos de tama\u00f1o bocado.** \n\nEn el hueco central de la ensalada, repartimos las hojas de r\u00facula, los trozos de mel\u00f3n y los tomates cherry, mientras **doramos ligeramente las gambas en una sart\u00e9n.** Una vez doradas, servimos las gambas repartidas sobre la ensalada.\n\n\n\n\nPreparamos la **vinagreta de curry** con un buen aceite de oliva virgen extra, unas gotas de vinagre de Jerez y una cucharada de polvos curry, que batimos hasta emulsionar y con la mezcla ali\u00f1amos la ensalada. ", 
+      "recipeYield": 2, 
+      "totalTime": "P0DT0H10M", 
+      "video": []
+    }, 
+    {
+      "@context": "http://schema.org/", 
+      "@type": "Recipe", 
+      "aggregateRating": {
+        "@type": "AggregateRating", 
+        "ratingValue": "3.83333", 
+        "reviewCount": "84"
+      }, 
+      "author": {
+        "@type": "Person", 
+        "name": "Liliana Fuchs"
+      }, 
+      "cookTime": "P0DT0H30M", 
+      "datePublished": "2021-08-18T10:00:38+00:00", 
+      "description": "Receta de cocina f\u00e1cil, sencilla y deliciosa Te explicamos paso a paso, de manera sencilla, la elaboraci\u00f3n de la receta de ensalada pantesca de patata...", 
+      "image": "https://i.blogs.es/f91060/ensalada-pantesca1/650_1200.jpg", 
+      "keywords": "Ensaladas, Recetas de patatas, Recetas veganas, Recetas de verano, Gastronom\u00eda italiana, Recetas italianas, Recetas Vegetarianas, Recetas de Ensaladas", 
+      "name": "Ensalada pantesca de patata, la otra gran ensalada italiana perfecta para el calor del verano", 
+      "nutrition": [], 
+      "prepTime": "P0DT0H10M", 
+      "recipeCategory": "Recetas de Ensaladas", 
+      "recipeCuisine": "espa\u00f1ola", 
+      "recipeIngredient": [
+        "200g Patata", 
+        "15g Alcaparras", 
+        "0.5count Cebolla morada", 
+        "150g Tomate cherry", 
+        "50g Aceitunas", 
+        "4count Albahaca", 
+        "Or\u00e9gano seco", 
+        "10ml Vinagre de vino blanco", 
+        "Aceite de oliva virgen extra", 
+        "Pimienta negra molida", 
+        "Sal"
+      ], 
+      "recipeInstructions": "Lavar y secar la patata; poner a cocer en una olla con tapa cubierta de agua hasta que est\u00e9 tierna por dentro, pero **no excesivamente blandurria**. Escurrir y enfriar hasta que no queme para manipularla.\n\nMientras tanto, **lavar y secar** los tomates y la albahaca. Picar la media cebolla o cortar en juliana o plumas. Dejar a remojo en agua muy fr\u00eda si se prefiere rebajar su potencia.\n\nCortar los tomates por la mitad o en cuartos, trocear a mano la albahaca o cortar en *chiffonade* (tiras) y escurrir las aceitunas y las alcaparras. Pelar la patata **cuando no queme** y trocear en piezas de un bocado, no muy grandes. \n\n\n\n\nDisponer en una fuente la patata tibia, y regar con un chorrito de aceite y salpimentar ligeramente. Al enfriarse ali\u00f1ada **coger\u00e1 mejor sabor**. A\u00f1adir el resto de ingredientes, un poco m\u00e1s de aceite, vinagre, or\u00e9gano, sal y pimienta al gusto. Remover y refrigerar antes de servir.", 
+      "recipeYield": 2, 
+      "totalTime": "P0DT0H40M", 
+      "video": []
+    }
+  ]
+}

@@ -1,0 +1,1347 @@
+{
+	"receptari": [
+		{
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.28571",
+				"reviewCount": "7"
+			},
+			"author": {
+				"@type": "Person",
+				"name": "Liliana Fuchs"
+			},
+			"datePublished": "2022-03-29T10:01:13+00:00",
+			"description": "En plena temporada de fresas y fresones resulta difícil resistise a incluir esta fruta en casi todas las comidas del día, pues se adaptan con una facilidad...",
+			"image": "https://i.blogs.es/6dc506/ensalada-espinacas-fresas/650_1200.jpg",
+			"keywords": "espinaca, Mozzarella, fresas, amapola, Cenas ligeras, Primavera, Ensaladas ligeras, Recetas de Ensaladas",
+			"name": "Ensalada de brotes de espinaca, fresas y aliño de amapola con mozzarella: receta saludable de primavera",
+			"nutrition": [],
+			"prepTime": "P0DT0H20M",
+			"recipeCategory": "Recetas de Ensaladas",
+			"recipeCuisine": "española",
+			"recipeIngredient": [
+				"130ml Vinagre",
+				"60g Azúcar",
+				"0.5count Cebolla morada",
+				"450g Fresa",
+				"150g Brotes de espinacas",
+				"100g Mezclum (mezcla de lechugas)",
+				"10g Semillas de amapola",
+				"60g Almendra laminada",
+				"5ml Mostaza de Dijon",
+				"30ml Aceite de oliva virgen extra",
+				"12count Mini mozzarella fresca",
+				"Pimienta negra molida",
+				"Sal"
+			],
+			"recipeInstructions": "Mezclar el vinagre con el azúcar y un poco de sal batiendo bien con unas varillas pequeñas. **Retirar unos 60 ml** de la mezcla, calentar un minuto en el microondas y echar sobre la cebolla cortada. Dejar reposar al menos 30 minutos.\n\nTostar las semillas de amapola en una sartén sin aceite a fuego medio, hasta que emitan un **aroma intenso pero sin quemarse**. Retirar y tostar en la misma sartén la almendra, removiendo hasta que coja buen color y procurando que no se queme. Retirar.\n\n\n\n\nBatir con las varillas el aceite con la mostaza, la amapola y un poco de sal y pimienta con el **resto del vinagre** reservado. Disponer en una ensaladera las espinacas con la lechuga, repartir por encima las fresas preparadas, la cebolla escurrida del vinagre y el queso.\n\nFinalizar repartiendo las almendras tostadas y aderezar con una **cantidad generosa del aliño**, llevando el sobrante a una jarrita o recipiente para que los comensales se sirvan más al gusto.",
+			"recipeYield": 4,
+			"totalTime": "P0DT0H20M",
+			"video": []
+		},
+		{
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.44444",
+				"reviewCount": "9"
+			},
+			"author": {
+				"@type": "Person",
+				"name": "Liliana Fuchs"
+			},
+			"cookTime": "P0DT0H20M",
+			"datePublished": "2022-02-01T11:01:27+00:00",
+			"description": "La escarola es la reina de las ensaladas de invierno, más emparentada con la endivia que con la lechuga, lo que explica su característico sabor con toques...",
+			"image": "https://i.blogs.es/4a9f62/ensalada-escarola-hurdes/650_1200.jpg",
+			"keywords": "Patatas, escarola, extremadura, Recetas vegetarianas, Ensaladas, Recetas veganas, Recetas con patatas, Recetas Vegetarianas, Recetas de Ensaladas, Recetas de Legumbres y verduras ",
+			"name": "Ensalada de escarola y patata de las Hurdes: receta tradicional de pocos ingredientes pero que sorprende por su rico sabor",
+			"nutrition": [],
+			"prepTime": "P0DT0H30M",
+			"recipeCategory": "Recetas de Ensaladas",
+			"recipeCuisine": "española",
+			"recipeIngredient": [
+				"4count Escarola",
+				"0.25count Cebolla",
+				"2count Patata",
+				"Aceite de oliva virgen extra",
+				"Vinagre",
+				"Sal"
+			],
+			"recipeInstructions": "Lavar las patatas y ponerlas a cocer con piel o peladas en una olla cubiertas con agua fría y un poco de sal. Cocinar hasta que estén **blandas**, escurrir y mantener calientes.\n\nMientras, cortar la escarola en piezas muy **finitas**, como una juliana fina. Hacer lo mismo con la cebolla, picándola finísima, y mezclar ambos ingredientes en una ensaladera. Añadir agua fría y remover con las manos **machacando todo suavemente** para lavarlas y extraer el amargor. Escurrir bien.\n\n\n\n\nDevolver a la ensaladera y aliñar con aceite, vinagre y sal al gusto. Incorporar las patatas peladas troceadas, aún calientes, y **machacar con una maza** de mortero o similar, para ligar el conjunto homogéneamente.\n\n**Añadir agua** fría si se desea para darle una consistencia más cremosa, o agua caliente o templada si se prefiere así la ensalada. Probar y ajustar de aliño o sal al gusto.",
+			"recipeYield": 2,
+			"totalTime": "P0DT0H50M",
+			"video": []
+		},
+		{
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "3.84615",
+				"reviewCount": "26"
+			},
+			"author": {
+				"@type": "Person",
+				"name": "Liliana Fuchs"
+			},
+			"cookTime": "P0DT0H50M",
+			"datePublished": "2022-01-31T11:01:16+00:00",
+			"description": "La caponata es una especie de pisto de origen siciliano muy popular en los aperitivos y cenas de verano, en el que la berenjena es la gran protagonista. Para...",
+			"image": "https://i.blogs.es/76cb94/caponata-calabaza/650_1200.jpg",
+			"keywords": "Vinagre, Calabaza, pisto, Recetas veganas, Recetas de Otoño, Gastronomía italiana, Aceitunas Negras, Recetas Vegetarianas, Recetas de Ensaladas, Recetas de Legumbres y verduras ",
+			"name": "Caponata de calabaza: la receta para disfrutar del sabrosísimo plato italiano en los meses fríos (que casi nos gusta más)",
+			"nutrition": [],
+			"prepTime": "P0DT0H10M",
+			"recipeCategory": "Recetas Vegetarianas",
+			"recipeCuisine": "española",
+			"recipeIngredient": [
+				"1kg Calabaza",
+				"4count Apio",
+				"1count Cebolla dulce",
+				"300g Tomate triturado",
+				"20g Alcaparras",
+				"80g Aceitunas negras",
+				"30g Piñones",
+				"30g Uvas pasas de corinto",
+				"40g Azúcar",
+				"50g Vinagre de Jerez",
+				"Aceite de oliva virgen extra",
+				"Sal"
+			],
+			"recipeInstructions": "Pelar la calabaza y trocear en cubos o piezas medianas gruesas -perderá volumen- como [se explica aquí](https://www.directoalpaladar.com/ingredientes-y-alimentos/como-asar-calabaza-nueve-formas-cocinar-esta-hortaliza-al-horno-que-recetas-usar-cada). Freír en una sartén con aceite o **asar en el horno a 180ºC** hasta que esté tierna pero sin deshacerse. Dejar enfriar. \n\nLavar las pencas de apio, cortar los extremos que estén feos, retirar los filamentos y cortar por la mitad para tener ocho piezas. Poner agua a hervir y **cocer el apio 4-5 minutos**, sin dejar que se reblandezca demasiado. Escurrir y enfriar rápidamente; cortar en piezas de un bocado y reservar. \n\nCortar la cebolla en plumas o juliana y pochar en una cazuela con dos o tres cucharadas de aceite y un poco de sal, **hasta que esté tierna**. Agregar el tomate, remover bien y cocinar hasta que se reduzca un poco y pierda agua, unos 10-15 minutos. Si se usa passata bastarán 3-4 minutos y menor cantidad.\n\n\n\nAgregar las alcaparras escurridas, las aceitunas y los piñones, removiendo bien. Incorporar el azúcar y el vinagre, remover y cocinar a fuego suave unos pocos minutos. **Probar la salsa** y ajustar el sabor al gusto, corrigiendo de azúcar, sal o vinagre si hiciera falta.\n\n**Apagar el fuego** y echar el apio y la calabaza, removiendo suavemente para incorporar todo bien. Trasladar a una fuente o recipiente adecuado y dejar enfriar antes de tapar y guardar en la nevera para que repose varias horas.",
+			"recipeYield": 4,
+			"totalTime": "P0DT1H0M",
+			"video": []
+		},
+		{
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "3.40000",
+				"reviewCount": "10"
+			},
+			"author": {
+				"@type": "Person",
+				"name": "Liliana Fuchs"
+			},
+			"datePublished": "2022-01-13T18:01:16+00:00",
+			"description": "Las endivias están en invierno en su mejor momento, y qué mejor época para recuperarlas en la cocina que después de los banquetes festivos. No toda la vuelta...",
+			"image": "https://i.blogs.es/655aa1/endivias-pera-nueces/650_1200.jpg",
+			"keywords": "Aperitivo, Nueces, Endivias, Recetas Saludables, Recetas ligeras, Cenas ligeras, Recetas de Aperitivos, Recetas de Ensaladas",
+			"name": "Barquitas de endivias con ensalada de pera, nueces y queso: receta ligera de aperitivo fresco y saludable",
+			"nutrition": [],
+			"prepTime": "P0DT0H25M",
+			"recipeCategory": "Recetas de Ensaladas",
+			"recipeCuisine": "española",
+			"recipeIngredient": [
+				"2count Endivia",
+				"1count Pera",
+				"4count Nueces",
+				"55g Queso de rulo de cabra",
+				"Huevas",
+				"Cebollino",
+				"10ml Miel",
+				"20ml Aceite de oliva virgen extra",
+				"5ml Vinagre de Jerez",
+				"Pimienta negra molida",
+				"Sal",
+				"Semillas de amapola"
+			],
+			"recipeInstructions": "Seleccionar **unas 16 hojas de endivia**, que estén completas, frescas y crujientes, sin roturas, cortando un poco el extremo de la base antes de desapararlas de la pieza. Hay que tener en cuenta que las más externas suelen estar más blandas, y las interiores son algo más amargas.\n\nLavarlas y secarlas con suavidad; disponerlas en una o dos fuentes de servir. Lavar y secar bien la pera y el cebollino. **Cortar la fruta en cubitos pequeños** y picar la hierba finamente, reservándola aparte.\n\n\n\nAbrir las nueces y picarlas. Desmenuzar el queso. **Repartir todos los ingredientes en las barquitas** de endivida, añadiendo porciones de huevas y cebollino al gusto. Batir el aceite con la miel y el vinagre, y aliñar. Salpimentar ligeramente (cuidado con la sal, que las huevas suelen ser muy saladas) y terminar con unas semillas.",
+			"recipeYield": 4,
+			"totalTime": "P0DT0H25M",
+			"video": []
+		},
+		{
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.55556",
+				"reviewCount": "9"
+			},
+			"author": {
+				"@type": "Person",
+				"name": "Liliana Fuchs"
+			},
+			"cookTime": "P0DT0H25M",
+			"datePublished": "2022-01-10T11:00:28+00:00",
+			"description": "Para comer ensaladas todo el año sin aburrirnos hay que salirse un poco de la rutina habitual y aprovechar productos de cada temporada, que además apetecen...",
+			"image": "https://i.blogs.es/1130e0/ensalada-calabaza-remolacha-granada/650_1200.jpg",
+			"keywords": "Granada, Calabaza, remolacha, Recetas veganas, Recetas ligeras, Ensaladas ligeras, Recetas de invierno, Recetas Vegetarianas, Recetas de Ensaladas",
+			"name": "Ensalada de calabaza, remolacha y granada: receta vegana ligera y saludable llena de vitaminas",
+			"nutrition": [],
+			"prepTime": "P0DT0H15M",
+			"recipeCategory": "Recetas de Ensaladas",
+			"recipeCuisine": "española",
+			"recipeIngredient": [
+				"0.5count Calabaza",
+				"2count Remolacha cocida",
+				"0.5count Granada",
+				"200g Mezclum (mezcla de lechugas)",
+				"Cacahuetes",
+				"Cilantro molido",
+				"1count Limón",
+				"30ml Aceite de oliva virgen extra",
+				"15ml Vinagre de manzana",
+				"5ml Miel",
+				"Perejil fresco"
+			],
+			"recipeInstructions": "Precalentar el horno a 180ºC con ventilador si lo tiene, o a 200ºC con calor arriba y abajo. Preparar una bandeja grande forrándola con papel de horno o aluminio (para manchar menos) y **pintar con aceite**. Pelar la calabaza y cortar en piezas de tamaño medio, algo más grandes de un bocado, pues perderá volumen.\n\nSi se usan remolachas crudas, lavar bien, pelar ligeramente y cortar en piezas de un tamaño similar, con cuidado pues mancha mucho. Salpimentar las verduras siendo **muy generosos con la pimienta**, añadir cilantro o comino (o ambos) molido al gusto y extender en la bandeja preparada. Añadir un poco de aceite por encima y hornear unos 20-25 minutos.\n\nVigilar bien para que no se quemen; la calabaza debe quedar tierna pero aún firme, que no se deshaga, y con los bordes ligeramente caramelizados. Se pueden girar las piezas a media cocción, pero podemos ahorrarnos ese paso. Retirar y reservar.\n\n\n\nPreparar la ensalada con una cama de mezclum en una ensaladera o fuente, repartir la calabaza y la remolacha (si es cocida, escurrir bien y trocear), los [granos de la granada](https://www.directoalpaladar.com/curso-de-cocina/como-pelar-preparar-granada-para-su-uso-forma-sencilla) y unos **frutos secos tostados picados** groseramete.\n\nHacer una **vinagreta** con el aceite, el zumo de medio limón, el vinagre y la miel, aliñar y terminar agregando perejil o cilantro picado y ralladura de la otra mitad de limón.",
+			"recipeYield": 4,
+			"totalTime": "P0DT0H40M",
+			"video": []
+		},
+		{
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "3.55556",
+				"reviewCount": "9"
+			},
+			"author": {
+				"@type": "Person",
+				"name": "Liliana Fuchs"
+			},
+			"datePublished": "2021-12-23T17:00:31+00:00",
+			"description": "Si buscas un aperitivo o entrante resultón, ligero y sin tener que encender ni un fuego, estos limones rellenos con ensalada de sardinas pueden ser la opción...",
+			"image": "https://i.blogs.es/24d2f7/ensalada-limones-sardinas/650_1200.jpg",
+			"keywords": "Tapas, Alcaparras, limones, Sardinas, Sardina, Recetas de Navidad, Recetas de Aperitivos, Recetas de Ensaladas",
+			"name": "Limones rellenos de ensalada de sardinas: receta de aperitivo marinero refrescante para aligerar un menú de fiesta",
+			"nutrition": [],
+			"prepTime": "P0DT0H30M",
+			"recipeCategory": "Recetas de Aperitivos",
+			"recipeCuisine": "española",
+			"recipeIngredient": [
+				"4count Limón",
+				"150g Sardinas en conserva",
+				"1count Cebolleta",
+				"Alcaparras",
+				"Eneldo fresco",
+				"Cebollino",
+				"Cebolla frita crujiente",
+				"Guindilla",
+				"Aceite de oliva virgen extra",
+				"Pimienta negra molida",
+				"Sal"
+			],
+			"recipeInstructions": "Lavar y secar muy bien los limones y las hierbas. Cortar los primeros en dos mitades, pero dejando el **cuerpo inferior más grande**, practicando el corte como a 2/3 del cuerpo situado en vertical. Dibujar líneas si se tiene maña y tiempo con un cuchillo afilado tipo puntilla.\n\nExtraer la mayor parte de la pulpa del cuerpo inferior de los limones, reservando un poco aparte, procurando **no romperlos**. Si no se sujetan en pie, cortar un poco la corteza inferior para nivelarlos. Reservar.\n\nEscurrir las sardinillas y las alcaparras. Picar finamente la cebolleta y un puñado de cada hierba. Picar más **groseramente** las sardinas con un puñado de alcaparras y un poco de pulpa de limón. Mezclar todo con la guindilla también picada (si se desea un punto picante) y agregar los demás ingredientes hasta obtener una mezcla homogénea.\n\n\n\nAderezar con un chorrito de aceite y salpimentar al gusto. Ir probrando para **ajustar y corregir** los sabores al gusto. Rellenar los limones y coronar con un poco de cebolla frita crujiente, más hierbas y ralladura fina de limón. Conservar refrigerados hasta servir.",
+			"recipeYield": 4,
+			"totalTime": "P0DT0H30M",
+			"video": []
+		},
+		{
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.25000",
+				"reviewCount": "24"
+			},
+			"author": {
+				"@type": "Person",
+				"name": "Carmen Tía Alia"
+			},
+			"datePublished": "2021-12-03T11:00:32+00:00",
+			"description": "Te explicamos paso a paso, de manera sencilla, cómo hacer la receta de ensalada de salmón, mango y aguacate. Tiempo de elaboración, ingredientes,",
+			"image": "https://i.blogs.es/843cea/ensalada-de-salmon-aguacate-y-mango/650_1200.jpg",
+			"keywords": "Aguacate, Mango, Salmón, Berros, Recetas ligeras, Recetas en menos de 30 minutos, Recetas fáciles y rápidas, Recetas de Ensaladas",
+			"name": "Ensalada de salmón, mango y aguacate, receta ligera para arrancar un menú de celebración",
+			"nutrition": [],
+			"prepTime": "P0DT0H15M",
+			"recipeCategory": "Recetas de Ensaladas",
+			"recipeCuisine": "española",
+			"recipeIngredient": [
+				"200g Salmón",
+				"1count Cebolla morada",
+				"1count Mango",
+				"1count Aguacate",
+				"150g Berros",
+				"100 Aceite de oliva virgen extra",
+				"25ml Vinagre de manzana",
+				"5ml Mostaza de Dijon",
+				"5ml Miel",
+				"Sal"
+			],
+			"recipeInstructions": "Preparamos la **vinagreta de mostaza** introduciendo todos los ingredientes en un cuenco y batiendo con unas varillas hasta emulsionar. También los podéis meter [en un tarro de cristal](https://www.directoalpaladar.com/recetas-de-salsas-y-guarniciones/como-hacer-la-vinagreta-perfecta-y-cinco-ensaladas-ligeras-en-las-que-usarla), cerrarlo con su tapa de rosca y agitar con fuerza. Cualquiera de los dos métodos funciona igual de bien. Reservamos.\n\nRetiramos la piel del lomo de salmón y lo **repasamos por si quedaran espinas y escamas**. Cortamos en dados de aproximadamente un centímetro de lado. Pelamos la cebolla y la cortamos en juliana fina. Cortamos el mango en dados, tarea que resula sencilísima si seguís nuestros consejos y recomendaciones para [pelar y cortar un mango sin ensuciarse](https://www.directoalpaladar.com/curso-de-cocina/como-pelar-cortar-mango-ensuciarse). Cortamos el aguacate por la mitad, retiramos el hueso y lo pelamos. Lo laminamos o cortamos en dados, como más os guste. \n\n\n\nUna vez listos todos los componentes de esta ensalada **solo queda montar los platos**. Para ello colocamos una base de berros, limpios y secos, sobre cada plato y repartir el salmón, el mango y el aguacate por la superficie. Terminamos espolvoreado con semillas de sésamo negro y regando con un poco de vinagreta. Servimos inmediatamente.\n",
+			"recipeYield": 4,
+			"totalTime": "P0DT0H15M",
+			"video": []
+		},
+		{
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.00000",
+				"reviewCount": "11"
+			},
+			"author": {
+				"@type": "Person",
+				"name": "Liliana Fuchs"
+			},
+			"cookTime": "P0DT0H10M",
+			"datePublished": "2021-12-01T10:01:40+00:00",
+			"description": "Te explicamos paso a paso, de manera sencilla, la elaboración de la receta de ensalada de coliflor y anchoas navideña. Ingredientes, tiempo de elaboración",
+			"image": "https://i.blogs.es/4b42ec/ensalada-coliflor-napolitana/650_1200.jpg",
+			"keywords": "Anchoa, Aceitunas, Coliflor, Recetas de Navidad, Recetas italianas, Guarniciones, Recetas de Ensaladas, Recetas de Legumbres y verduras ",
+			"name": "Insalata di rinforzo: la ensalada napolitana de coliflor y anchoas típica de Navidad",
+			"nutrition": [],
+			"prepTime": "P0DT0H15M",
+			"recipeCategory": "Recetas de Ensaladas",
+			"recipeCuisine": "española",
+			"recipeIngredient": [
+				"1count Coliflor",
+				"50g Pimiento rojo",
+				"50g Pimiento amarillo",
+				"90g Aceitunas negras",
+				"90g Aceitunas",
+				"80g Pepinillo",
+				"50g Alcaparras",
+				"100g Anchoas",
+				"30ml Aceite de oliva virgen extra",
+				"15ml Vinagre de Jerez",
+				"Sal"
+			],
+			"recipeInstructions": "Separar la coliflor en floretes de tamaños similares, [como se explica aquí](https://www.directoalpaladar.com/ingredientes-y-alimentos/como-cortar-coliflor-floretes-facilmente-crear-desastre-cocina), lavar y enjuagar. Blanquear en abundante agua salada durante unos pocos minutos para **dejarla aún crujiente**, enfriándola rápidamente en un recipiente sobre hielo, o asarla en el horno a unos 200ºC; se puede aprovechar también para asar los pimientos si los tenemos crudos.\n\nPreparar **el resto de ingredientes por separado**: extraer el hueso de las aceitunas si no estuvieran deshuesadas, cortar los pepinillos en bastones y los pimientos pelados en tiras. Disponer la coliflor en una ensaladadera o fuente, aliñar ligeramente con vinagre y aceite de oliva y agregar todos los demás ingredientes.\n\n\n\nMezclar al gusto y aliñar con un poco más de **vinagre y aceite de oliva** si se desea; no debería ser necesario añadir más sal por la que ya llevan las anchoas y los encurtidos. Llevar a la mesa o tapar y guardar en la nevera, sacándola un rato antes de servir para que pierda un poco el frío.\n",
+			"recipeYield": 4,
+			"totalTime": "P0DT0H25M",
+			"video": []
+		},
+		{
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.07692",
+				"reviewCount": "13"
+			},
+			"author": {
+				"@type": "Person",
+				"name": "Liliana Fuchs"
+			},
+			"cookTime": "P0DT0H15M",
+			"datePublished": "2021-11-22T17:00:57+00:00",
+			"description": "Esta receta de coliflor en forma de ensalada templada es una adaptación vegetariana del icónico plato británico llamado coronation chicken, o pollo de la...",
+			"image": "https://i.blogs.es/e81e2e/coliflor-cuscus-yogur-mango/650_1200.jpg",
+			"keywords": "Mango, Curry, Granada, Yogur, Coliflor, Recetas vegetarianas, Recetas Vegetarianas, Recetas de Ensaladas",
+			"name": "Ensalada templada de coliflor al curry y cuscús con salsa de yogur, mango y granada: receta vegetariana llena de sabor",
+			"nutrition": [],
+			"prepTime": "P0DT0H20M",
+			"recipeCategory": "Recetas Vegetarianas",
+			"recipeCuisine": "española",
+			"recipeIngredient": [
+				"1count Coliflor",
+				"100g Cuscús",
+				"5g Semillas de cilantro",
+				"10g Curry molido",
+				"45ml Aceite de oliva virgen extra",
+				"180ml Yogur griego",
+				"1count Diente de ajo",
+				"30ml Mango",
+				"1count Limón",
+				"Perejil fresco",
+				"Cilantro fresco",
+				"Almendra laminada",
+				"0.5count Granada",
+				"Pimienta negra molida",
+				"Sal"
+			],
+			"recipeInstructions": "Llevar a ebullición 200 ml de agua con la mitad de las semillas de cilantro machadas (o usar molidas en su lugar), pimienta y sal. Echar sobre el cuscús dispuesto en un cuenco, remover ligeramente y tapar. Precalentar el grill (eléctrico o el gratinador del horno) a máxima temperatura.\n\nSeparar los floretes de la coliflor [como se indica aquí](https://www.directoalpaladar.com/ingredientes-y-alimentos/como-cortar-coliflor-floretes-facilmente-crear-desastre-cocina), reservando las hojas interiores más tiernas; lavar y escurrir. Mezclar en un cuenco 80 ml de yogur griego con 30 ml de aceite, el resto del cilantro y el curry, salpimentar y **embadurnar bien la coliflor** con ello. Si se va a hacer al horno, extender sobre una bandeja cubierta con papel de aluminio o antiadherente.\n\n\n\nCocinar la coliflor unos 8-10 minutos, girando las piezas si es necesario, hasta que esté tierna en el centro pero no muy blanda, con los bordes caramelizados y algo tostados. Dejar templar mientras se mezcla en otro cuenco **el resto del yogur con el mango**, el ajo machacado o aplastado y el zumo de medio limón.\n\nComprobar que el cuscús esté en su punto **aireándolo con un tenedor**; agregar el resto del aceite y zumo de la otra mitad del limón, y un buen puñado de hierbas picadas. Extender en una fuente y repartir la coliflor mezclada con la salsa de yogur, más hierbas, los granos de granada y almendras tostadas. Salpimentar al gusto.\n",
+			"recipeYield": 4,
+			"totalTime": "P0DT0H35M",
+			"video": []
+		},
+		{
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.25000",
+				"reviewCount": "8"
+			},
+			"author": {
+				"@type": "Person",
+				"name": "Liliana Fuchs"
+			},
+			"cookTime": "P0DT0H30M",
+			"datePublished": "2021-11-08T17:01:54+00:00",
+			"description": "El aspecto no será el más apetitoso del mundo, pero es lo que tiene la textura del pollo deshebrado bien embadurnado con una deliciosa salsa a base de pesto y...",
+			"image": "https://i.blogs.es/371aa0/ensalada-pollo-pesto2/650_1200.jpg",
+			"keywords": "Pollo, pechuga, Pesto, pechuga pollo, mayonesa, salsas, Recetas de Ensaladas, Recetas de Carnes y aves",
+			"name": "Ensalada de pollo al pesto: receta para unas pechugas de pollo jugosísimas para solucinar muchas comidas y cenas",
+			"nutrition": [],
+			"prepTime": "P0DT0H5M",
+			"recipeCategory": "Recetas de Ensaladas",
+			"recipeCuisine": "española",
+			"recipeIngredient": [
+				"2count Pechuga de pollo",
+				"2l Agua",
+				"15g Sal",
+				"60g Pesto de albahaca",
+				"60g Mayonesa",
+				"5ml Zumo de limón",
+				"50g Tomate seco"
+			],
+			"recipeInstructions": "Combinar el agua con la sal en una cazuela amplia hasta disolverla. Añadir las pechugas de pollo enteras, limpias, y calentar con un termómetro digital para controlar la temperatura. Dejar que el agua supere los 65ºC, bajar la temperatura y **mantener por debajo de los 76ºC**. Mantener la cocción hasta que al pinchar el centro de la parte más gruesa de cada pechuga alcance los 65,5ºC, unos 25-30 minutos. \n\n\n\nSacar las pechugas del agua y dejar que se enfríen sobre una tabla con papel de cocina o sobre una rejilla, unos 5 minutos, hasta que no quemen demasiado. A continuación, **deshebrar con uno o dos tenedores**, separando las fibras en tiras del tamaño que se prefiera.\n\nMezclar en un cuenco todos los demás ingredientes de la salsa con una varillas o cuchara. Añadir los tomates secos en aceite picados al gusto, si se usan, con el pollo deshebrado y **remover hasta integrar** homogéneamente.",
+			"recipeYield": 4,
+			"totalTime": "P0DT0H35M",
+			"video": []
+		},
+		{
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "3.56250",
+				"reviewCount": "16"
+			},
+			"author": {
+				"@type": "Person",
+				"name": "Pakus"
+			},
+			"datePublished": "2021-11-02T11:00:50+00:00",
+			"description": "Te enseñamos a preparar de manera sencilla la receta de cogollos de lechuga con vinagreta de frutos secos, soja y miel, con ingredientes, tiempo de...",
+			"image": "https://i.blogs.es/13cc13/cogollos-guarnicion-entrante-pakus-futurobloguero-dap/650_1200.jpg",
+			"keywords": "vinagreta, frutos secos, Plancha, Lechuga, Cogollos de lechuga, Recetas en menos de 30 minutos, Recetas fáciles y rápidas, Recetas de Ensaladas, Recetas de Salsas y guarniciones",
+			"name": "Cogollos de lechuga a la plancha con vinagreta de frutos secos, soja y miel, una receta perfecta de entrante, guarnición o cena",
+			"nutrition": [],
+			"prepTime": "P0DT0H5M",
+			"recipeCategory": "Recetas de Ensaladas",
+			"recipeCuisine": "española",
+			"recipeIngredient": [
+				"4 Cogollo de lechuga",
+				"Frutos secos",
+				"Miel",
+				"Salsa de soja",
+				"Aceite de oliva virgen extra",
+				"12 Arándanos"
+			],
+			"recipeInstructions": "**Para hacer la vinagreta**, mezclamos en un cuenco la miel con la salsa de soja. Por otro lado, machacamos en el mortero los frutos secos, dejándolos en trocitos, es decir sin reducirlos a polvo. Esos trocitos darán un aporte crujiente o *crunchie* a la vinagreta. \n\nUna vez tenemos esas dos preparaciones, las reservamos para poder servirlas sobre la lechuga cuando la tengamos lista tras pasar por la plancha. **Opcionalmente podéis añadir unas pasas de arándanos o de uvas moscatel** sin pipo.\n\nPara hacer los cogollos de lechuga a la plancha, ponemos una sartén o parrilla al fuego y dejamos que se caliente bien. Untamos con una **brocha humedecida en aceite de oliva**. Mientras se calienta, cortamos los corazones de cogollo por la mitad. \n\n\n\nDoramos los cogollos de lechuga en la plancha durante 5 minutos, **sin apretar ni excedernos en la cocción** para que aunque esté dorada y tome temperatura, la lechuga no pierda su toque crujiente. Servimos los cogollos templados, cubriéndolos con unos pocos frutos secos por encima, decorando con dos o tres arándanos.\n\nTerminamos salpicando con un tenedor la mezcla de soja y miel por encima, **haciendo un dibujo caprichoso e irregular**. Llevamos el resto de la vinagreta en un cuenco a la mesa por si alguien quisiera añadir más. ",
+			"recipeYield": 4,
+			"totalTime": "P0DT0H5M",
+			"video": []
+		},
+		{
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "3.24074",
+				"reviewCount": "54"
+			},
+			"author": {
+				"@type": "Person",
+				"name": "Carmen Tía Alia"
+			},
+			"datePublished": "2021-09-12T16:01:00+00:00",
+			"description": "Te explicamos paso a paso, de manera sencilla y con vídeo incluido, cómo hacer la receta de garbanzos, aguacate y queso feta. Tiempo de elaboración,...",
+			"image": "https://i.blogs.es/7c5fc6/ensalada-de-garbanzos-aguacate-y-queso-feta/650_1200.jpg",
+			"keywords": "Aguacate, Garbanzos, legumbres, vídeo receta, Queso Feta, Ensaladas, Recetas en menos de 30 minutos, Vídeos de Recetas, Recetas de Ensaladas",
+			"name": "Ensalada de garbanzos, aguacate y queso feta, receta fácil y nutritiva en menos de 15 minutos (con vídeo incluido)",
+			"nutrition": [],
+			"prepTime": "P0DT0H15M",
+			"recipeCategory": "Vídeos de Recetas",
+			"recipeCuisine": "española",
+			"recipeIngredient": [
+				"500g Garbanzos",
+				"2count Aguacate",
+				"150g Queso feta",
+				"2count Cebolleta",
+				"Cebollino",
+				"1count Zumo de lima",
+				"45ml Aceite de oliva virgen extra",
+				"Sal",
+				"Pimienta negra molida"
+			],
+			"recipeInstructions": "Pelamos (si fuera necesario) y **picamos finamente** las cebolletas. Hacemos lo mismo con los aguacates, retirando los huesos y cortándolos en dados. Picamos finamente unos tallos de cebollino fresco bien lavado y seco. Si hemos comprado queso feta en bloque, lo cortamos en dados.\n\nExprimimos la lima (o limón) y mezclamos su zumo con el aceite de oliva y el cebollino picado. Salpimentamos al gusto (opcional). Colocamos los garbanzos, los dados de aguacate y de queso feta en una ensaladera y **regamos con el aliño**. Removemos bien y servimos inmediatamente.",
+			"recipeYield": 4,
+			"totalTime": "P0DT0H15M",
+			"video": []
+		},
+		{
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "3.60870",
+				"reviewCount": "23"
+			},
+			"author": {
+				"@type": "Person",
+				"name": "Liliana Fuchs"
+			},
+			"datePublished": "2021-09-11T09:00:47+00:00",
+			"description": "Recopilamos nuestras mejores recetas de ensaladas de espinacas para que puedas cocinarlas fácilmente y disfrutarlas",
+			"image": "https://i.blogs.es/2b37fe/ensaladas-espinacas/650_1200.jpg",
+			"keywords": "Espinacas, Recetas Saludables, Ensaladas, Recetas ligeras, Cenas ligeras, Recetas de Ensaladas",
+			"name": "15 recetas de ensalada de espinacas para una comida fácil pero muy completa",
+			"nutrition": [],
+			"prepTime": "P0DT0H10M",
+			"recipeCategory": "Recetas de Ensaladas",
+			"recipeCuisine": "española",
+			"recipeIngredient": [
+				"100g Espinaca fresca",
+				"6count Dátiles",
+				"20g Queso parmesano",
+				"Aceite de oliva virgen extra",
+				"Sal"
+			],
+			"recipeInstructions": "Colocamos las espinacas en un plato, luego cortamos los dátiles en rodajas desechando los **huesos** y los añadimos. \n\nDespués rallamos el queso parmesano en lascas sobre la ensalada y, por último, **aliñamos** con un poco de sal y un buen aceite de oliva.",
+			"recipeYield": 2,
+			"totalTime": "P0DT0H10M",
+			"video": []
+		},
+		{
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "3.90000",
+				"reviewCount": "10"
+			},
+			"author": {
+				"@type": "Person",
+				"name": "Carmen Tía Alia"
+			},
+			"cookTime": "P0DT0H25M",
+			"datePublished": "2021-09-10T10:00:31+00:00",
+			"description": "Te explicamos paso a paso, de manera sencilla, cómo hacer la receta de ensalada de arroz salvaje. Tiempo de elaboración, ingredientes,",
+			"image": "https://i.blogs.es/33fb5e/ensalada-de-arroz-salvaje/650_1200.jpg",
+			"keywords": "arroz salvaje, receta, Ensaladas, Recetas veganas, salsa soja, Recetas de Ensaladas, Recetas de Arroces",
+			"name": "Ensalada de arroz salvaje, receta fácil para el táper del trabajo y mucho más",
+			"nutrition": [],
+			"prepTime": "P0DT0H15M",
+			"recipeCategory": "Recetas de Arroces",
+			"recipeCuisine": "española",
+			"recipeIngredient": [
+				"350g Mezcla de arroz salvaje",
+				"80g Maíz en grano",
+				"1count Zanahoria",
+				"80g Edamame",
+				"0.5count Cebolla morada",
+				"30ml Aceite de oliva virgen extra",
+				"5ml Mostaza de Dijon",
+				"75ml Salsa de soja",
+				"Sal",
+				"Pimienta negra molida",
+				"5g Jengibre molido"
+			],
+			"recipeInstructions": "Hervimos el arroz siguiendo las indicaciones del paquete. En nuestro caso la cocción fue de 25 minutos. Dejamos que **enfríe completamente** antes de montar la ensalada. Lo podemos preparar con antelación y no tener que esperar ex profeso.\n\n\n\nCuando el arroz esté frío **preparamos un aliño** batiendo bien el aceite con la mostaza, la salsa de soja, el jengibre molida, sal y pimienta al gusto. Lo mezclamos bien con el arroz, para que se impregne hasta el último grano y quede sabroso.\n\nEscurrimos el maíz y el edamame y los lavamos con agua fría. Pelamos la zanahoria y la troceamos en dados muy pequeños. Pelamos la cebolla y la picamos finamente. Añadimos las verduras al arroz, removemos y **guardamos en la nevera** hasta el momento de servir.",
+			"recipeYield": 4,
+			"totalTime": "P0DT0H40M",
+			"video": []
+		},
+		{
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.29167",
+				"reviewCount": "24"
+			},
+			"author": {
+				"@type": "Person",
+				"name": "Liliana Fuchs"
+			},
+			"cookTime": "P0DT0H15M",
+			"datePublished": "2021-09-09T16:00:33+00:00",
+			"description": "Muy popular como guarnición en las barbacoas de verano en media Europa, las judías verdes también protagonizan platos la mar de completos que nos pueden...",
+			"image": "https://i.blogs.es/52444c/ensalada-judias1/650_1200.jpg",
+			"keywords": "Judías verdes, Ensaladas, Recetas de verano, Recetas ligeras, Recetas rápidas y fáciles, Recetas fáciles y rápidas, Recetas de Ensaladas, Recetas de Legumbres y verduras ",
+			"name": "Ensalada de judías verdes, rúcula, anchoas, queso y almendras crujientes: una rica receta saludable perfecta para el táper",
+			"nutrition": [],
+			"prepTime": "P0DT0H20M",
+			"recipeCategory": "Recetas de Ensaladas",
+			"recipeCuisine": "española",
+			"recipeIngredient": [
+				"500g Judías verdes redondas bobby",
+				"300g Tomate cherry",
+				"5count Rabanitos",
+				"1count Pimiento rojo asado",
+				"50g Rúcula",
+				"80g Queso de cabra",
+				"1count Anchoas",
+				"20g Almendras laminadas",
+				"30g Aceitunas negras",
+				"Ralladura de limón",
+				"60ml Aceite de oliva virgen extra",
+				"30ml Vinagre de Jerez",
+				"Pimienta negra molida",
+				"Sal",
+				"Hierbas provenzales"
+			],
+			"recipeInstructions": "Preparar las judías verdes lavándolas suavemente con agua, cortando las puntas feas -o ambas, al gusto- y **cortar en dos o tres piezas**, según su longitud, para que se puedan comer fácilmente de un bocado.\n\nCocerlas en agua hirviendo con un poco de sal o al vapor entre **10-15 minutos**, hasta que estén *al dente*, preferiblemente no muy blandas. Escurrir y enfriar rápidamente, mejor en agua helada. Escurrir de nuevo y reservar.\n\n\n\nLavar los rabanitos y tomates cherry si fuera necesario; laminar los primeros y cortar por la mitad o en cuartos los segundos. Cortar en tiras el pimiento asado y escurrir las aceitunas y las anchoas, que se pueden trocear o picar. **Tostar las almendras ligeramente** en una sartén sin engrasar. Cortar en cubitos el queso sin corteza.\n\nMontar la ensalada mezlando todos los ingredientes suavemente; aliñar con aceite de oliva virgen extra, **ralladura y zumo de limón**, un poco de vinagre -opcional-, sal y pimienta negra. Aderezar con hierbas provenzales frescas o secas al gusto.",
+			"recipeYield": 4,
+			"totalTime": "P0DT0H35M",
+			"video": []
+		},
+		{
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.09302",
+				"reviewCount": "43"
+			},
+			"author": {
+				"@type": "Person",
+				"name": "Liliana Fuchs"
+			},
+			"datePublished": "2021-09-06T10:00:59+00:00",
+			"description": "El concepto \"ensalada de jamón\" se nos puede escapar uno poco a los ajenos a la cocina estadounidense, una gastronomía a la que nunca está de más acercarse...",
+			"image": "https://i.blogs.es/cb7e16/ensalada-jamon-usa1/650_1200.jpg",
+			"keywords": "sándwich, mayonesa, rellenos, Cocina Americana, sandwiches, Recetas rápidas y fáciles, Recetas fáciles y rápidas, Recetas de Aperitivos, Recetas de Ensaladas",
+			"name": "Ensalada de jamón americana: receta viejuna de los hogares estadounidenses para sándwiches o picotear (que se hace en 10 minutos)",
+			"nutrition": [],
+			"prepTime": "P0DT0H10M",
+			"recipeCategory": "Recetas de Ensaladas",
+			"recipeCuisine": "española",
+			"recipeIngredient": [
+				"250g Jamón cocido",
+				"30g Apio",
+				"110g Mayonesa",
+				"2count Pepinillos en vinagre",
+				"5ml Mostaza de Dijon",
+				"Pimienta negra molida"
+			],
+			"recipeInstructions": "Cortar el jamón en cubos, trocear el apio lavado y los pepinillos, y disponer en un **procesador de alimentos, picadora o robot de cocina**. Añadir la mayonesa, la mostaza opcional y pimienta molida al gusto. Se puede hacer también picando primero finamente a cuchillo los ingredientes sólidos.\n\n\n\nTriturar unos segundos, remover y triturar un poco más. Probar y añadir más pepinillos o **condimentos al gusto**, procurando dejar una textura mordible, con tropezones que se noten pero sin ser tan grandes que molesten. La textura general debe ser cremosa y untable, sin desmoronarse.",
+			"recipeYield": 4,
+			"totalTime": "P0DT0H10M",
+			"video": []
+		},
+		{
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "3.87500",
+				"reviewCount": "8"
+			},
+			"author": {
+				"@type": "Person",
+				"name": "Pakus"
+			},
+			"datePublished": "2021-08-19T10:00:42+00:00",
+			"description": "Te enseñamos a preparar de manera sencilla la receta de ensalada de melón con gambas y rúcula con vinagreta de curry, con ingredientes, tiempos y fotos del...",
+			"image": "https://i.blogs.es/e8fb32/ensalada-de-melon-con-gambas-rucula-pakus/650_1200.jpg",
+			"keywords": "Melón, Gambas, Recetas de verano, Recetas en menos de 30 minutos, Recetas fáciles y rápidas, Recetas frescas, Recetas de Ensaladas",
+			"name": "Ensalada de melón, gambas y rúcula con vinagreta de curry, nuestra refrescante receta veraniega para combatir el calor",
+			"nutrition": [],
+			"prepTime": "P0DT0H10M",
+			"recipeCategory": "Recetas de Ensaladas",
+			"recipeCuisine": "española",
+			"recipeIngredient": [
+				"1 Cogollo de lechuga",
+				"4 Tomate cherry",
+				"Rúcula",
+				"Melón cantalupo",
+				"12 Gamba",
+				"Curry molido",
+				"Aceite de oliva virgen extra",
+				"Vinagre de Jerez",
+				"Sal al gusto"
+			],
+			"recipeInstructions": "Separamos las hojas del cogollo de lechuga para poder ponerlas en el borde de la ensaladera donde serviremos nuestra combinación. Partimos los cherry por la mitad y picamos el **melón cantalupo en taquitos de tamaño bocado.** \n\nEn el hueco central de la ensalada, repartimos las hojas de rúcula, los trozos de melón y los tomates cherry, mientras **doramos ligeramente las gambas en una sartén.** Una vez doradas, servimos las gambas repartidas sobre la ensalada.\n\n\n\n\nPreparamos la **vinagreta de curry** con un buen aceite de oliva virgen extra, unas gotas de vinagre de Jerez y una cucharada de polvos curry, que batimos hasta emulsionar y con la mezcla aliñamos la ensalada. ",
+			"recipeYield": 2,
+			"totalTime": "P0DT0H10M",
+			"video": []
+		},
+		{
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "3.83333",
+				"reviewCount": "84"
+			},
+			"author": {
+				"@type": "Person",
+				"name": "Liliana Fuchs"
+			},
+			"cookTime": "P0DT0H30M",
+			"datePublished": "2021-08-18T10:00:38+00:00",
+			"description": "Receta de cocina fácil, sencilla y deliciosa Te explicamos paso a paso, de manera sencilla, la elaboración de la receta de ensalada pantesca de patata...",
+			"image": "https://i.blogs.es/f91060/ensalada-pantesca1/650_1200.jpg",
+			"keywords": "Ensaladas, Recetas de patatas, Recetas veganas, Recetas de verano, Gastronomía italiana, Recetas italianas, Recetas Vegetarianas, Recetas de Ensaladas",
+			"name": "Ensalada pantesca de patata, la otra gran ensalada italiana perfecta para el calor del verano",
+			"nutrition": [],
+			"prepTime": "P0DT0H10M",
+			"recipeCategory": "Recetas de Ensaladas",
+			"recipeCuisine": "española",
+			"recipeIngredient": [
+				"200g Patata",
+				"15g Alcaparras",
+				"0.5count Cebolla morada",
+				"150g Tomate cherry",
+				"50g Aceitunas",
+				"4count Albahaca",
+				"Orégano seco",
+				"10ml Vinagre de vino blanco",
+				"Aceite de oliva virgen extra",
+				"Pimienta negra molida",
+				"Sal"
+			],
+			"recipeInstructions": "Lavar y secar la patata; poner a cocer en una olla con tapa cubierta de agua hasta que esté tierna por dentro, pero **no excesivamente blandurria**. Escurrir y enfriar hasta que no queme para manipularla.\n\nMientras tanto, **lavar y secar** los tomates y la albahaca. Picar la media cebolla o cortar en juliana o plumas. Dejar a remojo en agua muy fría si se prefiere rebajar su potencia.\n\nCortar los tomates por la mitad o en cuartos, trocear a mano la albahaca o cortar en *chiffonade* (tiras) y escurrir las aceitunas y las alcaparras. Pelar la patata **cuando no queme** y trocear en piezas de un bocado, no muy grandes. \n\n\n\n\nDisponer en una fuente la patata tibia, y regar con un chorrito de aceite y salpimentar ligeramente. Al enfriarse aliñada **cogerá mejor sabor**. Añadir el resto de ingredientes, un poco más de aceite, vinagre, orégano, sal y pimienta al gusto. Remover y refrigerar antes de servir.",
+			"recipeYield": 2,
+			"totalTime": "P0DT0H40M",
+			"video": []
+		},
+		{
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "3.36047",
+				"reviewCount": "86"
+			},
+			"author": {
+				"@type": "Person",
+				"name": "Liliana Fuchs"
+			},
+			"cookTime": "P0DT0H50M",
+			"datePublished": "2022-04-14T10:00:48+00:00",
+			"description": "Las torrijas no son un postre ligero, negarlo sería autoengañarse. Sí podemos hacerlas más o menos calóricas cuidando detalles y eligiendo bien los...",
+			"image": "https://i.blogs.es/677ddb/torrijas-fit/650_1200.jpg",
+			"keywords": "sin azúcar, proteínas, Torrijas, Recetas Saludables, Recetas sin Gluten, Recetas de Semana Santa, Recetas de Postres",
+			"name": "Cómo hacer torrijas sin pan y sin azúcar: la versión más saludable baja en hidratos y sin gluten que había que probar",
+			"nutrition": [],
+			"prepTime": "P0DT0H20M",
+			"recipeCategory": "Recetas de Postres",
+			"recipeCuisine": "española",
+			"recipeIngredient": [
+				"2count Huevo",
+				"500g Queso quark",
+				"40g Almendra molida",
+				"5g Lino molido",
+				"5ml Esencia de vainilla",
+				"2g Ralladura de limón",
+				"80g Eritritol",
+				"Canela molida",
+				"Huevo batido",
+				"Aceite de oliva virgen extra"
+			],
+			"recipeInstructions": "Precalentar el horno a 180ºC con calor arriba y abajo, **sin aire**. Forrar con papel antiadherente -sulfurizado- un molde rectangular pequeño de unos 18-20 cm de largo. Se puede usar más grande, pero quedará una masa menos alta.\n\nEscurrir el **líquido o suero** que pueda tener el quark o yogur. Batir con una varillas o batidora junto con los huevos, la proteína en polvo o harina de almendra o avena, el lino molido o maizena, la vainilla, canela al gusto, edulcorante -opcional- y ralladura de limón fina. Procurar que no haya grumos.\n\n\n\nLlevar al molde y hornear durante unos 40-50 minutos, o hasta que al pinchar el centro con un palillo salga limpio. Esperar unos minutos fuera del horno antes de desmoldar usando el papel; una vez frío por completo, secar el **posible agua que suelte** con papel de cocina -como si fuera tofu- y cortar en rebanadas más bien gruesas.\n\n**Bañar en huevo batido** y cocinar a la plancha con un poco de aceite. Rebozar en eritritol mezclado con canela molida como haríamos con torrijas normales y servir templadas o frías.",
+			"recipeYield": 6,
+			"totalTime": "P0DT1H10M",
+			"video": []
+		},
+		{
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "3.85000",
+				"reviewCount": "40"
+			},
+			"author": {
+				"@type": "Person",
+				"name": "Liliana Fuchs"
+			},
+			"cookTime": "P0DT0H30M",
+			"datePublished": "2022-04-04T10:01:51+00:00",
+			"description": "Judías verdes y tomates hacen un matrimonio exquisito del que ya hemos dado buena cuenta en otras ocasiones. En los días de calor nos engancha la receta...",
+			"image": "https://i.blogs.es/a0b993/judias-verdes-libanesas/650_1200.jpg",
+			"keywords": "Judías verdes, Recetas Saludables, salsa de tomate, Recetas veganas, Gastronomía Oriente Medio, Recetas Vegetarianas, Recetas de Legumbres y verduras , Recetas de Salsas y guarniciones",
+			"name": "Judías verdes con tomate a la libanesa: receta sencilla para una saludable guarnición o comida vegana",
+			"nutrition": [],
+			"prepTime": "P0DT0H10M",
+			"recipeCategory": "Recetas Vegetarianas",
+			"recipeCuisine": "española",
+			"recipeIngredient": [
+				"1count Chalota",
+				"3g Comino molido",
+				"3g Cilantro molido",
+				"2g Cardamomo",
+				"1g Canela molida",
+				"1g Nuez moscada molida",
+				"350g Judías verdes redondas",
+				"400g Tomates en conserva natural",
+				"Aceite de oliva virgen extra",
+				"Pimienta negra molida",
+				"Sal",
+				"Perejil fresco"
+			],
+			"recipeInstructions": "Lavar y secar las judías verdes, cortar las puntas feas y cortar cada pieza en dos o tres, según el tamaño que tengan. Pelar y cortar en **juliana fina** la chalota y mezclar todas las especias en un cuenco con pimienta recién molida al gusto.\n\nCalentar un **buen chorro de aceite de oliva virgen extra** en una sartén o cazuela, a fuego medio-bajo, y añadir la chalota con una pizca de sal. Dejar unos minutos hasta que empiece a ponerse blanda y añadir las judías con las especias. Remover bien un par de minutos.\n\n\n\nAñadir **casi todos los tomates del bote** reservando uno o dos, y los jugos. Machacar para ir incorporándolos, agregar una pizca más de sal y saltear a fuego medio-alto un par de minutos. Cubrir ligeramente con una parte del agua de la conserva de tomate, llevar a ebullición, tapar y bajar el fuego.\n\nDejar cocinar unos 15-20 minutos, removiendo de vez en cuando. **Corregir la cantidad de tomate o líquido** según lo pida, dejando la salsa más o menos espesa, al gusto. Cuando las judías estén en el punto deseado, apagar el fuego y servir caliente con perejil picado.",
+			"recipeYield": 2,
+			"totalTime": "P0DT0H40M",
+			"video": []
+		},
+		{
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "3.84091",
+				"reviewCount": "44"
+			},
+			"author": {
+				"@type": "Person",
+				"name": "Liliana Fuchs"
+			},
+			"cookTime": "P0DT0H15M",
+			"datePublished": "2022-04-02T16:01:19+00:00",
+			"description": "Este capricho de cacao es para quienes disfruten de dulces sin ser tan dulces, amantes del sabor a intenso chocolate y una textura jugosa que puede recordar...",
+			"image": "https://i.blogs.es/3d3621/pastel-chocolate-fitness/650_1200.jpg",
+			"keywords": "microondas, Cacao, sin azúcar, Chocolate negro, Recetas Saludables, Recetas sin Gluten, Postres sin horno, Recetas de Postres",
+			"name": "Pastel de chocolate proteico en microondas: receta sin gluten y sin azúcar añadido",
+			"nutrition": [],
+			"prepTime": "P0DT0H15M",
+			"recipeCategory": "Recetas de Postres",
+			"recipeCuisine": "española",
+			"recipeIngredient": [
+				"400g Plátano",
+				"100g Yogur natural",
+				"3count Huevo",
+				"5ml Esencia de vainilla",
+				"60g Proteína en polvo",
+				"20g Almendra molida",
+				"4g Levadura química",
+				"30g Cacao en polvo",
+				"80 Chocolate negro",
+				"10ml Aceite de coco"
+			],
+			"recipeInstructions": "Triturar o batir en un procesador de alimentos los plátanos troceados con el yogur o queso batido -escurrido del posible suero-. Añadir los huevos y la vainilla y **triturar un o poco más** hasta integrar.\n\nIncorporar el cacao tamizado, la levadura, la proteína en polvo y la almendra molida, y triturar hasta lograr una masa cremosa sin grumos secos. Llevar a un **molde apto para microondas** -engrasado si no es de silicona- de unos 18-20 cm de diámetro, y cocer a máxima potencia unos 10 minutos.\n\n**Comprobar que está cuajado** en el centro pinchado con un palillo, esperar un poco antes de desmoldar y dejar enfriar sobre una rejilla. Mientras, trocear el chocolate, derretir con el aceite de coco al baño maría o en microondas a intervalos cortos y remover hasta formar una crema líquida.\n\n\n\n\nVerter **sobre el patel frío** y extender con una espátula o similar. Se puede decorar con frutos secos picados o coco rallado antes de que se solidifique. Guardar preferiblemente en la nevera si no se consume en el día.",
+			"recipeYield": 8,
+			"totalTime": "P0DT0H30M",
+			"video": []
+		},
+		{
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.22727",
+				"reviewCount": "22"
+			},
+			"author": {
+				"@type": "Person",
+				"name": "Liliana Fuchs"
+			},
+			"cookTime": "P0DT0H40M",
+			"datePublished": "2022-02-21T11:01:51+00:00",
+			"description": "El cocinero Alfons Schuhbeck es toda una celebridad en Alemania, reputado chef, autor de numerosos libros de recetas y propietario de restaurantes y negocios...",
+			"image": "https://i.blogs.es/b785a7/pollo-brocoli-quinoa-naranja/650_1200.jpg",
+			"keywords": "Quinoa, pechuga, pechuga pollo, Naranjas, Recetas Saludables, Brócoli, Cenas ligeras, Recetas de Carnes y aves",
+			"name": "Pechugas de pollo con quinoa y brócoli a la naranja: receta saludable, completa y sencilla para toda la familia",
+			"nutrition": [],
+			"prepTime": "P0DT0H10M",
+			"recipeCategory": "Recetas de Carnes y aves",
+			"recipeCuisine": "española",
+			"recipeIngredient": [
+				"4count Pechuga de pollo",
+				"1count Brócoli",
+				"100g Quinoa",
+				"1count Laurel",
+				"1count Diente de ajo",
+				"1count Jengibre fresco",
+				"3count Azafrán",
+				"1count Naranja",
+				"Salsa picante de chile",
+				"Pimienta negra molida",
+				"Sal",
+				"Aceite de oliva virgen extra",
+				"Semillas de sésamo",
+				"Guindilla"
+			],
+			"recipeInstructions": "Precalentar el horno a **100ºC con ventilador**, si lo tiene, o 120ºC con calor arriba y abajo. Secar las pechugas con papel de cocina, retirar posibles restos de grasa, piel o telillas, y salpimentar generosamente. Cocinar a la plancha o sartén de hierro apta para el horno marcándolas por ambos lados, presionando con la espátula para dorarlas bien.\n\nLlevar directamente la sartén al horno o trasladar a una fuente refractaria. Si no tenemos sartén apta para el horno, reservar esta para la salsa. Las pechugas deberían tardar **unos 30 minutos en cocinarse a esta baja temperatura**; comprobar el punto con un termómetro de cocina o cortando la carne en la parte más gruesa. Girarlas a los 20 minutos.\n\nMientras tanto, enjuagar bien la quinoa y poner a cocer en 250 ml de agua (o caldo de pollo o verduras, si tenemos) con el laurel, el ajo troceado, el jengibre pelado, un trocito de guindilla o chile (opcional) el azafrán y un poco de sal. Cuando llegue a ebullición, tapar con tapadera o papel de horno, bajar el fuego y dejar **cocer suavemente unos 20-25 minutos**.\n\n\n\nComprobar el punto de cocción y remover con un tenedor; retirar los aromáticos y aderezar con la ralladura fina de la naranja y un chorrito de aceite. Reservar caliente. **Cocer el brócoli lavado y troceado al vapor o en microondas** durante unos 8-10 minutos, dejándolo ligeramente crujiente o al gusto. \n\nRetirar el pollo de la sartén y llevar esta al fuego de nuevo para **desglasar los jugos con el zumo** de la naranja y la salsa picante, dejando que reduzca. Repartir la quinoa en platos, las pechugas fileteadas y el brócoli, regando la carne con la salsa de naranja y aderezando con sésamo al gusto.",
+			"recipeYield": 4,
+			"totalTime": "P0DT0H50M",
+			"video": []
+		},
+		{
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.07500",
+				"reviewCount": "40"
+			},
+			"author": {
+				"@type": "Person",
+				"name": "Pakus"
+			},
+			"cookTime": "P0DT0H15M",
+			"datePublished": "2022-02-08T11:01:43+00:00",
+			"description": "Te enseñamos a preparar de manera sencilla la receta de boquerones al horno con ingredientes, tiempo de elaboración y fotos del proceso",
+			"image": "https://i.blogs.es/8ce20e/boquerones-al-horno-futurobloguero-pakus-dap/650_1200.jpg",
+			"keywords": "Horno, boquerones, Recetas Saludables, Recetas en menos de 30 minutos, Cenas rápidas y faciles, Recetas de Pescados y mariscos ",
+			"name": "Receta de boquerones al horno: cómo cocinarlos para que queden crujientes y jugosos, pero con menos calorías",
+			"nutrition": [],
+			"prepTime": "P0DT0H10M",
+			"recipeCategory": "Recetas de Pescados y mariscos ",
+			"recipeCuisine": "española",
+			"recipeIngredient": [
+				"20 Boquerones",
+				"6 Diente de ajo",
+				"Perejil fresco",
+				"Aceite de oliva virgen extra",
+				"Limón"
+			],
+			"recipeInstructions": "Limpiamos los boquerones agarrando su cabeza y desplazándola hacia el vientre mientras retiramos las tripas. Opcionalmente podemos quitar también la espina, o **pedirle al pescadero que nos los de limpios a nuestro gusto**. Antes de cocinarlos, ya en casa, los lavamos ligeramente bajo el grifo para eliminar la sangre y después los secamos y sazonamos. \n\nPicamos seis dientes de ajo en taquitos pequeños y un manojio de perejil, y los mezclamos. Extendemos los boquerones en una fuente de horno, y los **cubrimos con la mezcla de ajo y perejil**, reservando un poco de la mezcla. Añadimos un chorrito de aceite de oliva y medio limón exprimido.\n\nLos asamos a **200ºC en horno precalentado durante seis a ocho minutos** dependiendo de su grosor. Después los ponemos en la parte superior del horno y gratinamos durante dos minutos para dejarlos bien crujientes. \n\n\n\nServimos los boquerones asados en el horno con el **resto del ajo y perejil aparte** para que quien quiera pueda añadirse un poco más. También podemos acompañar de unos gajos de limón por si los comensales quieren añadirlo. ",
+			"recipeYield": 2,
+			"totalTime": "P0DT0H25M",
+			"video": []
+		},
+		{
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.81818",
+				"reviewCount": "33"
+			},
+			"author": {
+				"@type": "Person",
+				"name": "Liliana Fuchs"
+			},
+			"cookTime": "P0DT0H50M",
+			"datePublished": "2022-02-07T11:01:15+00:00",
+			"description": "Un buen producto para tener en la despensa, junto con las legumbres secas, es la soja texturizada o proteína de soja, de grosor fino o medio. Se conserva...",
+			"image": "https://i.blogs.es/cadb1c/pimientos-rellenos-soja/650_1200.jpg",
+			"keywords": "Horno, Pimientos rellenos, soja texturizada, Recetas Saludables, Recetas vegetarianas, Recetas Vegetarianas, Recetas de Legumbres y verduras ",
+			"name": "Pimientos rellenos de soja texturizada al horno: receta vegetariana saludable, completa y saciante",
+			"nutrition": [],
+			"prepTime": "P0DT0H15M",
+			"recipeCategory": "Recetas Vegetarianas",
+			"recipeCuisine": "española",
+			"recipeIngredient": [
+				"150g Soja texturizada fina",
+				"1count Cebolla blanca",
+				"2count Diente de ajo",
+				"1count Zanahoria",
+				"1count Apio",
+				"150ml Tomate triturado",
+				"20ml Tomate concentrado",
+				"80ml Vino blanco",
+				"100ml Nata líquida para cocinar",
+				"5g Comino molido",
+				"5g Pimentón dulce",
+				"4count Pimiento morrón",
+				"Queso",
+				"Orégano seco",
+				"Aceite de oliva virgen extra",
+				"Sal"
+			],
+			"recipeInstructions": "Poner la soja en un cuenco grande y cubrir con agua para que se vaya hidratando. Calentar un fondo de aceite en una sartén o cazuela ancha a temperatura suave y añadir la cebolla muy picada con los ajos y una pizca de sal. **Pochar suavemente** hasta que se transparenten.\n\nAgregar el apio -retirando los posibles filamentos más gruesos y los extremos que suelen ser feos- y las zanahorias -peladas- o un trozo de calabaza, todo muy picado. Salpimentar, **remover bien** y dejar que la verdura se vaya ablandando, poniendo la tapa del recipiente si lo tiene.\n\nMientras tanto, preparar los pimientos lavados abriéndolos por la mitad **longitudinal**; sacar con cuidado las semillas y cortar los filamentos más gruesos. Colocar en una fuente engrasada o cubierta con papel de aluminio o de horno y precalentar el horno a 200ºC.\n\n\n\nEscurrir muy bien la soja y añadir a las verduras; salpimentar un poco y remover bien **subiendo el fuego para que se tueste** un poco. Echar los dos tomates a la sartén (se puede echar más tomate triturado o tomate frito si se prefiere), remover, regar con el vino y dejar que se evapore. Aderezar con las especias al gusto y agregar la nata.\n\nDejar que cueza todo un poco más a fuego suave y retirar. **Rellenar muy generosamente los pimientos** y hornear 10 minutos. Cubrir con queso semicurado al gusto y de volver al horno unos 10-15 minutos más bajando la temperatura a 180ºC. Servir con orégano y un poco más de queso tipo parmesano si se desea.",
+			"recipeYield": 4,
+			"totalTime": "P0DT1H5M",
+			"video": []
+		},
+		{
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.55556",
+				"reviewCount": "9"
+			},
+			"author": {
+				"@type": "Person",
+				"name": "Pakus"
+			},
+			"datePublished": "2022-01-31T17:01:20+00:00",
+			"description": "Aunque estemos en los meses más fríos del año y la ropa de abrigo disimule nuestros excesos, somos muchos los que estamos ya cuidándonos con miras a recuperar...",
+			"image": "https://i.blogs.es/f7be2f/plancha_collage/650_1200.jpg",
+			"keywords": "Dieta, Plancha, saludable, Recetas Saludables, Recetario de cocina",
+			"name": "33 recetas a la plancha que nos ayudarán a cuidar la dieta y adelgazar sin renunciar al sabor",
+			"nutrition": [],
+			"prepTime": "P0DT0H10M",
+			"recipeCategory": "Recetario de cocina",
+			"recipeCuisine": "española",
+			"recipeIngredient": [
+				"200g Atún fresco",
+				"200g Guisantes",
+				"8 Menta fresca",
+				"Semillas de sésamo"
+			],
+			"recipeInstructions": "Empezamos preparando la crema de guisantes a la menta. Para ello escaldamos los guisantes durante 3 minutos en agua hirviendo y los pasamos a agua fría para que mantengan su color intenso. Si usáis congelados o de lata, os ahorráis ese paso. Luego los trituramos en la batidora junto a 8 hojas de menta. Continuamos cortando el lomo de atún en seis tacos rectangulares para su consumo como pincho o bocado y los hacemos a la plancha dejando que se hagan un minuto por cada lado. Una vez cocinados, añadimos unos cristalitos de sal a cada taco de lomo. En un plato ponemos las semillas de sésamo y según vamos retirando de la sartén los tacos de atún cocinados, los apoyamos sobre ellas para que se rebocen de semillas por una de sus caras o si lo preferís, por las dos. Para montar el plato, ponemos una base de crema de guisantes en el plato -dos o tres cucharadas serán suficiente- y sobre la crema colocamos los tacos de atún rebozados de sésamo dejando un espacio entre uno y otro para que se vea el color verde.",
+			"recipeYield": 2,
+			"totalTime": "P0DT0H10M",
+			"video": []
+		},
+		{
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.17647",
+				"reviewCount": "34"
+			},
+			"author": {
+				"@type": "Person",
+				"name": "Carmen Tía Alia"
+			},
+			"cookTime": "P0DT0H15M",
+			"datePublished": "2022-01-30T11:01:05+00:00",
+			"description": "Te explicamos paso a paso, de manera sencilla y con vídeo incluido, cómo hacer la receta de montaditos de berenjena y tomate. Tiempo de elaboración,...",
+			"image": "https://i.blogs.es/ede760/montaditos-saludables-de-berenjena-y-tomate/650_1200.jpg",
+			"keywords": "Mozzarella, vídeo receta, receta, Recetas Saludables, berenjena, Tomate, Vídeos de Recetas, Recetas Vegetarianas",
+			"name": "Montaditos saludables de berenjena y tomate, receta para solucionar una cena sana en un santiamén (con vídeo incluido)",
+			"nutrition": [],
+			"prepTime": "P0DT0H15M",
+			"recipeCategory": "Vídeos de Recetas",
+			"recipeCuisine": "española",
+			"recipeIngredient": [
+				"1count Berenjena",
+				"Sal",
+				"Pimienta negra molida",
+				"1count Diente de ajo",
+				"3count Tomate",
+				"Aceite de oliva virgen extra",
+				"1count Queso Mozzarella",
+				"Albahaca",
+				"5g Azúcar"
+			],
+			"recipeInstructions": "Lavamos la berenjena y la cortamos en rodajas. Colocamos sobre una fuente de horno cubierta con papel vegetal y salpimentamos al gusto. Asamos en el horno, precalentado a 180 ºC con calor arriba y abajo, durante unos **10-12 minutos** o hasta que estén tiernas.\n\nMientras tanto escurrimos y laminamos la mozzarella. También pelamos los tomates y, según la consistencia que queramos obtener, los picamos a cuchillo o los trituramos con una batidora de brazo. Pelamos el diente de ajo y lo rallamos para que quede **bien fino**.\n\nCalentamos un poco de aceite de oliva virgen extra en una sartén y sofreímos el ajo. Cuando empiece a tomar color incorporamos el tomate picado y salpimentamos al gusto. Podemos añadir un poco de azúcar para **eliminar el amargor** de los tomates (opcional). Cocemos a fuego medio durante 6-8 minutos. Reservamos.\n\nCuando las berenjenas estén listas, las retiramos del horno y terminamos los montaditos **alternando capas** de berenjena y mozzarella. Terminamos con una cucharada de salsa de tomate, un pellizco de hierbas provenzales y unas hojas de albahaca fresca. Servimos inmediatamente.",
+			"recipeYield": 6,
+			"totalTime": "P0DT0H30M",
+			"video": []
+		},
+		{
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.02222",
+				"reviewCount": "45"
+			},
+			"author": {
+				"@type": "Person",
+				"name": "Liliana Fuchs"
+			},
+			"cookTime": "P0DT0H15M",
+			"datePublished": "2022-01-26T11:01:59+00:00",
+			"description": "Las claras de huevo pasteurizadas son un recurso estupendo para tener en la nevera y aprovechar mucho más allá de la repostería. Si bien las yemas son también...",
+			"image": "https://i.blogs.es/a86640/tortilla-brocoli-claras/650_1200.jpg",
+			"keywords": "Tortilla, Recetas Saludables, Brócoli, Cenas ligeras, Claras de huevo, Recetas rápidas y fáciles, Recetas fáciles y rápidas, Recetas Vegetarianas, Recetas de Huevos y tortillas ",
+			"name": "Tortilla de brócoli con claras de huevo: receta ligera saludable rica en proteínas y muy poca grasa",
+			"nutrition": [],
+			"prepTime": "P0DT0H10M",
+			"recipeCategory": "Recetas de Huevos y tortillas ",
+			"recipeCuisine": "española",
+			"recipeIngredient": [
+				"200g Brócoli",
+				"300ml Clara de huevo",
+				"50ml Leche",
+				"Levadura de cerveza",
+				"Cúrcuma molida",
+				"Pimentón dulce",
+				"Pimienta negra molida",
+				"Aceite de oliva virgen extra",
+				"Perejil fresco",
+				"Sal"
+			],
+			"recipeInstructions": "Cortar los 200 g de floretes del brócoli en piezas pequeñas de un tamaño semejante, aproximadamente, o dejando algunas más grandes para dar otra textura; reservar los troncos y tallos para otra preparación o aprovechar para pelar la parte más leñosa y añadirlos también. Lavar y escurrir con suavidad.\n\nCocer brevemente **al vapor o en el microondas** unos 5 minutos (con un poco de agua y cubierto con tapa para este aparato o con film), para dejarlo tierno pero aún firme, un poco *al dente*. Si se prefiere más tierno, dejar más tiempo.\n\nBatir en un recipiente con unas varillas o un tenedor las claras de huevo con la leche o nata líquida y **todas las especias y aderezos al gusto**, con la levadura de cerveza nutricional opcional. Se puede añadir también un poco de queso rallado fino.\n\nEngrasar homogéneamente una sartén antiadherente de unos 20 cm diámetro, calentar a fuego medio y **saltear el brócoli** ligeramente con un poco de sal para darle un toque crujiente. Añadir la mezcla de claras y remover para extender homogéneamente todo bien.\n\n\n\nBajar el fuego y tapar; cocinar suavemente durante unos minutos hasta que el borde esté más firme y el centro cuajado pero aún jugoso; se debe poder **levantar la tortilla con una lengua** o espátula fina si se introduce por el borde.\n\nPodríamos darle la vuelta a la tortilla como [al hacer una de patatas](https://www.directoalpaladar.com/recetas-de-huevos-y-tortillas/empezando-en-la-cocina-receta-de-tortilla-de-patatas-con-cebolla) y servirla boca abajo, pero queda más vistosa con el brócoli destacando. Cuando esté al punto deseado, apagar el fuego, **pasar la espátula por debajo de la tortilla y deslizar** sobre una fuente. Servir con perejil fresco o cilantro picado.",
+			"recipeYield": 2,
+			"totalTime": "P0DT0H25M",
+			"video": []
+		},
+		{
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.07071",
+				"reviewCount": "99"
+			},
+			"author": {
+				"@type": "Person",
+				"name": "Liliana Fuchs"
+			},
+			"datePublished": "2022-01-24T16:01:28+00:00",
+			"description": "A pesar de que es una fruta rica en grasas, ya sabemos que hay que saber mirar más allá y concebir un alimento en su totalidad, valorando además la calidad de...",
+			"image": "https://i.blogs.es/3e974d/aguacates2/650_1200.jpg",
+			"keywords": "Aguacate, Salmón, saludables, Recetas Saludables, Recetas ligeras, Cenas ligeras, Dieta keto, Recetario de cocina, Recetas de Aperitivos",
+			"name": "12 recetas con aguacate, ligeras, saludables e ideales para una dieta baja en carbohidratos",
+			"nutrition": [],
+			"prepTime": "P0DT0H15M",
+			"recipeCategory": "Recetario de cocina",
+			"recipeCuisine": "española",
+			"recipeIngredient": [
+				"1count Jengibre fresco",
+				"45ml Zumo de limón",
+				"2g Sal",
+				"3count Aguacate",
+				"3count Rabanitos",
+				"Cacahuetes",
+				"Perejil fresco"
+			],
+			"recipeInstructions": "Pelar el jengibre y rallar muy fino, preferiblemente con un Microplane o similar. **Exprimir y colar** el zumo de limón y mezclar con el jengibre y la sal.\n\nAbrir los aguacates, sacar los huesos y retirar la piel. Cortar en cubos de un bocado y disponer en una ensaladera o fuente. Mezclar con el aliño, tapar con film y dejar **reposar 10-5 minutos** en la nevera.\n\n\n\nCortar los rabanitos en láminas muy finas y añadir a la ensalada. Picar los cacahuetes **a cuchillo o con un mortero**, dejando el grosor que se desee, y espolvorear por encima. Añadir unas hierbas picadas (opcional) y servir.",
+			"recipeYield": 4,
+			"totalTime": "P0DT0H15M",
+			"video": []
+		},
+		{
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "3.26761",
+				"reviewCount": "71"
+			},
+			"author": {
+				"@type": "Person",
+				"name": "Carmen Tía Alia"
+			},
+			"datePublished": "2022-01-23T18:01:11+00:00",
+			"description": "La intención de comer sano está más presente en nuestras vidas en ciertas épocas del año. Suele coincidir con los periodos postvacacionales (Navidades, Semana...",
+			"image": "https://i.blogs.es/9e8db5/cenas-saludables/650_1200.jpg",
+			"keywords": "Dieta, Nueces, cena, saludable, Champiñones, Recetas Saludables, Ensaladas, Recetario de cocina",
+			"name": "54 cenas saludables que tener siempre en mente para mejorar nuestra dieta",
+			"nutrition": [],
+			"prepTime": "P0DT0H15M",
+			"recipeCategory": "Recetario de cocina",
+			"recipeCuisine": "española",
+			"recipeIngredient": [
+				"4 Cogollo de lechuga",
+				"3 Apio",
+				"2 Manzana",
+				"125g Nueces",
+				"125g Uvas pasas sultanas",
+				"1 Yema de huevo",
+				"30ml Vinagre",
+				"150ml Aceite de oliva virgen extra",
+				"Sal"
+			],
+			"recipeInstructions": "Comenzaremos tostando ligeramente en una sartén las nueces. Cuando pasen unos minutos y las veamos tostadas, las reservamos mientras que enfrían y las partimos en trozos grandes. Para hacer la mayonesa, en un bol echamos la yema de huevo, salamos y comenzamos a batir con batidor o las varillas de una batidora incorporando el aceite en chorro fino para que se haga la emulsión. Añadimos el vinagre y reservamos en frío. Pelamos y cortamos las manzanas en dadao o bastones, el apio en trozos menudos y lavamos y centrifugamos la lechuga. Seguidamente en una ensaladera ponemos el apio, la manzana, la mitad de las nueces y las uvas pasas, echamos la mayonesa al gusto y mezclamos bien. En la fuente de servicio ponemos una cama de lechuga troceada, por encima la mezcla de apio, manzana, nueces y pasas con la mayonesa, y finalmente decoramos con el resto de las nueces. Servir rápidamente.",
+			"recipeYield": 4,
+			"totalTime": "P0DT0H15M",
+			"video": []
+		},
+		{
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.20833",
+				"reviewCount": "24"
+			},
+			"author": {
+				"@type": "Person",
+				"name": "Liliana Fuchs"
+			},
+			"datePublished": "2022-01-22T17:00:36+00:00",
+			"description": "Las conocidas como energy balls son, literamente, bolas energéticas o bocados cargados de nutrientes, perfectos para cargar las pilas entre horas o saciar el...",
+			"image": "https://i.blogs.es/6fd33a/carrot-cake-balls/650_1200.jpg",
+			"keywords": "Coco, dátiles, frutos secos, Zanahoria, energético, Recetas Saludables, Tarta de zanahoria, Recetas de Postres, Recetario de cocina",
+			"name": "Bolitas energéticas de tarta de zanahoria o carrot cake energy balls: receta sin horno y sin azúcar añadido",
+			"nutrition": [],
+			"prepTime": "P0DT0H20M",
+			"recipeCategory": "Recetario de cocina",
+			"recipeCuisine": "española",
+			"recipeIngredient": [
+				"100g Zanahoria",
+				"100g Dátiles",
+				"80g Nueces",
+				"50g Copos de avena",
+				"50g Almendra molida",
+				"Canela molida",
+				"Ralladura de naranja",
+				"5ml Esencia de vainilla",
+				"Coco rallado"
+			],
+			"recipeInstructions": "Abrir los dátiles, sacar los huesos e hidratar en agua tibia -o una infusión al gusto- durante **al menos 20 minutos**, más si están más secos. Los dátiles medjool son más jugosos y dulces, pero se pueden usar otros.\n\nEscurrir y trocear. Pelar las zanahorias y **rallar finas** hasta obtener 100 g. Abrir las nueces y pesar unos 80 g. Disponer los tres ingredientes en un robot de cocina o picadora y triturar hasta machacar todo homogéneamente, pero dejando trocitos visibles.\n\n\n\nAñadir los demás ingredientes menos el coco, triturando hasta lograr una combinación homogénea, **maleable**, que no se desmorone. Se puede triturar más para dejar una textura más cremosa, pero son más sabrosas con trocitos pequeños de frutos.\n\nSi estuviera muy pegajosa, añadir algo más de almendra molida o copos de avena; si estuviera muy seca, echar un pequeño chorrito de leche, zumo o agua. Tormar porciones con una cucharilla, **bolear y rebozar en el coco rallado**. Guardar en un recipiente hermético en la nevera.",
+			"recipeYield": 25,
+			"totalTime": "P0DT0H20M",
+			"video": []
+		},
+		{
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"author": {
+				"@type": "Person",
+				"name": "Liliana Fuchs"
+			},
+			"cookTime": "P0DT0H30M",
+			"datePublished": "2022-01-22T10:00:30+00:00",
+			"description": "El momento del picoteo del fin de semana suele asociarse con esos pequeños placeres de la vida que nos reservamos a días festivos, pero también podemos...",
+			"image": "https://i.blogs.es/0db746/dip/650_1200.jpg",
+			"name": "Cinco recetas de aperitivo ricas en vitamina D para combatir la falta de sol en el picoteo del finde de invierno",
+			"nutrition": [],
+			"prepTime": "P0DT0H10M",
+			"recipeIngredient": [
+				"200g Hígado de rape",
+				"100g Cebolla",
+				"1count Diente de ajo",
+				"20ml Brandy",
+				"5g Mantequilla",
+				"100ml Nata líquida para cocinar",
+				"4g Gelatina en polvo",
+				"1count Clara de huevo",
+				"Pimienta negra molida",
+				"Sal",
+				"Aceite de oliva virgen extra"
+			],
+			"recipeInstructions": "Limpiamos bien el hígado de telillas y venitas de sangre, lo secamos con papel de cocina. Calentamos un poco de aceite en una cazuela y rehogamos la cebolla troceada finamente y el diente de ajo. **Marcamos el hígado** de rape troceado hasta que esté completamente hecho.\n\nVertemos un chorrito de brandy y dejamos que **se evapore el alcohol**. Salpimentamos, agregamos la mantequilla, removemos bien hasta que se disuelva y retiramos. Calentamos aparte la nata y cuando comience a hervir agregamos la gelatina y removemos para que se disuelva.\n\nAgregamos la nata a la cazuela y trituramos el conjunto hasta conseguir un puré fino. **Montamos la clara a punto de nieve** y la unimos suavemente y de forma envolvente. Vertemos el puré en un molde engrasado y forrado de film de cocina. Refrigeramos al menos 6 horas.",
+			"recipeYield": 8,
+			"totalTime": "P0DT0H40M",
+			"video": []
+		},
+		{
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.73810",
+				"reviewCount": "42"
+			},
+			"author": {
+				"@type": "Person",
+				"name": "Liliana Fuchs"
+			},
+			"cookTime": "P0DT0H40M",
+			"datePublished": "2022-01-20T17:01:50+00:00",
+			"description": "En cuestión de platos para hacer frente al frío, las sopas ganan por goleada. Potajes y estofados también nos encantan, pero una sopa, con su nutritivo caldo,...",
+			"image": "https://i.blogs.es/12f29e/sopa-pollo-garbanzos1/650_1200.jpg",
+			"keywords": "Jengibre, Garbanzos, pechuga pollo, cúrcuma, Recetas Saludables, Sopas, Recetas de invierno, Recetas de Sopas y cremas, Recetas de Carnes y aves",
+			"name": "Sopa de pollo con garbanzos, jengibre y cúrcuma: receta súper nutritiva y saludable para combatir el frío",
+			"nutrition": [],
+			"prepTime": "P0DT0H10M",
+			"recipeCategory": "Recetas de Sopas y cremas",
+			"recipeCuisine": "española",
+			"recipeIngredient": [
+				"550g Pechuga de pollo",
+				"2count Diente de ajo",
+				"20g Jengibre fresco",
+				"2.5g Cúrcuma molida",
+				"1l Caldo de pollo",
+				"1count Pimiento rojo",
+				"3count Cebolla de primavera o de verdeo",
+				"1count Zanahoria",
+				"400g Garbanzos cocidos en conserva",
+				"Perejil fresco",
+				"Aceite de oliva virgen extra",
+				"Pimienta negra molida",
+				"Sal"
+			],
+			"recipeInstructions": "Pelar y picar muy finos o rallar el jengibre y los ajos. Calentar un par de cucharadas de aceite en una olla o cazuela amplia, a fuego suave, y cocinar estos ingredientes junto con la cúrcuma, sin dejar que se tuesten. **Añadir el caldo y dejar que se infusione** unos pocos minutos.\n\nSecar las pechugas con papel de cocina, limpiar de posibles restos de grasa o hueso y cortar por la mitad longitudinal para que no sean tan grandes. Añadir a la olla, llevar a ebullición, tapar y cocer bajando el fuego **unos 15-20 minutos**, hasta que el pollo esté cocinado por dentro.\n\nAprovechar para lavar y picar en cubitos pequeños el pimiento y la zanahoria, previamente pelada, y en rodajas finas la cebolla de verdero (o cebolleta tierna muy fina, los tallos). **Sacar el pollo** con cuidado y desmenuzar con dos tenedores en piezas de un bocado, o picar a cuchillo.\n\n\n\nDevolver el pollo troceado a la olla junto con las verduras, remover e incorporar también los garbanzos escurridos y enjuagados. Tapar y cocinar unos 10-15 minutos más, o **hasta que las verduras estén al punto** deseado. Probar y ajustar de sal y pimienta, si es necesario. Se puede reducir el caldo cociendo unos minutos destapado, o añadir algo más de líquido o agua si la preferimos más caldosa.\n",
+			"recipeYield": 4,
+			"totalTime": "P0DT0H50M",
+			"video": []
+		},
+		{
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "3.40000",
+				"reviewCount": "10"
+			},
+			"author": {
+				"@type": "Person",
+				"name": "Liliana Fuchs"
+			},
+			"datePublished": "2022-01-13T18:01:16+00:00",
+			"description": "Las endivias están en invierno en su mejor momento, y qué mejor época para recuperarlas en la cocina que después de los banquetes festivos. No toda la vuelta...",
+			"image": "https://i.blogs.es/655aa1/endivias-pera-nueces/650_1200.jpg",
+			"keywords": "Aperitivo, Nueces, Endivias, Recetas Saludables, Recetas ligeras, Cenas ligeras, Recetas de Aperitivos, Recetas de Ensaladas",
+			"name": "Barquitas de endivias con ensalada de pera, nueces y queso: receta ligera de aperitivo fresco y saludable",
+			"nutrition": [],
+			"prepTime": "P0DT0H25M",
+			"recipeCategory": "Recetas de Ensaladas",
+			"recipeCuisine": "española",
+			"recipeIngredient": [
+				"2count Endivia",
+				"1count Pera",
+				"4count Nueces",
+				"55g Queso de rulo de cabra",
+				"Huevas",
+				"Cebollino",
+				"10ml Miel",
+				"20ml Aceite de oliva virgen extra",
+				"5ml Vinagre de Jerez",
+				"Pimienta negra molida",
+				"Sal",
+				"Semillas de amapola"
+			],
+			"recipeInstructions": "Seleccionar **unas 16 hojas de endivia**, que estén completas, frescas y crujientes, sin roturas, cortando un poco el extremo de la base antes de desapararlas de la pieza. Hay que tener en cuenta que las más externas suelen estar más blandas, y las interiores son algo más amargas.\n\nLavarlas y secarlas con suavidad; disponerlas en una o dos fuentes de servir. Lavar y secar bien la pera y el cebollino. **Cortar la fruta en cubitos pequeños** y picar la hierba finamente, reservándola aparte.\n\n\n\nAbrir las nueces y picarlas. Desmenuzar el queso. **Repartir todos los ingredientes en las barquitas** de endivida, añadiendo porciones de huevas y cebollino al gusto. Batir el aceite con la miel y el vinagre, y aliñar. Salpimentar ligeramente (cuidado con la sal, que las huevas suelen ser muy saladas) y terminar con unas semillas.",
+			"recipeYield": 4,
+			"totalTime": "P0DT0H25M",
+			"video": []
+		},
+		{
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "3.74684",
+				"reviewCount": "79"
+			},
+			"author": {
+				"@type": "Person",
+				"name": "Liliana Fuchs"
+			},
+			"cookTime": "P0DT0H20M",
+			"datePublished": "2022-01-10T17:00:28+00:00",
+			"description": "Enero es un mes complicado por el cambio brusco que supone terminar las fiestas y encarar también el nuevo año. Aunque se agradece volver al orden, no es...",
+			"image": "https://i.blogs.es/742038/receetas-ligeras-3-ing/650_1200.jpg",
+			"keywords": "Recetas Saludables, dietas y comida sana, Recetas ligeras, Menús ligeros, Recetas rápidas y fáciles, Recetas fáciles y rápidas, Recetario de cocina, Salud",
+			"name": "12 recetas ligeras y saludables con solo tres ingredientes (o menos) para para adelgazar sin matarse en la cocina",
+			"nutrition": [],
+			"prepTime": "P0DT0H5M",
+			"recipeCategory": "Recetario de cocina",
+			"recipeCuisine": "española",
+			"recipeIngredient": [
+				"1kg Brócoli",
+				"3count Diente de ajo",
+				"1count Limón",
+				"Queso parmesano",
+				"Aceite de oliva virgen extra",
+				"Pimienta negra molida",
+				"Sal"
+			],
+			"recipeInstructions": "Precalentar el horno a **220ºC con aire si tiene**. Forrar con papel de hornear una bandeja grande. Cortar el brócoli separando los floretes en porciones no mucho más grandes de un bocado, dejando parte de los tallos y conservando el tronco.\n\nEs difícil sacar floretes idénticos, pero incluso positivo que tengamos porciones de **distinto tamaño** para obtener diferentes puntos de cocción. Los floretes más grandes habrá que cortarlos por la mitad, atravedando su tallo.\n\nPara el tronco, cortar la parte más externa y dura hasta que se vea más **blanco y tierno**, no fibroso. Cortar en bastones de un bocado. Lavar todo bien con agua, con suavidad, y escurrir y secar con un paño limpio.\n\nExtender en una sola capa en la bandeja, rociar con un **chorro generoso de aceite de oliva y salpimentar**. Añadir los dientes de ajo pelados enteros, cortados por la mitad o laminados gruesos, según se prefiera dar más o menos sabor. Para ahorrar tiempo se puede aderezar con ajo en polvo. Remover bien con las manos.\n\nHornear **15 minutos**; si el horno no es muy homogéneo, girar la bandeja a mitad del tiempo. Sacar y retirar las piezas más pequeñas. Voltear los más grandes y volver a hornear unos 5 minutos, bajando la potencia a 200ºC. Aliñar con el zumo de medio limón y servir con ralladura de la otra mitad; añadir parmesano rallado si se desea y más pimienta.",
+			"recipeYield": 2,
+			"totalTime": "P0DT0H25M",
+			"video": []
+		},
+		{
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.38636",
+				"reviewCount": "44"
+			},
+			"author": {
+				"@type": "Person",
+				"name": "Liliana Fuchs"
+			},
+			"cookTime": "P0DT1H20M",
+			"datePublished": "2022-01-07T11:01:17+00:00",
+			"description": "Un buen plato de legumbres siempre es la mejor respuesta ante la duda de qué preparar para comer; en invierno el cuchareo manda y, pasadas las fiestas,...",
+			"image": "https://i.blogs.es/d8f02e/pochas-langostinos/650_1200.jpg",
+			"keywords": "marisco, Langostinos, Sepia, Judías blancas, Alubias, Recetas Saludables, Recetas de invierno, Recetas de Legumbres y verduras , Recetas de Pescados y mariscos ",
+			"name": "Receta de pochas con langostinos y sepia, un guiso de legumbres marinero fácil, saludable y sabrosísimo",
+			"nutrition": [],
+			"prepTime": "P0DT0H20M",
+			"recipeCategory": "Recetas de Legumbres y verduras ",
+			"recipeCuisine": "española",
+			"recipeIngredient": [
+				"650g Pochas o alubias frescas",
+				"16count Langostinos",
+				"1count Sepia",
+				"1count Cebolleta",
+				"2count Diente de ajo",
+				"1count Zanahoria",
+				"1count Tomates en conserva natural",
+				"Vino blanco",
+				"Pimentón dulce",
+				"Brandy",
+				"Perejil",
+				"Pimienta negra molida"
+			],
+			"recipeInstructions": "[Pelar los langostinos](thttps://www.directoalpaladar.com/curso-de-cocina/como-limpiar-pelar-gambas-langostinos-luzcan-impecables-tus-platos-crudos-cocinados) separando las cabezas y el caparazón para hacer un [caldo o fumet](https://www.directoalpaladar.com/recetas-de-sopas-y-cremas/aqui-no-se-tira-nada-como-hacer-un-caldo-de-marisco-con-las-cabezas-de-las-gambas). Lo más simple es ponerlo todo en un cazo, cubrir con agua fría y calentar a fuego suave hasta que casi rompa a hervir, bajar la temperatura y cocer unos 30 minutos suavemente, **retirando la espuma que salga**. Podemos enriquecerlo con unas ramitas de perejil, apio, zanahoria, puerro, cebolla, dientes de ajo, laurel, etc. Mantener caliente en su cazo.\n\nMientras se hace el caldo, **retirar la tripa** de los langostinos con cuidado -un palillo es el mejor instrumento- y terminar de limpiar y trocear la sepia en piezas de un bocado generoso, pues perderá volumen con la cocción. Pelar y picar muy fina la zanahoria, la cebolla y los ajos.\n\nCalentar un fondo ligero de aceite en una olla o cazuela a temperatura suave y pochar la cebolla con los ajos cinco minutos. Añadir la zanahoria y cocinar cinco minutos más. Agregar los tomates picados o rallados -si son naturales-, un chorrito de vino blanco, remover, **bajar el fuego y sofreír** hasta que la verdura esté blanda.\n\nEchar una cucharadita aproximada de pimentón, remover bien para que no se queme, y agregar un **chorrito generoso de brandy*+ o vino oloroso. Dejar que evapore el alcohol e incorporar la sepia, salteándola subiendo el fuego. Dar unas vueltas y añadir los langostinos con un buen golpe de pimienta negra en molinillo.\n\n\n\nCocinar el marisco hasta que deje de estar crudo y colar encima directamente el fumet, sin echarlo todo para ajustar la textura al final. Remover y añadir las pochas escurridas y enjuagadas de la conserva. Añadir **más caldo si lo creemos necesario**, llevar a ebullición, bajar el fuego y tapar. \n\nCocer durante unos **20-30 minutos**, removiendo de vez en cuando y corrigiendo el nivel de líquido al gusto. Dejar reposar tapado 5-10 minutos antes de servir con perejil al gusto. Corregir de sal si fuera necesario, aunque con el marisco y la legumbre en conserva no nos parece necesario.",
+			"recipeYield": 4,
+			"totalTime": "P0DT1H40M",
+			"video": []
+		}
+	]
+}
