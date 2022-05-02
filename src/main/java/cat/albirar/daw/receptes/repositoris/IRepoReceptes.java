@@ -43,6 +43,12 @@ public interface IRepoReceptes {
 	 */
 	public List<ReceptaBean> findAll();
 	/**
+	 * Cerca {@code howmany} receptes de manera aleatòria.
+	 * @param howmany El nombre de receptes a obtenir
+	 * @return La llista amb les receptes obtingudes
+	 */
+	public List<ReceptaBean> findRandom(int howmany);
+	/**
 	 * Cerca les receptes associades amb la {@code categoria} indicada.
 	 * @param categoria La categoria
 	 * @return La llista de receptes associades
@@ -65,4 +71,10 @@ public interface IRepoReceptes {
 	 * @return La llista
 	 */
 	public List<CategoriaPesBean> findCategories();
+	/**
+	 * Retorna la informació de la categoria amb el nom indicat.
+	 * @param nom El nom
+	 * @return La categoria
+	 */
+	public CategoriaPesBean findCategoriaByNom(String nom);
 }

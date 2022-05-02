@@ -81,7 +81,7 @@ public class ReceptaBeanSimpleMapper implements RowMapper<ReceptaBean> {
 				.descripcio(rs.getNString(COL_DESCRIPCIO))
 				.urlImatge(rs.getString(COL_IMATGE))
 				.tempsPreparacio(rs.getObject(COL_D_PREPARACIO, Duration.class))
-				.categoria(Optional.ofNullable(rs.getNString(ConstantsSql.COL_NOM_AS_CATEGORIA)))
+				.categoria(rs.getNString(ConstantsSql.COL_NOM_AS_CATEGORIA))
 				.cuina(Optional.ofNullable(rs.getNString(ConstantsSql.COL_NOM_AS_CUINA)))
 				.instruccions(rs.getNString(COL_INSTRUCCIONS))
 				.nombreServeis(rs.getInt(COL_NOM_SERVEIS))

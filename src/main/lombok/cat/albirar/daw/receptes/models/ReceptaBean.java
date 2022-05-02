@@ -47,7 +47,7 @@ public class ReceptaBean implements Serializable {
 	Duration tempsTotal;
 	Optional<Duration> tempsCoccio;
 	int nombreServeis;
-	Optional<String> categoria;
+	String categoria;
 	Optional<String> cuina;
 	String instruccions;
 	List<IngredientReceptaBean> ingredients;

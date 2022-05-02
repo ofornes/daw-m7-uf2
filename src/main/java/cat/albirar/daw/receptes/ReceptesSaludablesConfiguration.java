@@ -24,10 +24,16 @@ import javax.sql.DataSource;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilder;
+
+import cat.albirar.daw.receptes.controladors.ControladorWeb;
+import cat.albirar.daw.receptes.repositoris.impl.RepoReceptesImpl;
+import cat.albirar.daw.receptes.repositoris.mappers.CategoriaPesBeanMapper;
+import cat.albirar.daw.receptes.servei.impl.ServeiReceptesImpl;
 
 /**
  * Configuració de l'aplicació.
@@ -35,6 +41,12 @@ import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilder;
  * @since 0.0.1
  */
 @Configuration
+@ComponentScan(basePackageClasses = {
+		ControladorWeb.class
+		, RepoReceptesImpl.class
+		, CategoriaPesBeanMapper.class
+		, ServeiReceptesImpl.class
+})
 public class ReceptesSaludablesConfiguration {
     @Bean
     public DataSource dataSource() {

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ca" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="https://www.thymeleaf.org">
+<head th:insert="~{fragments :: head}"></head>
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Humberger Begin -->
+    <div th:replace="~{fragments :: menu}"></div>
+    <!-- Humberger End -->
+
+    <!-- Header Section Begin -->
+    <header th:replace="~{fragments :: header (${pagina})}"></header>
+    <!-- Header Section End -->
+
+    <!-- Categories Section Begin -->
+    <section class="categories categories-grid spad">
+        <div class="categories__post">
+            <div class="container">
+                <div class="categories__grid__post">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-8">
+                            <div class="breadcrumb__text">
+                                <h2 th:text="${categoria.nom}">Categoria <span>Recipes</span></h2>
+                                <div class="breadcrumb__option">
+                                    <a href="#">Home</a>
+                                    <span>Recipes</span>
+                                </div>
+                            </div>
+                            <div class="categories__list__post__item" th:each="recepta : ${receptes}">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6">
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="categories__post__item__text">
+                                            <span class="post__label">Recepta</span>
+                                            <h3><a href="#" th:href="@{/recepta/{id}(id=${recepta.id})}" th:text="${recepta.nom}">Nom de la recepta</a></h3>
+                                            <ul class="post__widget">
+                                                <li>per <span th:text="${recepta.autor}">Autor</span></li>
+                                            </ul>
+                                            <p th:text="${#strings.append(#strings.substring(recepta.descripcio,0,150),'...')}">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua. Quis ipsum suspendisse ultrices gravida...</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="sidebar__item">
+                                <div class="sidebar__follow__item">
+                                    <div class="sidebar__item__title">
+                                        <h6>Follow me</h6>
+                                    </div>
+                                    <div class="sidebar__item__follow__links">
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                        <a href="#"><i class="fa fa-youtube-play"></i></a>
+                                        <a href="#"><i class="fa fa-instagram"></i></a>
+                                        <a href="#"><i class="fa fa-envelope-o"></i></a>
+                                    </div>
+                                </div>
+                                <div class="sidebar__item__banner">
+                                    <img src="img/sidebar/banner.jpg" th:src="@{/img/sidebar/banner.jpg}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Categories Section End -->
+
+	<footer th:replace="fragments :: footer"></footer>
+			
+	<div th:include="fragments :: javascript"></div>
+</body>
+
+</html>

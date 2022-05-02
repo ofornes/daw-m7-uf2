@@ -56,10 +56,17 @@ public class RepoReceptesImpl implements IRepoReceptes {
 	/**
 	 * SQL per a {@link #findAll()}.
 	 */
-	private static final String SQL_FIND_ALL = "SELECT * "
+	private static final String SQL_FIND_ALL = "SELECT *"
 			+ " FROM " + ReceptaBeanSimpleMapper.VISTA
 			+ " ORDER BY "
 			+ ReceptaBeanSimpleMapper.COL_NOM
+			;
+	/**
+	 * Plantilla (per a resoldre amb {@link String#format(String, Object...)} d'SQL per a {@link #findRandom(int)}.
+	 */
+	private static final String TPL_SQL_FIND_RANDOM = "SELECT *"
+			+ " FROM " + ReceptaBeanSimpleMapper.VISTA
+			+ " ORDER BY RANDOM() LIMIT %d"
 			;
 	/**
 	 * SQL per a {@link #findByCategoria(String)}.
@@ -79,7 +86,7 @@ public class RepoReceptesImpl implements IRepoReceptes {
 	/**
 	 * SQL per a {@link #idOfCategoriaByName(String)}.
 	 */
-	private static final String SQL_CAT_BY_NAME = "SELECT "
+	private static final String SQL_ID_CAT_BY_NAME = "SELECT "
 			+ ConstantsSql.COL_ID
 			+ " FROM " + ConstantsSql.TAULA_CATEGORIES
 			+ " WHERE " 
@@ -111,6 +118,17 @@ public class RepoReceptesImpl implements IRepoReceptes {
 			+ ", " + ConstantsSql.COL_PES
 			+ " FROM " + ConstantsSql.VISTA_VPES_CATEGORIES
 			;
+	/**
+	 * SQL per a {@link #findCategoriaByNom(String)}
+	 */
+	private static final String SQL_CATEGORIA_BY_NOM = "SELECT "
+			+ ConstantsSql.COL_ID
+			+ ", " + ConstantsSql.COL_NOM
+			+ ", " + ConstantsSql.COL_PES
+			+ " FROM " + ConstantsSql.VISTA_VPES_CATEGORIES
+			+ " WHERE "
+			+ ConstantsSql.COL_NOM + "=:" + ConstantsSql.COL_NOM
+			;
 	@Autowired
 	private NamedParameterJdbcTemplate namedParameterJdbcTemplate;
 	
@@ -141,6 +159,17 @@ public class RepoReceptesImpl implements IRepoReceptes {
 	@Override
 	public List<ReceptaBean> findAll() {
 		return namedParameterJdbcTemplate.query(SQL_FIND_ALL, mapadorRecepta)
+				.stream()
+				.map(r -> completarReceptaBean(r))
+				.collect(Collectors.toList())
+		;
+	}
+	/**
+	 * {@inheritDoc}
+	 */
+	@Override
+	public List<ReceptaBean> findRandom(int howmany) {
+		return namedParameterJdbcTemplate.query(String.format(TPL_SQL_FIND_RANDOM, howmany), mapadorRecepta)
 				.stream()
 				.map(r -> completarReceptaBean(r))
 				.collect(Collectors.toList())
@@ -192,7 +221,17 @@ public class RepoReceptesImpl implements IRepoReceptes {
 	public List<CategoriaPesBean> findCategories() {
 		return namedParameterJdbcTemplate.query(SQL_CATEGORIES, mapadorCategoriaPes);
 	}
-
+	/**
+	 * {@inheritDoc}
+	 */
+	@Override
+	public CategoriaPesBean findCategoriaByNom(String nom) {
+		return namedParameterJdbcTemplate.queryForObject(SQL_CATEGORIA_BY_NOM
+				, new MapSqlParameterSource(ConstantsSql.COL_NOM, nom)
+				, mapadorCategoriaPes)
+				;
+	}
+	
 	private ReceptaBean completarReceptaBean(ReceptaBean recepta) {
 		return recepta.toBuilder()
 			.ingredients(findIngredientsByReceptaId(recepta.getId()))
@@ -207,7 +246,7 @@ public class RepoReceptesImpl implements IRepoReceptes {
 	private long idOfCategoriaByName(String name) {
 		Long l;
 		
-		l = namedParameterJdbcTemplate.queryForObject(SQL_CAT_BY_NAME
+		l = namedParameterJdbcTemplate.queryForObject(SQL_ID_CAT_BY_NAME
 				, new MapSqlParameterSource(ConstantsSql.COL_NOM, name), Long.class);
 		if(l == null) {
 			return 0L;

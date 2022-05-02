@@ -20,6 +20,7 @@ package cat.albirar.daw.receptes.servei;
 
 import java.util.List;
 
+import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
 
@@ -44,10 +45,23 @@ public interface IServeiReceptes {
 	public String metadadesRecepta(@Min(1) long id);
 	/**
 	 * Cerca les receptes per categoria.
-	 * @param categoria
-	 * @return
+	 * @param categoria El nom de la categoria
+	 * @return La llista corresponent
 	 */
 	public List<ReceptaBean> receptesPerCategoria(@NotBlank String categoria);
+	/**
+	 * Cerca les receptes per identificador de categoria.
+	 * @param idCategoria L'identificador de la categoria
+	 * @return La llista corresponent
+	 */
+	public List<ReceptaBean> receptesPerCategoriaId(@Min(1) long idCategoria);
+	
+	/**
+	 * Obté una llista amb {@code nombre} de receptes de manera aleatòria.
+	 * @param nombre El nombre de receptes a obtenir
+	 * @return La llista amb el {@code nombre} de receptes aleatòries
+	 */
+	public List<ReceptaBean> receptesAleatories(@Min(1)  @Max(5) int nombre);
 	/**
 	 * Cerca totes les receptes.
 	 * @return Les receptes
@@ -58,4 +72,10 @@ public interface IServeiReceptes {
 	 * @return La llista amb totes les categories
 	 */
 	public List<CategoriaPesBean> categories();
+	/**
+	 * Retorna la informació de la categoria amb el {@code nom} indicat.
+	 * @param nom El nom de la categoria
+	 * @return La informació de la categoria
+	 */
+	public CategoriaPesBean categoria(String nom);
 }
