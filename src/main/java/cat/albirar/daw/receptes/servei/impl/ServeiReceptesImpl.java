@@ -31,6 +31,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import cat.albirar.daw.receptes.models.CategoriaPesBean;
+import cat.albirar.daw.receptes.models.KeywordPesBean;
 import cat.albirar.daw.receptes.models.ReceptaBean;
 import cat.albirar.daw.receptes.repositoris.IRepoReceptes;
 import cat.albirar.daw.receptes.servei.IServeiReceptes;
@@ -51,9 +52,8 @@ public class ServeiReceptesImpl implements IServeiReceptes {
 	 * {@inheritDoc}
 	 */
 	@Override
-	public String metadadesRecepta(@Min(1) long id) {
-		// TODO Auto-generated method stub
-		return null;
+	public ReceptaBean receptaPerId(@Min(1) long id) {
+		return repoReceptes.findById(id).get();
 	}
 
 	/**
@@ -65,16 +65,20 @@ public class ServeiReceptesImpl implements IServeiReceptes {
 		
 		LOGGER.debug("Cerco receptes per a la categoria {}", categoria);
 		r = repoReceptes.findByCategoria(categoria);
-		LOGGER.debug("Trobades {} receptes", r.size());
+		LOGGER.debug("Trobades {} receptes a la categoria {}", r.size(), categoria);
 		return r;
 	}
 	/**
 	 * {@inheritDoc}
 	 */
 	@Override
-	public List<ReceptaBean> receptesPerCategoriaId(@Min(1) long idCategoria) {
-		// TODO Auto-generated method stub
-		return null;
+	public List<ReceptaBean> receptesPerKeyword(@NotBlank String keyword) {
+		List<ReceptaBean> r;
+		
+		LOGGER.debug("Cerco receptes pel keyword {}", keyword);
+		r = repoReceptes.findByKeyword(keyword);
+		LOGGER.debug("Trobades {} receptes a keyword {}", r.size(), keyword);
+		return r;
 	}
 	/**
 	 * {@inheritDoc}
@@ -87,7 +91,14 @@ public class ServeiReceptesImpl implements IServeiReceptes {
 	 * {@inheritDoc}
 	 */
 	@Override
-	public List<ReceptaBean> receptesAleatories(@Min(1) @Max(5) int nombre) {
+	public KeywordPesBean keyword(String nom) {
+		return repoReceptes.findKeywordByNom(nom);
+	}
+	/**
+	 * {@inheritDoc}
+	 */
+	@Override
+	public List<ReceptaBean> receptesAleatories(@Min(1) @Max(10) int nombre) {
 		return repoReceptes.findRandom(nombre);
 	}
 	/**

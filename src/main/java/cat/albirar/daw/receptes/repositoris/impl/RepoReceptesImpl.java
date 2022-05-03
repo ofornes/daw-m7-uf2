@@ -32,6 +32,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import cat.albirar.daw.receptes.models.CategoriaPesBean;
 import cat.albirar.daw.receptes.models.IngredientReceptaBean;
+import cat.albirar.daw.receptes.models.KeywordPesBean;
 import cat.albirar.daw.receptes.models.ReceptaBean;
 import cat.albirar.daw.receptes.repositoris.IRepoReceptes;
 import cat.albirar.daw.receptes.repositoris.mappers.ConstantsSql;
@@ -110,6 +111,33 @@ public class RepoReceptesImpl implements IRepoReceptes {
 			+ ConstantsSql.COL_FK_ID_RECEPTA + "=:" + ConstantsSql.COL_FK_ID_RECEPTA
 			;
 	/**
+	 * SQL per a {@link #findKeywordByNom(String)}.
+	 */
+	private static final String SQL_KEYWORD_BY_NOM = "SELECT COUNT(*) AS "
+			+ ConstantsSql.COL_PES
+			+ ", " + ConstantsSql.COL_FK_ID_KEYWORD
+			+ ", " + ConstantsSql.COL_KEYWORD
+			+ " FROM "
+			+ ConstantsSql.VISTA_VRECEPTESK
+			+ " WHERE "
+			+ ConstantsSql.COL_KEYWORD + "=:" + ConstantsSql.COL_KEYWORD
+			+ " GROUP BY "
+			+ ConstantsSql.COL_FK_ID_KEYWORD
+			+ ", " + ConstantsSql.COL_KEYWORD
+			;
+	/**
+	 * SQL per a {@link #findByKeyword(String)}.
+	 */
+	private static final String SQL_RECEPTES_BY_KEYWORD = "SELECT *"
+			+ " FROM "
+			+ ConstantsSql.VISTA_VRECEPTESK
+			+ " WHERE "
+			+ ConstantsSql.COL_KEYWORD + "=:" + ConstantsSql.COL_KEYWORD
+			+ " ORDER BY "
+			+ ReceptaBeanSimpleMapper.COL_TS_PUBLICACIO + " DESC"
+			+ ", " + ReceptaBeanSimpleMapper.COL_NOM
+			;
+	/**
 	 * SQL per a {@link #findCategories()}
 	 */
 	private static final String SQL_CATEGORIES = "SELECT "
@@ -137,9 +165,11 @@ public class RepoReceptesImpl implements IRepoReceptes {
 	
 	@Autowired
 	private RowMapper<IngredientReceptaBean> mapadorIngredient;
-	
+
 	@Autowired
 	private RowMapper<CategoriaPesBean> mapadorCategoriaPes;
+	@Autowired
+	private RowMapper<KeywordPesBean> mapadorKeywordPes;
 	/**
 	 * {@inheritDoc}
 	 */
@@ -213,7 +243,27 @@ public class RepoReceptesImpl implements IRepoReceptes {
 				, new MapSqlParameterSource(ConstantsSql.COL_FK_ID_RECEPTA, id)
 				, String.class);
 	}
-
+	/**
+	 * {@inheritDoc}
+	 */
+	@Override
+	public KeywordPesBean findKeywordByNom(String nom) {
+		return namedParameterJdbcTemplate.queryForObject(SQL_KEYWORD_BY_NOM
+			, new MapSqlParameterSource(ConstantsSql.COL_KEYWORD, nom)
+			, mapadorKeywordPes);
+	}
+	/**
+	 * {@inheritDoc}
+	 */
+	@Override
+	public List<ReceptaBean> findByKeyword(String nom) {
+		return namedParameterJdbcTemplate.query(SQL_RECEPTES_BY_KEYWORD
+					, new MapSqlParameterSource(ConstantsSql.COL_KEYWORD, nom)
+					, mapadorRecepta)
+				.stream().map(r -> completarReceptaBean(r))
+				.collect(Collectors.toList())
+				;
+	}
 	/**
 	 * {@inheritDoc}
 	 */

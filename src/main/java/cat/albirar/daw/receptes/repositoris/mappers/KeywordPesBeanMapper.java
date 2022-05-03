@@ -16,23 +16,34 @@
  *
  * Copyright (C) 2022 Octavi Fornés
  */
-package cat.albirar.daw.receptes;
+package cat.albirar.daw.receptes.repositoris.mappers;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Import;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import org.springframework.jdbc.core.RowMapper;
+import org.springframework.stereotype.Component;
+
+import cat.albirar.daw.receptes.models.KeywordPesBean;
 
 /**
- * Punt d'entrada de l'aplicació.
+ * Mapador de {@link KeywordPesBean}.
  * @author Octavi Forn&eacute;s <mailto:ofornes@albirar.cat[]>
  * @since 0.0.1
  */
-@SpringBootApplication
-@Import(ReceptesSaludablesConfiguration.class)
-public class ReceptesSaludablesApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(ReceptesSaludablesApplication.class, args);
+@Component
+public class KeywordPesBeanMapper implements RowMapper<KeywordPesBean> {
+	/**
+	 * {@inheritDoc}
+	 */
+	@Override
+	public KeywordPesBean mapRow(ResultSet rs, int rowNum) throws SQLException {
+		return KeywordPesBean.builder()
+				.id(rs.getLong(ConstantsSql.COL_FK_ID_KEYWORD))
+				.nom(rs.getString(ConstantsSql.COL_KEYWORD))
+				.pes(rs.getInt(ConstantsSql.COL_PES))
+				.build()
+				;
 	}
 
 }

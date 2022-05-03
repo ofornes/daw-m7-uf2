@@ -35,10 +35,12 @@ public final class ConstantsSql {
 	public static final String TAULA_ING_RECEPTES = "ING_RECEPTES";
 	
 	public static final String VISTA_VRKEYWORDS = "VRKEYWORDS";
+	public static final String VISTA_VRECEPTESK = "VRECEPTESK";
 	public static final String VISTA_VRINGREDIENTS = "VRINGREDIENTS";
 	public static final String VISTA_VPES_CATEGORIES = "VPES_CATEGORIES";
-	
+
 	public static final String COL_FK_ID_RECEPTA = "FK_ID_RECEPTA";
+	public static final String COL_FK_ID_KEYWORD = "FK_ID_KEYWORD";
 	public static final String COL_FK_ID_INGREDIENT = "FK_ID_INGREDIENT";
 	public static final String COL_QUANTITAT = "QUANTITAT";
 	public static final String COL_MESURA = "MESURA";
@@ -48,6 +50,7 @@ public final class ConstantsSql {
 	public static final String COL_NOM_AS_AUTOR = "AUTOR";
 	public static final String COL_NOM_AS_CATEGORIA = "CATEGORIA";
 	public static final String COL_NOM_AS_CUINA = "CUINA";
-	
+
 	public static final String COL_PES = "PES";
+	public static final String COL_KEYWORD = "KEYWORD";
 }

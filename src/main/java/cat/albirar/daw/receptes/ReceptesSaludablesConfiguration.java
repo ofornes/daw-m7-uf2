@@ -30,41 +30,55 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilder;
 
+import com.vladsch.flexmark.html.HtmlRenderer;
+import com.vladsch.flexmark.parser.Parser;
+import com.vladsch.flexmark.util.data.DataHolder;
+import com.vladsch.flexmark.util.data.MutableDataSet;
+
 import cat.albirar.daw.receptes.controladors.ControladorWeb;
+import cat.albirar.daw.receptes.markdown.ProcessadorMD;
 import cat.albirar.daw.receptes.repositoris.impl.RepoReceptesImpl;
 import cat.albirar.daw.receptes.repositoris.mappers.CategoriaPesBeanMapper;
 import cat.albirar.daw.receptes.servei.impl.ServeiReceptesImpl;
 
 /**
  * Configuració de l'aplicació.
+ * 
  * @author Octavi Forn&eacute;s <mailto:ofornes@albirar.cat[]>
  * @since 0.0.1
  */
 @Configuration
-@ComponentScan(basePackageClasses = {
-		ControladorWeb.class
-		, RepoReceptesImpl.class
-		, CategoriaPesBeanMapper.class
-		, ServeiReceptesImpl.class
-})
+@ComponentScan(basePackageClasses = { ControladorWeb.class, RepoReceptesImpl.class, CategoriaPesBeanMapper.class,
+		ServeiReceptesImpl.class, ProcessadorMD.class })
 public class ReceptesSaludablesConfiguration {
-    @Bean
-    public DataSource dataSource() {
-        return new EmbeddedDatabaseBuilder()
-                .generateUniqueName(true)
-                .setType(H2)
-                .setScriptEncoding("UTF-8")
-                .ignoreFailedDrops(true)
-                .addScript("db/esquema.sql")
-                .addScripts("db/dades.sql")
-                .build();
-    }
-    @Bean
-    public JdbcTemplate jdbcTemplate(@Autowired DataSource dataSource) {
-    	 return new JdbcTemplate(dataSource);
-    }
-    @Bean
-    public NamedParameterJdbcTemplate namedParameterJdbcTemplate(@Autowired DataSource dataSource) {
-    	 return new NamedParameterJdbcTemplate(dataSource);
-    }
+	@Bean
+	public DataSource dataSource() {
+		return new EmbeddedDatabaseBuilder().generateUniqueName(true).setType(H2).setScriptEncoding("UTF-8")
+				.ignoreFailedDrops(true).addScript("db/esquema.sql").addScripts("db/dades.sql").build();
+	}
+
+	@Bean
+	public JdbcTemplate jdbcTemplate(@Autowired DataSource dataSource) {
+		return new JdbcTemplate(dataSource);
+	}
+
+	@Bean
+	public NamedParameterJdbcTemplate namedParameterJdbcTemplate(@Autowired DataSource dataSource) {
+		return new NamedParameterJdbcTemplate(dataSource);
+	}
+
+	@Bean
+	public DataHolder flexmarkOptions() {
+		return new MutableDataSet();
+	}
+
+	@Bean
+	public Parser parser(@Autowired DataHolder options) {
+		return Parser.builder(options).build();
+	}
+
+	@Bean
+	public HtmlRenderer htmlRenderer(@Autowired DataHolder options) {
+		return HtmlRenderer.builder(options).build();
+	}
 }

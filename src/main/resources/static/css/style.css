@@ -1154,6 +1154,15 @@ ol {
 	margin-bottom: 5px;
 }
 
+.link__recepta {
+	color: #111111;
+	background-color: rgba(255, 255, 255, 0.75)
+}
+
+a.link__recepta:hover {
+	color: rgb(46, 70, 128);
+}
+
 .categories__post__item__text h3 a {
 	color: #111111;
 	line-height: 29px;

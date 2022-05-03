@@ -27,6 +27,7 @@ import javax.validation.constraints.NotBlank;
 import org.springframework.validation.annotation.Validated;
 
 import cat.albirar.daw.receptes.models.CategoriaPesBean;
+import cat.albirar.daw.receptes.models.KeywordPesBean;
 import cat.albirar.daw.receptes.models.ReceptaBean;
 
 /**
@@ -42,7 +43,7 @@ public interface IServeiReceptes {
 	 * @param id L'id de la recepta
 	 * @return Les metadades en format json
 	 */
-	public String metadadesRecepta(@Min(1) long id);
+	public ReceptaBean receptaPerId(@Min(1) long id);
 	/**
 	 * Cerca les receptes per categoria.
 	 * @param categoria El nom de la categoria
@@ -50,18 +51,18 @@ public interface IServeiReceptes {
 	 */
 	public List<ReceptaBean> receptesPerCategoria(@NotBlank String categoria);
 	/**
-	 * Cerca les receptes per identificador de categoria.
-	 * @param idCategoria L'identificador de la categoria
+	 * Cerca les receptes per keyword.
+	 * @param keyword El nom del keyword
 	 * @return La llista corresponent
 	 */
-	public List<ReceptaBean> receptesPerCategoriaId(@Min(1) long idCategoria);
+	public List<ReceptaBean> receptesPerKeyword(@NotBlank String keyword);
 	
 	/**
 	 * Obté una llista amb {@code nombre} de receptes de manera aleatòria.
 	 * @param nombre El nombre de receptes a obtenir
 	 * @return La llista amb el {@code nombre} de receptes aleatòries
 	 */
-	public List<ReceptaBean> receptesAleatories(@Min(1)  @Max(5) int nombre);
+	public List<ReceptaBean> receptesAleatories(@Min(1)  @Max(10) int nombre);
 	/**
 	 * Cerca totes les receptes.
 	 * @return Les receptes
@@ -78,4 +79,10 @@ public interface IServeiReceptes {
 	 * @return La informació de la categoria
 	 */
 	public CategoriaPesBean categoria(String nom);
+	/**
+	 * Retorna la informació del keyword amb el {@code nom} indicat.
+	 * @param nom El nom del keyword
+	 * @return La informació del keyword
+	 */
+	public KeywordPesBean keyword(String nom);
 }

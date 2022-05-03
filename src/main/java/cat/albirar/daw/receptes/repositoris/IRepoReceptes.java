@@ -23,6 +23,7 @@ import java.util.Optional;
 
 import cat.albirar.daw.receptes.models.CategoriaPesBean;
 import cat.albirar.daw.receptes.models.IngredientReceptaBean;
+import cat.albirar.daw.receptes.models.KeywordPesBean;
 import cat.albirar.daw.receptes.models.ReceptaBean;
 
 /**
@@ -66,6 +67,18 @@ public interface IRepoReceptes {
 	 * @return La llista de keywords
 	 */
 	public List<String> findKeywordsByReceptaId(long id);
+	/**
+	 * Cerca la informació del keyword amb el {@code nom} indicat.
+	 * @param nom El nom del keyword
+	 * @return El {@link KeywordPesBean}
+	 */
+	public KeywordPesBean findKeywordByNom(String nom);
+	/**
+	 * Cerca les receptes associades amb el keyword amb el {@code nom} indicat.
+	 * @param nom El nom del keyword
+	 * @return La llista de receptes associades
+	 */
+	public List<ReceptaBean> findByKeyword(String nom);
 	/**
 	 * Cerca totes les categories registrades.
 	 * @return La llista

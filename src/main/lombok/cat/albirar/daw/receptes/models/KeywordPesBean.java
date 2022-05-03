@@ -16,23 +16,24 @@
  *
  * Copyright (C) 2022 Octavi Fornés
  */
-package cat.albirar.daw.receptes;
+package cat.albirar.daw.receptes.models;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Import;
+import java.io.Serializable;
+
+import lombok.Getter;
+import lombok.experimental.SuperBuilder;
 
 /**
- * Punt d'entrada de l'aplicació.
+ * Keyword i pes.
  * @author Octavi Forn&eacute;s <mailto:ofornes@albirar.cat[]>
  * @since 0.0.1
  */
-@SpringBootApplication
-@Import(ReceptesSaludablesConfiguration.class)
-public class ReceptesSaludablesApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(ReceptesSaludablesApplication.class, args);
-	}
-
+@Getter
+@SuperBuilder(toBuilder = true)
+public class KeywordPesBean implements Serializable {
+	private static final long serialVersionUID = 4391262677550903172L;
+	
+	private long id;
+	private String nom;
+	private int pes;
 }
