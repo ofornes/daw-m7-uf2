@@ -44,7 +44,7 @@ Desprès de molt remenar i cercar, he trobat una web amb receptes i que exposa l
 
 ## Execució de l’aplicació
 
-Anar a la release v0.1.1 i descarregar el paquet jar .
+Anar a la release v0.0.1 i descarregar el paquet jar .
 
 Executar des de línia de comandes amb:
 
