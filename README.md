@@ -69,7 +69,7 @@ Com és tradicional a Spring, l’aplicació utilitza el patró d’injecció de
 La configuració és divideix en dos elements:
 
 * [src/main/resources/application.yml](src/main/resources/application.yml) Arxiu de configuració d’Spring-Boot
-* [cat.albirar.daw.receptes.ReceptesSaludablesConfiguration](src/main/java/cat/albirar/daw/receptes/ReceptesSaludablesConfiguration.java) Classe anotada per a que Spring la utilitzi en la resolució dels elements
+* [cat.albirar.daw.receptes.ReceptesSaludablesConfiguration](src/main/java/cat/albirar/daw/receptes/ReceptesSaludablesConfiguration.java#L60) Classe anotada per a que Spring la utilitzi en la resolució dels elements
 
 ### Base de dades
 
@@ -82,13 +82,13 @@ Això es fa amb dos arxius:
 * [src/main/resources/db/esquema.sql](src/main/resources/db/esquema.sql) per a la definició de la estructura
 * [src/main/resources/db/dades.sql](src/main/resources/db/dades.sql) per a poblar la base de dades
 
-L’element que fa possible la inicialització és la classe que implementa l’accés a la mateixa base de dades: [cat.albirar.daw.receptes.repositoris.impl.RepoReceptesImpl](src/main/java/cat/albirar/daw/receptes/repositoris/impl/RepoReceptesImpl.java)
+L’element que fa possible la inicialització és la classe que implementa l’accés a la mateixa base de dades: [cat.albirar.daw.receptes.repositoris.impl.RepoReceptesImpl](src/main/java/cat/albirar/daw/receptes/repositoris/impl/RepoReceptesImpl.java#L58)
 
 Aprofitant la característica de _post-inicialització_ de Spring, amb l’anotació `@Postconstruct`, es fa la inicialització. En concret al mètode [prepararBD()](src/main/java/cat/albirar/daw/receptes/repositoris/impl/RepoReceptesImpl.java#L64). Aquest mètode utilitza un _DatabasePopulator_ que s’ha preparat a la classe de configuració i Spring ha injectat a la propietat amb l’anotació `@Autowired`.
 
 Per a la materialització de _beans_ des de la base de dades, s’utilitzen classe que implementen el patró _mapper_ d’Spring. Aquestes classes són al paquet [cat.albirar.daw.receptes.repositoris.mappers](src/main/java/cat/albirar/daw/receptes/repositoris/mappers). Aquest patró és de cooperació i les classes només han d’obtenir les dades del _Resultset_ obtingut en l’execució SQL i instanciar i poblar el bean corresponent. Podeu veure un exemple a [cat.albirar.daw.receptes.repositoris.mappers.ReceptaBeanSimpleMapper.mapRow(ResultSet, int)](src/main/java/cat/albirar/daw/receptes/repositoris/mappers/ReceptaBeanSimpleMapper.java#L66).
 
-La classe d’accés a la base de dades implementa el contracte definit per la interfície [cat.albirar.daw.receptes.repositoris.IRepoReceptes](src/main/java/cat/albirar/daw/receptes/repositoris/IRepoReceptes.java). Així, doncs, utilitzem aquest patró per a separar la definició de la implementació.
+La classe d’accés a la base de dades implementa el contracte definit per la interfície [cat.albirar.daw.receptes.repositoris.IRepoReceptes](src/main/java/cat/albirar/daw/receptes/repositoris/IRepoReceptes.java#L40). Així, doncs, utilitzem aquest patró per a separar la definició de la implementació.
 
 Tant la classe de implementació com la interfície estan anotats amb indicadors transaccionals. Spring implementa la transacció amb un sistema basat en proxies i que simplifica enormement la gestió de transaccions. Aquest sistema redueix els errors al mínim, només aquells per error de definició o anàlisi.
 
@@ -102,15 +102,15 @@ Les plantilles es troben a [src/main/resources/templates](src/main/resources/tem
 
 Els models es creen al directori especial [src/main/lombok](src/main/lombok), al paquet [cat.albirar.daw.receptes.models](src/main/lombok/cat/albirar/daw/receptes/models).
 
-**El controlador** és la classe [cat.albirar.daw.receptes.controladors.ControladorWeb](src/main/java/cat/albirar/daw/receptes/controladors/ControladorWeb.java). Els mètodes estan anotats per a que spring-mvc els vinculi amb les URLs de la nostra aplicació.
+**El controlador** és la classe [cat.albirar.daw.receptes.controladors.ControladorWeb](src/main/java/cat/albirar/daw/receptes/controladors/ControladorWeb.java#L56). Els mètodes estan anotats per a que spring-mvc els vinculi amb les URLs de la nostra aplicació.
 
 S’utilitza l’objecte ‘Model’ per tal d’afegir els valors de les propietats que necessitarem a la pàgina.
 
 El controlador utilitza un **servei** per a accedir a la operativa de les dades, lectura, transformació, persistència, etc.
 
-La interfície [cat.albirar.daw.receptes.servei.IServeiReceptes](src/main/java/cat/albirar/daw/receptes/servei/IServeiReceptes.java) defineix el contracte del servei.
+La interfície [cat.albirar.daw.receptes.servei.IServeiReceptes](src/main/java/cat/albirar/daw/receptes/servei/IServeiReceptes.java#L44) defineix el contracte del servei.
 
-El servei s’implementa amb la classe [cat.albirar.daw.receptes.servei.impl.ServeiReceptesImpl](src/main/java/cat/albirar/daw/receptes/servei/impl/ServeiReceptesImpl.java). Aquest patró permet que aïllar la presentació de les dades, de manera que l’origen d’aquestes sigui absolutament irrellevant per al controlador. És el servei qui s’encarrega d’obtenir-les i transformar-les (quan calgui).
+El servei s’implementa amb la classe [cat.albirar.daw.receptes.servei.impl.ServeiReceptesImpl](src/main/java/cat/albirar/daw/receptes/servei/impl/ServeiReceptesImpl.java#L55). Aquest patró permet que aïllar la presentació de les dades, de manera que l’origen d’aquestes sigui absolutament irrellevant per al controlador. És el servei qui s’encarrega d’obtenir-les i transformar-les (quan calgui).
 
 ### Json+LD
 
@@ -120,7 +120,7 @@ S’ha cercat llibreries _java_ amb implementacions de transformadors *JavaBeans
 
 Donat que la transformació no és veritablement complexa, s’ha decidit implementar una classe per a fer aquesta transformació.
 
-La classe és [cat.albirar.daw.receptes.jsonld.JsonLdBuilder](src/main/java/cat/albirar/daw/receptes/jsonld/JsonLdBuilder.java). De manera genèrica permet compondre _documents_ de tipus _json_ amb les especificitats definides als esquemes http://schema.org/. Aquests esquemes són els utilitzats per Google per a les seves especificacions.
+La classe és [cat.albirar.daw.receptes.jsonld.JsonLdBuilder](src/main/java/cat/albirar/daw/receptes/jsonld/JsonLdBuilder.java#L38). De manera genèrica permet compondre _documents_ de tipus _json_ amb les especificitats definides als esquemes http://schema.org/. Aquests esquemes són els utilitzats per Google per a les seves especificacions.
 
 ### Altres elements
 
@@ -130,7 +130,7 @@ La classe que implementa aquesta transformació és: [cat.albirar.daw.receptes.m
 
 Especialment notori és el mètode que converteix el text de les instruccions en una llista de passes en HTML separades per una barra vertical. Aquesta estratègia permet que la plantilla de mostrar la recepta, separi cada passa d’instrucció en element separat que es mostrarà amb un numeral.
 
-El mètode és [cat.albirar.daw.receptes.markdown.ProcessadorMD.instruccions2HtmlEnLinies(String)](src/main/java/cat/albirar/daw/receptes/markdown/ProcessadorMD.java#L83). I a la plantilla, la transformació es fa a [src/main/resources/templates/recepta.html linia 80](src/main/resources/templates/recepta.html#L80).
+El mètode és [cat.albirar.daw.receptes.markdown.ProcessadorMD.instruccions2HtmlEnLinies(String)](src/main/java/cat/albirar/daw/receptes/markdown/ProcessadorMD.java#L83). I a la plantilla, la transformació es fa a [src/main/resources/templates/recepta.html linia 90](src/main/resources/templates/recepta.html#L90).
 
 ## Pàgines
 
