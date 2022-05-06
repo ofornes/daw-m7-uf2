@@ -18,15 +18,19 @@
  */
 package cat.albirar.daw.receptes.servei;
 
+import java.util.Collection;
 import java.util.List;
+import java.util.function.Function;
 
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 
 import org.springframework.validation.annotation.Validated;
 
 import cat.albirar.daw.receptes.models.CategoriaPesBean;
+import cat.albirar.daw.receptes.models.ComentariBean;
 import cat.albirar.daw.receptes.models.KeywordPesBean;
 import cat.albirar.daw.receptes.models.ReceptaBean;
 
@@ -38,6 +42,45 @@ import cat.albirar.daw.receptes.models.ReceptaBean;
  */
 @Validated
 public interface IServeiReceptes {
+	/**
+	 * Produeix un text json amb les dades de la recepta segons l'esquema {@code Recipe}.
+	 * @param fnUrl Funció per a muntar la URL d'obtenció de la recepta
+	 * @param recepta La recepta 
+	 * @return El json formatat
+	 */
+	public String produirJsonLd(@NotNull Function<ReceptaBean, String> fnUrl, @NotNull ReceptaBean recepta);
+	/**
+	 * Produeix un text json amb la llista de receptes segons l'esquema {@code ItemList}.
+	 * Per exemple:
+	 * <pre>
+	 * {
+	 *   "@context": "http://schema.org/", 
+	 *   "@type": "ItemList", 
+	 *   "itemListElement": [
+	 *     {
+	 *       "@type": "ListItem", 
+	 *       "position": 1, 
+	 *       "url": "https://www.directoalpaladar.com/postres/como-hacer-torrijas-pan-azucar-version-saludable-baja-hidratos-gluten-que-habia-que-probar"
+	 *     }, 
+	 *     {
+	 *       "@type": "ListItem", 
+	 *       "position": 2, 
+	 *       "url": "https://www.directoalpaladar.com/recetas-vegetarianas/judias-verdes-tomate-a-libanesa-receta-sencilla-para-saludable-guarnicion-comida-vegana"
+	 *     }, 
+	 * ...
+	 *     {
+	 *       "@type": "ListItem", 
+	 *       "position": 20, 
+	 *       "url": "https://www.directoalpaladar.com/recetas-de-legumbres-y-verduras/receta-pochas-langostinos-sepia-guiso-legumbres-marinero-facil-saludable-sabrosisimo"
+	 *     }
+	 *   ]
+	 * }
+	 * </pre> 
+	 * @param fnUrl La funció per a compondre la url de cada recepta
+	 * @param receptes La llista de receptes
+	 * @return El json formatat
+	 */
+	public String produirJsonLd(@NotNull Function<ReceptaBean, String> fnUrl, @NotNull Collection<ReceptaBean> receptes); 
 	/**
 	 * Obté les metadades de la recepte amb l'{@code id} indicat.
 	 * @param id L'id de la recepta
@@ -85,4 +128,9 @@ public interface IServeiReceptes {
 	 * @return La informació del keyword
 	 */
 	public KeywordPesBean keyword(String nom);
+	/**
+	 * Afegeix un comentari a una recepta. 
+	 * @param comentari El comentari
+	 */
+	public void addComentari(ComentariBean comentari);
 }

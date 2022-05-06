@@ -18,11 +18,15 @@
  */
 package cat.albirar.daw.receptes.servei.impl;
 
+import java.util.Collection;
 import java.util.List;
+import java.util.function.Function;
+import java.util.stream.Collectors;
 
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -30,7 +34,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import cat.albirar.daw.receptes.jsonld.JsonLdBuilder;
+import cat.albirar.daw.receptes.jsonld.constants.ConstantsElementsPerson;
+import cat.albirar.daw.receptes.jsonld.constants.ConstantsElementsRecipe;
+import cat.albirar.daw.receptes.markdown.ProcessadorMD;
 import cat.albirar.daw.receptes.models.CategoriaPesBean;
+import cat.albirar.daw.receptes.models.ComentariBean;
 import cat.albirar.daw.receptes.models.KeywordPesBean;
 import cat.albirar.daw.receptes.models.ReceptaBean;
 import cat.albirar.daw.receptes.repositoris.IRepoReceptes;
@@ -48,6 +57,58 @@ public class ServeiReceptesImpl implements IServeiReceptes {
 	
 	@Autowired
 	private IRepoReceptes repoReceptes;
+	@Autowired
+	private JsonLdBuilder jsonBuilder;
+	
+	@Autowired
+	private ProcessadorMD processadorMd;
+	
+	/**
+	 * {@inheritDoc}
+	 */
+	@Override
+	public String produirJsonLd(@NotNull Function<ReceptaBean, String> fnUrl, @NotNull ReceptaBean recepta) {
+		
+		jsonBuilder.startDocument("Recipe")
+			.addProperty(ConstantsElementsRecipe.NAME, recepta.getNom())
+			.addPropertyDate(ConstantsElementsRecipe.DATEPUBLISHED, recepta.getPublicacio())
+			.startPropertyObject(ConstantsElementsRecipe.AUTHOR, "Person")
+			.addProperty(ConstantsElementsPerson.NAME, recepta.getAutor())
+			.endObject()
+			.addProperty(ConstantsElementsRecipe.DESCRIPTION, recepta.getDescripcio())
+			.addProperty(ConstantsElementsRecipe.IMAGE, recepta.getUrlImatge())
+			.addPropertyDuration(ConstantsElementsRecipe.TOTALTIME, recepta.getTempsTotal())
+			.addPropertyDuration(ConstantsElementsRecipe.PREPTIME, recepta.getTempsPreparacio())
+			.addProperty(ConstantsElementsRecipe.RECIPEYIELD, recepta.getNombreServeis())
+			.addProperty(ConstantsElementsRecipe.RECIPECATEGORY, recepta.getCategoria())
+			.addProperty(ConstantsElementsRecipe.KEYWORDS, String.join(", ", recepta.getKeywords()))
+			.addProperty(ConstantsElementsRecipe.RECIPEINSTRUCTIONS, processadorMd.markdown2Html(String.join(". ", recepta.getInstruccions().split("\\|"))))
+			.addProperty(ConstantsElementsRecipe.URL, fnUrl.apply(recepta))
+			;
+		jsonBuilder.addPropertyArray(ConstantsElementsRecipe.RECIPEINGREDIENT, 
+				recepta.getIngredients().stream()
+				.map(i -> i.convertirAJsonLdText())
+				.collect(Collectors.toList()))
+				;
+				
+		// Instruccions
+		if(recepta.getTempsCoccio().isPresent()) {
+			jsonBuilder.addPropertyDuration(ConstantsElementsRecipe.COOKTIME, recepta.getTempsCoccio().get());
+		}
+		if(recepta.getCuina().isPresent()) {
+			jsonBuilder.addProperty(ConstantsElementsRecipe.RECIPECUISINE, recepta.getCuina().get());
+		}
+		
+		return jsonBuilder.endDocumentHtmlInsertable();
+	}
+	/**
+	 * {@inheritDoc}
+	 */
+	@Override
+	public String produirJsonLd(@NotNull Function<ReceptaBean, String> fnUrl, @NotNull Collection<ReceptaBean> receptes) {
+		return jsonBuilder.resetBuilder()
+			.buildDocumentItemListHtmlInsertable("url", receptes.stream().map(r -> fnUrl.apply(r)).collect(Collectors.toList()));
+	}
 	/**
 	 * {@inheritDoc}
 	 */
@@ -117,4 +178,11 @@ public class ServeiReceptesImpl implements IServeiReceptes {
 		return repoReceptes.findCategories();
 	}
 
+	/**
+	 * {@inheritDoc}
+	 */
+	@Override
+	public void addComentari(ComentariBean comentari) {
+		repoReceptes.addComentari(comentari);
+	}
 }

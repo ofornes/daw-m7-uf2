@@ -18,17 +18,21 @@
  */
 package cat.albirar.daw.receptes;
 
-import static org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType.H2;
-
 import javax.sql.DataSource;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.core.io.ClassPathResource;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
-import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilder;
+import org.springframework.jdbc.datasource.DataSourceTransactionManager;
+import org.springframework.jdbc.datasource.init.DatabasePopulator;
+import org.springframework.jdbc.datasource.init.ResourceDatabasePopulator;
+import org.springframework.transaction.PlatformTransactionManager;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import com.vladsch.flexmark.html.HtmlRenderer;
 import com.vladsch.flexmark.parser.Parser;
@@ -36,6 +40,7 @@ import com.vladsch.flexmark.util.data.DataHolder;
 import com.vladsch.flexmark.util.data.MutableDataSet;
 
 import cat.albirar.daw.receptes.controladors.ControladorWeb;
+import cat.albirar.daw.receptes.jsonld.JsonLdBuilder;
 import cat.albirar.daw.receptes.markdown.ProcessadorMD;
 import cat.albirar.daw.receptes.repositoris.impl.RepoReceptesImpl;
 import cat.albirar.daw.receptes.repositoris.mappers.CategoriaPesBeanMapper;
@@ -49,14 +54,19 @@ import cat.albirar.daw.receptes.servei.impl.ServeiReceptesImpl;
  */
 @Configuration
 @ComponentScan(basePackageClasses = { ControladorWeb.class, RepoReceptesImpl.class, CategoriaPesBeanMapper.class,
-		ServeiReceptesImpl.class, ProcessadorMD.class })
+		ServeiReceptesImpl.class, ProcessadorMD.class, JsonLdBuilder.class })
+@EnableTransactionManagement
+@EnableConfigurationProperties
 public class ReceptesSaludablesConfiguration {
 	@Bean
-	public DataSource dataSource() {
-		return new EmbeddedDatabaseBuilder().generateUniqueName(true).setType(H2).setScriptEncoding("UTF-8")
-				.ignoreFailedDrops(true).addScript("db/esquema.sql").addScripts("db/dades.sql").build();
+	public DatabasePopulator databasePopulator() {
+		ResourceDatabasePopulator rdp;
+		
+		rdp = new ResourceDatabasePopulator();
+		rdp.addScript(new ClassPathResource("db/esquema.sql"));
+		rdp.addScripts(new ClassPathResource("db/dades.sql"));
+		return rdp;
 	}
-
 	@Bean
 	public JdbcTemplate jdbcTemplate(@Autowired DataSource dataSource) {
 		return new JdbcTemplate(dataSource);
@@ -66,7 +76,10 @@ public class ReceptesSaludablesConfiguration {
 	public NamedParameterJdbcTemplate namedParameterJdbcTemplate(@Autowired DataSource dataSource) {
 		return new NamedParameterJdbcTemplate(dataSource);
 	}
-
+	@Bean
+    public PlatformTransactionManager txManager(@Autowired DataSource dataSource) {
+        return new DataSourceTransactionManager(dataSource);
+    }
 	@Bean
 	public DataHolder flexmarkOptions() {
 		return new MutableDataSet();

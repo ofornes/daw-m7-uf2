@@ -20,7 +20,7 @@ package cat.albirar.daw.receptes.models;
 
 import java.io.Serializable;
 
-import lombok.Getter;
+import lombok.Value;
 import lombok.experimental.SuperBuilder;
 
 /**
@@ -28,7 +28,7 @@ import lombok.experimental.SuperBuilder;
  * @author Octavi Forn&eacute;s <mailto:ofornes@albirar.cat[]>
  * @since 0.0.1
  */
-@Getter
+@Value
 @SuperBuilder(toBuilder = true)
 public class CategoriaPesBean implements Serializable {
 	private static final long serialVersionUID = -1510517559532416788L;

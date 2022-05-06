@@ -18,23 +18,32 @@
  */
 package cat.albirar.daw.receptes.repositoris.impl;
 
+import java.sql.Timestamp;
+import java.time.Instant;
 import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
+import javax.annotation.PostConstruct;
+import javax.sql.DataSource;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
+import org.springframework.jdbc.datasource.init.DatabasePopulator;
+import org.springframework.jdbc.datasource.init.DatabasePopulatorUtils;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
 import cat.albirar.daw.receptes.models.CategoriaPesBean;
+import cat.albirar.daw.receptes.models.ComentariBean;
 import cat.albirar.daw.receptes.models.IngredientReceptaBean;
 import cat.albirar.daw.receptes.models.KeywordPesBean;
 import cat.albirar.daw.receptes.models.ReceptaBean;
 import cat.albirar.daw.receptes.repositoris.IRepoReceptes;
+import cat.albirar.daw.receptes.repositoris.mappers.ComentariBeanMapper;
 import cat.albirar.daw.receptes.repositoris.mappers.ConstantsSql;
 import cat.albirar.daw.receptes.repositoris.mappers.ReceptaBeanSimpleMapper;
 
@@ -47,6 +56,14 @@ import cat.albirar.daw.receptes.repositoris.mappers.ReceptaBeanSimpleMapper;
 @Repository
 @Transactional(readOnly = true)
 public class RepoReceptesImpl implements IRepoReceptes {
+	
+	@Autowired DatabasePopulator populator;
+	@Autowired DataSource dataSource;
+	
+	@PostConstruct
+	public void prepararBD() {
+		DatabasePopulatorUtils.execute(populator, dataSource);
+	}
 	/**
 	 * SQL per a {@link #findById(long)}.
 	 */
@@ -138,6 +155,36 @@ public class RepoReceptesImpl implements IRepoReceptes {
 			+ ", " + ReceptaBeanSimpleMapper.COL_NOM
 			;
 	/**
+	 * SQL per a {@link #findComentarisByReceptaId(long)}.
+	 */
+	private static final String SQL_COMENTARIS_BY_ID_RECEPTA = "SELECT *"
+			+ " FROM "
+			+ ComentariBeanMapper.TAULA
+			+ " WHERE "
+			+ ComentariBeanMapper.COL_FK_ID_RECEPTA + "=:" + ComentariBeanMapper.COL_FK_ID_RECEPTA
+			+ " ORDER BY "
+			+ ComentariBeanMapper.COL_TS_CREACIO + " DESC"
+			+ ", " + ComentariBeanMapper.COL_AUTOR
+			;
+	/**
+	 * SQL per a {@link #addComentari(ComentariBean)}.
+	 */
+	private static final String SQL_INSERT_COMENTARI = "INSERT INTO "
+			+ ComentariBeanMapper.TAULA
+			+ " (" + ComentariBeanMapper.COL_FK_ID_RECEPTA
+			+ ", " + ComentariBeanMapper.COL_TS_CREACIO
+			+ ", " + ComentariBeanMapper.COL_AUTOR
+			+ ", " + ComentariBeanMapper.COL_COMENTARI
+			+ ", " + ComentariBeanMapper.COL_RATING
+			+ ") VALUES ("
+			+ ":" + ComentariBeanMapper.COL_FK_ID_RECEPTA
+			+ ", :" + ComentariBeanMapper.COL_TS_CREACIO
+			+ ", :" + ComentariBeanMapper.COL_AUTOR
+			+ ", :" + ComentariBeanMapper.COL_COMENTARI
+			+ ", :" + ComentariBeanMapper.COL_RATING
+			+ ")";
+
+	/**
 	 * SQL per a {@link #findCategories()}
 	 */
 	private static final String SQL_CATEGORIES = "SELECT "
@@ -170,6 +217,9 @@ public class RepoReceptesImpl implements IRepoReceptes {
 	private RowMapper<CategoriaPesBean> mapadorCategoriaPes;
 	@Autowired
 	private RowMapper<KeywordPesBean> mapadorKeywordPes;
+	
+	@Autowired
+	private RowMapper<ComentariBean> mapadorComentaris;
 	/**
 	 * {@inheritDoc}
 	 */
@@ -247,6 +297,40 @@ public class RepoReceptesImpl implements IRepoReceptes {
 	 * {@inheritDoc}
 	 */
 	@Override
+	public List<ComentariBean> findComentarisByReceptaId(long id) {
+		return namedParameterJdbcTemplate.query(SQL_COMENTARIS_BY_ID_RECEPTA
+				, new MapSqlParameterSource(ComentariBeanMapper.COL_FK_ID_RECEPTA, Long.valueOf(id))
+				, mapadorComentaris);
+	}
+	/**
+	 * {@inheritDoc}
+	 */
+	@Override
+	@Transactional(readOnly = false)
+	public void addComentari(ComentariBean comentari) {
+		MapSqlParameterSource parms;
+		
+		if(comentari.getTsCreacio() == null) {
+			comentari.setTsCreacio(Instant.now());
+		}
+			
+		parms = new MapSqlParameterSource(ComentariBeanMapper.COL_ID_COMENTARI, comentari.getId())
+			.addValue(ComentariBeanMapper.COL_FK_ID_RECEPTA, comentari.getIdRecepta())
+			.addValue(ComentariBeanMapper.COL_TS_CREACIO, Timestamp.from(comentari.getTsCreacio()))
+			.addValue(ComentariBeanMapper.COL_AUTOR, comentari.getAutor())
+			.addValue(ComentariBeanMapper.COL_COMENTARI, comentari.getText())
+			;
+		if(comentari.getValoracio().isPresent()) {
+			parms.addValue(ComentariBeanMapper.COL_RATING, comentari.getValoracio().get().intValue());
+		} else {
+			parms.addValue(ComentariBeanMapper.COL_RATING, null);
+		}
+		namedParameterJdbcTemplate.update(SQL_INSERT_COMENTARI, parms);
+	}
+	/**
+	 * {@inheritDoc}
+	 */
+	@Override
 	public KeywordPesBean findKeywordByNom(String nom) {
 		return namedParameterJdbcTemplate.queryForObject(SQL_KEYWORD_BY_NOM
 			, new MapSqlParameterSource(ConstantsSql.COL_KEYWORD, nom)
@@ -286,6 +370,7 @@ public class RepoReceptesImpl implements IRepoReceptes {
 		return recepta.toBuilder()
 			.ingredients(findIngredientsByReceptaId(recepta.getId()))
 			.keywords(findKeywordsByReceptaId(recepta.getId()))
+			.comentaris(findComentarisByReceptaId(recepta.getId()))
 			.build()
 			;
 	}

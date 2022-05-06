@@ -85,7 +85,7 @@ public class ReceptaBeanSimpleMapper implements RowMapper<ReceptaBean> {
 				.cuina(Optional.ofNullable(rs.getNString(ConstantsSql.COL_NOM_AS_CUINA)))
 				.instruccions(rs.getNString(COL_INSTRUCCIONS))
 				.nombreServeis(rs.getInt(COL_NOM_SERVEIS))
-				.tempsTotal(rs.getObject(COL_D_PREPARACIO, Duration.class))
+				.tempsTotal(rs.getObject(COL_D_TOTAL, Duration.class))
 				.tempsCoccio(od)
 				.build()
 				;

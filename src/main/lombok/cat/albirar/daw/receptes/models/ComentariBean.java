@@ -18,22 +18,42 @@
  */
 package cat.albirar.daw.receptes.models;
 
-import java.io.Serializable;
+import java.time.Instant;
+import java.util.Optional;
 
-import lombok.Value;
+import lombok.AllArgsConstructor;
+import lombok.Builder.Default;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 
 /**
- * Keyword i pes.
- * @author Octavi Forn&eacute;s <mailto:ofornes@albirar.cat[]>
+ * Comentaris
+ * @author Octavi Fornés <a href="mailto:octavi@fornes.cat">&lt;octavi@fornes.cat&gt;</a>
  * @since 0.0.1
  */
-@Value
+@Data
 @SuperBuilder(toBuilder = true)
-public class KeywordPesBean implements Serializable {
-	private static final long serialVersionUID = 4391262677550903172L;
-	
+@NoArgsConstructor
+@AllArgsConstructor
+public class ComentariBean {
+	/**
+	 * Identificador sintètic.
+	 */
 	private long id;
-	private String nom;
-	private int pes;
+	/**
+	 * Identificador de la recepta associada.
+	 */
+	private long idRecepta;
+	private String autor;
+	/**
+	 * Timestamp de la creació del comentari.
+	 */
+	private Instant tsCreacio;
+	private String text;
+	/**
+	 * Valoració de la recepta, sobre 100.
+	 */
+	@Default
+	private Optional<Short> valoracio = Optional.empty();
 }

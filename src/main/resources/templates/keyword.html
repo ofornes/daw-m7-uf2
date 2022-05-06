@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ca" xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:th="https://www.thymeleaf.org">
-<head th:insert="~{fragments :: head}"></head>
+<head th:insert="~{fragments :: head(${#strings.concat(keyword.nom, ' (', #lists.size(receptes), ')')}, 'Receptes Sanes'"></head>
 <body>
     <!-- Page preloader and Humberger Begin -->
     <div th:include="~{fragments :: menu}"></div>
@@ -19,7 +19,7 @@
                     <div class="row">
                         <div class="col-lg-8 col-md-8">
                             <div class="breadcrumb__text">
-                                <h2>Receptes de <span th:text="${keyword.nom}">Keyword</span></h2>
+                                <h2><span th:text="${#lists.size(receptes)}">0</span>&nbsp;Receptes amb la keyword <span th:text="${keyword.nom}">Keyword</span></h2>
                                 <div class="breadcrumb__option">
                                     <a href="#" th:href="@{/}">Inici</a>
                                     <span>Receptes</span>

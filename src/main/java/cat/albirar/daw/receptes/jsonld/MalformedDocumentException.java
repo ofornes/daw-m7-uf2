@@ -16,24 +16,22 @@
  *
  * Copyright (C) 2022 Octavi Fornés
  */
-package cat.albirar.daw.receptes.models;
-
-import java.io.Serializable;
-
-import lombok.Value;
-import lombok.experimental.SuperBuilder;
+package cat.albirar.daw.receptes.jsonld;
 
 /**
- * Keyword i pes.
- * @author Octavi Forn&eacute;s <mailto:ofornes@albirar.cat[]>
+ * Indica un error de documents, per exemple que s'ha afegit propietat sense
+ * iniciar el document.
+ * 
+ * @author Octavi Fornés
+ *         <a href="mailto:octavi@fornes.cat">octavi@fornes.cat</a>
  * @since 0.0.1
  */
-@Value
-@SuperBuilder(toBuilder = true)
-public class KeywordPesBean implements Serializable {
-	private static final long serialVersionUID = 4391262677550903172L;
-	
-	private long id;
-	private String nom;
-	private int pes;
+@SuppressWarnings("serial")
+public class MalformedDocumentException extends RuntimeException {
+	/**
+	 * Constructor únic.
+	 */
+	public MalformedDocumentException(String message) {
+		super(message);
+	}
 }

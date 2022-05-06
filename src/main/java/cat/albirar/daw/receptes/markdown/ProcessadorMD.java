@@ -31,7 +31,7 @@ import com.vladsch.flexmark.util.ast.Node;
 
 /**
  * Per a processar el text markdown.
- * @author Octavi Fornés <a href="mailto:ofornes.base.cat">ofornes@base.cat</a>
+ * @author Octavi Fornés <a href="mailto:octavi@fornes.cat">octavi@fornes.cat</a>
  * @since 0.0.1
  */
 @Component

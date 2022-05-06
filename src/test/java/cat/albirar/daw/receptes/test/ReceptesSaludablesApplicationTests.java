@@ -16,10 +16,11 @@
  *
  * Copyright (C) 2022 Octavi Fornés
  */
-package cat.albirar.daw.receptes;
+package cat.albirar.daw.receptes.test;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.context.annotation.Profile;
 
 /**
  * Prova de càrrega del context de l'aplicació.
@@ -27,6 +28,7 @@ import org.springframework.boot.test.context.SpringBootTest;
  * @since 0.0.1
  */
 @SpringBootTest
+@Profile("test")
 class ReceptesSaludablesApplicationTests {
 
 	@Test

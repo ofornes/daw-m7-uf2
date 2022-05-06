@@ -16,7 +16,7 @@
  *
  * Copyright (C) 2022 Octavi Fornés
  */
-package cat.albirar.daw.receptes.markdown;
+package cat.albirar.daw.receptes.test.markdown;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -30,14 +30,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
-import cat.albirar.daw.receptes.ReceptesSaludablesApplication;
+import cat.albirar.daw.receptes.markdown.ProcessadorMD;
+import cat.albirar.daw.receptes.test.ReceptesSaludablesConfigurationTest;
 
 /**
  * Provatures del processador MD.
- * @author Octavi Fornés <a href="mailto:ofornes.base.cat">ofornes@base.cat</a>
+ * @author Octavi Fornés <a href="mailto:octavi@fornes.cat">octavi@fornes.cat</a>
  * @since 0.0.1
  */
-@ContextConfiguration(classes = ReceptesSaludablesApplication.class)
+@ContextConfiguration(classes = ReceptesSaludablesConfigurationTest.class)
 @ExtendWith(SpringExtension.class)
 public class ProcessadorMDTest {
 	

@@ -19,8 +19,10 @@
 package cat.albirar.daw.receptes.models;
 
 import java.io.Serializable;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
-import lombok.Getter;
+import lombok.Value;
 import lombok.experimental.SuperBuilder;
 
 /**
@@ -28,7 +30,7 @@ import lombok.experimental.SuperBuilder;
  * @author Octavi Forn&eacute;s <mailto:ofornes@albirar.cat[]>
  * @since 0.0.1
  */
-@Getter
+@Value
 @SuperBuilder(toBuilder = true)
 public class IngredientReceptaBean implements Serializable {
 	private static final long serialVersionUID = -2860081866777856281L;
@@ -36,4 +38,42 @@ public class IngredientReceptaBean implements Serializable {
 	private String ingredient;
 	private int quantitat;
 	private String mesura;
+
+	/**
+	 * Converteix aquest ingredient en text segons el valor de {@link #getMesura()}.
+	 * <ul>
+	 * <li>Si {@link #getMesura()} és {@code 'undef'}, només s'hi afegeix {@link #getIngredient()}</li>
+	 * <li>Si {@link #getMesura()} no és pas {@code 'undef'}, s'hi afegeix {@link #getQuantitat()} + {@link #getMesura()} + ' ' + {@link #getIngredient()}</li>
+	 * @return El text
+	 */
+	public String convertirAJsonLdText() {
+		if(mesura.equals("undef")) {
+			return ingredient;
+		}
+		if(mesura.equals("count")) {
+			return String.format("%d %s", quantitat, ingredient);
+		}
+		return String.format("%d%s %s", quantitat, mesura, ingredient);
+	}
+	/**
+	 * Converteix un text amb el patró indicat en un {@link IngredientReceptaBean}.
+	 * El patró és:
+	 * <pre>
+	 * ^([0-9]+)([^ ]+) (.+)$
+	 * </pre>
+	 * El grup 1 és la quantitat, el 2 la mesura i el 3 l'ingredient
+	 * @param text
+	 * @return
+	 */
+	public static IngredientReceptaBean textAIngredient(String text) {
+		Pattern p = Pattern.compile("^([0-9]+)([^ ]+) (.+)$");
+		Matcher m = p.matcher(text);
+		if(!m.matches()) {
+			throw new IllegalArgumentException(String.format("El text '%s' no és compatible amb un ingredient!", text));
+		}
+		return IngredientReceptaBean.builder()
+				.quantitat(Integer.parseInt(m.group(1))).mesura(m.group(2)).ingredient(m.group(3))
+				.build()
+				;
+	}
 }

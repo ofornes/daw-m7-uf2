@@ -2,13 +2,13 @@
 <html xmlns:th="http://www.thymeleaf.org">
 
 <!-- FRAGMENT 'head' -->
-<head th:fragment="head">
+<head th:fragment="head (titol, descripcio)">
 <meta charset="UTF-8">
-<meta name="description" content="Receptes Sanes">
-<meta name="keywords" content="Receptes, sanes, menjar, sa">
+<meta name="description" content="Receptes Sanes" th:content="${descripcio}">
+<meta name="keywords" content="Receptes, sanes, menjar, sa" th:content="${keywordList}">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Receptes Sanes</title>
+<title th:text="${titol}">Receptes Sanes</title>
 
 <!-- Google Font -->
 <link
@@ -31,6 +31,11 @@
 	th:href="@{/css/slicknav.min.css}" type="text/css">
 <link rel="stylesheet" href="css/style.css" th:href="@{/css/style.css}"
 	type="text/css">
+	
+<script type="application/ld+json" th:unless="${#lists.isEmpty(metadades)}" th:each="metadada : ${metadades}" th:inline="javascript">
+    [(${metadada})]
+</script>
+	
 </head>
 
 <body>
@@ -54,7 +59,7 @@
 			<nav class="humberger__menu__nav mobile-menu">
 				<ul>
 					<li><a href="./index.html" th:href="@{/}">Inici</a></li>
-					<li><a href="#" th:href="@{/receptes}">Receptes</a></li>
+					<li><a href="#">Receptes</a></li>
 					<li class="dropdown"><a href="#">Categories</a>
 						<ul class="dropdown__menu">
 							<li th:each="cat : ${catsMenu}"><a href="./categoria/0"
@@ -84,8 +89,7 @@
 							<ul>
 								<li th:class="${pagina=='index'}? 'active'"><a
 									href="./index.html" th:href="@{/}">Inici</a></li>
-								<li th:class="${pagina=='receptes'}? 'active'"><a href="#"
-									th:href="@{/receptes}">Receptes</a>
+								<li th:class="${pagina=='receptes'}? 'active'"><a href="#">Receptes</a>
 									<div class="header__megamenu__wrapper">
 										<div class="header__megamenu">
 											<div class="header__megamenu__item"

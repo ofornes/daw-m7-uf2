@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ca" xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:th="https://www.thymeleaf.org">
-<head th:insert="~{fragments :: head}"></head>
+<head th:insert="~{fragments :: head(${recepta.nom}, ${recepta.descripcio}) }"></head>
 <body>
     <!-- Page preloader and Humberger Begin -->
     <div th:include="~{fragments :: menu}"></div>
@@ -30,7 +30,7 @@
                             <ul class="widget">
                                 <li>per <span th:text="${recepta.autor}">Admin</span></li>
                                 <li>3 min lectura</li>
-                                <li>0 Comentaris</li>
+                                <li><span th:text="${recepta.comentaris.size()}">0</span> Comentaris</li>
                             </ul>
                         </div>
                     </div>
@@ -92,6 +92,37 @@
                                 <span th:text="${#strings.concat(#numbers.formatInteger(iterStat.count,1),'.', '&nbsp;')}">1.</span><text th:utext="${instruccio}">Combine all of the ingredients, kneading to form a smooth dough.</text></li>
                             </ul>
                         </div>
+                    </div>
+                    <div class="single-post__comment">
+                        <div class="widget__title">
+                            <h4><span th:unless="${#lists.isEmpty(recepta.comentaris)}" th:text="${#lists.size(recepta.comentaris)}">0</span> Comentaris</h4>
+                        </div>
+                        <div class="single-post__comment__item" 
+                        		th:unless="${#lists.isEmpty(recepta.comentaris)}"
+                        		th:each="c : ${recepta.comentaris}">
+                            <div class="single-post__comment__item__text">
+                                <h5 th:text="${c.autor}">Autor del comentari</h5>
+                                <span th:text="${#temporals.format(c.tsCreacio, 'dd MMM yyyy HH:mm')}">15 Aug 2017</span>
+                                <p th:text="${c.text}">Text del comentari</p>
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-share-square-o"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-post__leave__comment">
+                        <div class="widget__title">
+                            <h4>Desa un comentari</h4>
+                        </div>
+                        <form method="post" action="/recepta/{id}/commentari" th:action="@{/recepta/{id}/commentari(id=${recepta.id})}", th:object="${comentari}">
+                            <div class="input-list">
+                                <input type="text" placeholder="Nom complet" name="autor" th:field="*{autor}">
+                            </div>
+                            <textarea placeholder="Comentari" name="text" th:field="*{text}"></textarea>
+                            <input type="hidden" name="idRecepta" value="0" th:field="*{idRecepta}" />
+                            <button type="submit" value="Desa!" class="site-btn">Desa!</button>
+                        </form>
                     </div>
                     <div class="single-post__tags">
                         <a href="#" th:each="kw : ${recepta.keywords}" th:text="${kw}" th:href="@{/keyword/{keyword}(keyword=${kw})}">Keyword</a>

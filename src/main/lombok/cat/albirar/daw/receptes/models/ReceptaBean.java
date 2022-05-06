@@ -21,10 +21,12 @@ package cat.albirar.daw.receptes.models;
 import java.io.Serializable;
 import java.time.Duration;
 import java.time.Instant;
+import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 
-import lombok.Getter;
+import lombok.Builder.Default;
+import lombok.Value;
 import lombok.experimental.SuperBuilder;
 
 /**
@@ -32,24 +34,29 @@ import lombok.experimental.SuperBuilder;
  * @author Octavi Forn&eacute;s <mailto:ofornes@albirar.cat[]>
  * @since 0.0.1
  */
-@Getter
+@Value
 @SuperBuilder(toBuilder = true)
 public class ReceptaBean implements Serializable {
 	private static final long serialVersionUID = -1057682129307987102L;
 	
 	private long id;
 	private String nom;
-	Instant publicacio;
+	@Default
+	Instant publicacio = Instant.now();
 	String autor;
 	String descripcio;
 	String urlImatge;
 	Duration tempsPreparacio;
 	Duration tempsTotal;
-	Optional<Duration> tempsCoccio;
+	@Default
+	Optional<Duration> tempsCoccio = Optional.empty();
 	int nombreServeis;
 	String categoria;
-	Optional<String> cuina;
+	@Default
+	Optional<String> cuina = Optional.empty();
 	String instruccions;
 	List<IngredientReceptaBean> ingredients;
 	List<String> keywords;
+	@Default
+	List<ComentariBean> comentaris = Collections.emptyList();
 }

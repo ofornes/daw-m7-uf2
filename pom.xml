@@ -20,7 +20,6 @@
 
 		<lombok-plugin.version>1.18.20.0</lombok-plugin.version>
 		<jacoco-plugin.version>0.8.8</jacoco-plugin.version>
-
 	</properties>
 
 	<developers>
@@ -71,6 +70,12 @@
 			<version>0.62.2</version>
 		</dependency>
 
+		<!-- Per a trasnsformacions al JsonLD -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+		</dependency>
+
 		<!-- Validació -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -101,14 +106,14 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		
+
 		<!-- Ajuda per a desenvolupament -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-		
+
 	</dependencies>
 
 	<build>

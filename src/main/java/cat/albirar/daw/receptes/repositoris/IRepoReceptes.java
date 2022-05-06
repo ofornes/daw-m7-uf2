@@ -21,7 +21,11 @@ package cat.albirar.daw.receptes.repositoris;
 import java.util.List;
 import java.util.Optional;
 
+import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
+
 import cat.albirar.daw.receptes.models.CategoriaPesBean;
+import cat.albirar.daw.receptes.models.ComentariBean;
 import cat.albirar.daw.receptes.models.IngredientReceptaBean;
 import cat.albirar.daw.receptes.models.KeywordPesBean;
 import cat.albirar.daw.receptes.models.ReceptaBean;
@@ -31,6 +35,8 @@ import cat.albirar.daw.receptes.models.ReceptaBean;
  * @author Octavi Forn&eacute;s <mailto:ofornes@albirar.cat[]>
  * @since 0.0.1
  */
+@Repository
+@Transactional(readOnly = true)
 public interface IRepoReceptes {
 	/**
 	 * Cerca la recepta per {@code id}.
@@ -67,6 +73,18 @@ public interface IRepoReceptes {
 	 * @return La llista de keywords
 	 */
 	public List<String> findKeywordsByReceptaId(long id);
+	/**
+	 * Cerca els comentaris associats amb la recepta amb l'{@code id} indicat.
+	 * @param id L'identificador de la recepta
+	 * @return La llista de comentaris (pot estar buida)
+	 */
+	public List<ComentariBean> findComentarisByReceptaId(long id);
+	/**
+	 * Afegeix un comentar a la recepta associada amb {@link ComentariBean#getIdRecepta()}.
+	 * @param comentari El comentari
+	 */
+	@Transactional(readOnly = false)
+	public void addComentari(ComentariBean comentari);
 	/**
 	 * Cerca la informació del keyword amb el {@code nom} indicat.
 	 * @param nom El nom del keyword
