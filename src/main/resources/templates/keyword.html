@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ca" xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:th="https://www.thymeleaf.org">
-<head th:insert="~{fragments :: head(${#strings.concat(keyword.nom, ' (', #lists.size(receptes), ')')}, 'Receptes Sanes'"></head>
+<head th:insert="~{fragments :: head(${#strings.concat(keyword.nom, ' (', #lists.size(receptes), ')')}, 'Receptes Sanes')}"></head>
 <body>
     <!-- Page preloader and Humberger Begin -->
     <div th:include="~{fragments :: menu}"></div>

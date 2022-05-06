@@ -24,7 +24,7 @@
                         </div>
                         <div class="single-post__title__text">
                             <ul class="label">
-                                <li th:text="${recepta.categoria}">categoria</li>
+                                <li><a href="#" th:href="@{/categoria/{categoria}(categoria=${recepta.categoria})}" th:text="${recepta.categoria}">categoria</a></li>
                             </ul>
                             <h4 th:text="${recepta.nom}">Nom</h4>
                             <ul class="widget">
