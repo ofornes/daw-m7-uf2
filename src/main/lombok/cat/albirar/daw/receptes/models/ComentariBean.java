@@ -21,10 +21,11 @@ package cat.albirar.daw.receptes.models;
 import java.time.Instant;
 import java.util.Optional;
 
-import lombok.AllArgsConstructor;
+import javax.validation.constraints.NotNull;
+
 import lombok.Builder.Default;
 import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.Setter;
 import lombok.experimental.SuperBuilder;
 
 /**
@@ -34,8 +35,6 @@ import lombok.experimental.SuperBuilder;
  */
 @Data
 @SuperBuilder(toBuilder = true)
-@NoArgsConstructor
-@AllArgsConstructor
 public class ComentariBean {
 	/**
 	 * Identificador sintètic.
@@ -55,5 +54,13 @@ public class ComentariBean {
 	 * Valoració de la recepta, sobre 100.
 	 */
 	@Default
+	@NotNull
+	@Setter(onParam_ = {@NotNull})
 	private Optional<Short> valoracio = Optional.empty();
+	/**
+	 * Constructor únic.
+	 */
+	public ComentariBean() {
+		valoracio = Optional.empty();
+	}
 }
