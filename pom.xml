@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>cat.albirar.daw</groupId>
 	<artifactId>receptes</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.2</version>
 	<name>Receptes Saludables</name>
 	<description>Treball prova UF2 del M7</description>
 	<properties>
